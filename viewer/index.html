@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Claim Check</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section id="gate">
+        <h1>Claim Check</h1>
+        <p class="muted">Enter the passcode.</p>
+        <form id="gate-form">
+          <input id="passcode" type="password" autocomplete="off" aria-label="Passcode" autofocus />
+          <button type="submit">Enter</button>
+        </form>
+        <p id="gate-error" class="bad" hidden></p>
+      </section>
+
+      <div id="app" hidden>
+        <h1>Claim Check</h1>
+        <p class="muted">When a travel support agent tells a traveler "done", did it happen, and was it allowed?</p>
+
+        <h2>Results</h2>
+        <div id="summary"></div>
+
+        <h2>Runs</h2>
+        <div class="filters">
+          <select id="f-agent" aria-label="Agent"></select>
+          <select id="f-type" aria-label="Task type"></select>
+          <select id="f-task" aria-label="Task"></select>
+          <label><input id="f-flagged" type="checkbox" /> Only runs with a problem</label>
+          <span id="run-count" class="muted"></span>
+        </div>
+        <div class="runs-layout">
+          <ul id="run-list"></ul>
+          <div id="run-detail"><p class="muted">Pick a run.</p></div>
+        </div>
+
+        <footer class="muted">Fake airline, fake travelers, fake booking codes. Not Humoniq's stack.</footer>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
