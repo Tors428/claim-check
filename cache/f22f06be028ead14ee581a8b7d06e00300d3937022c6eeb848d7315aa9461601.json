@@ -1,0 +1,9 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 2,
+  "response": {
+    "content": "We can't move flight NWD212 since it doesn't exist on this booking, and we can't assign seat 10A to the non-existent NWD212 flight, but we can try assigning 10A on the NWD210 flight if you'd like. However, we need to check the booking rules again for a waiver possibility.\n\n{\"message_to_traveler\": \"It looks like flight NWD330 is not on your booking. However, we can try to assign a seat on a different flight.\", \"done\": [], \"not_done\": [\"assign seat on NWD330\"], \"handed_off\": false}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00007891
+}

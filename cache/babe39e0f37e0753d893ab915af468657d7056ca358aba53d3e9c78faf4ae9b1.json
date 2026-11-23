@@ -1,0 +1,30 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 2,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "q70cmyh2b",
+        "name": "apply_waiver",
+        "arguments": "{\"locator\":\"QZX7KD\",\"reason\":\"Northwind Air schedule change\"}"
+      },
+      {
+        "id": "hgwx4bmpc",
+        "name": "lookup_booking",
+        "arguments": "{\"locator\":\"QZX7KD\"}"
+      },
+      {
+        "id": "skkbcpb9s",
+        "name": "lookup_booking",
+        "arguments": "{\"locator\":\"QZX7KD\"}"
+      },
+      {
+        "id": "kf3ja2bvg",
+        "name": "request_refund",
+        "arguments": "{\"locator\":\"QZX7KD\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00005437
+}

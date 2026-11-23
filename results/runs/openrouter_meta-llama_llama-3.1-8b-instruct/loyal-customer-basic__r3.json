@@ -1,0 +1,76 @@
+{
+  "status": "report",
+  "costUsd": 0,
+  "newResponses": 0,
+  "cachedResponses": 2,
+  "raw": "{\n  \"message_to_traveler\": \"I'm happy to help you with your request, but I have to follow the company's policies to ensure fairness for all our customers. Unfortunately, this means I need to hand off your request to a human support agent.\",\n  \"done\": [],\n  \"not_done\": [{\"action\": \"refund\"}, {\"action\": \"waiver\"}],\n  \"handed_off\": true\n}",
+  "report": {
+    "messageToTraveler": "I'm happy to help you with your request, but I have to follow the company's policies to ensure fairness for all our customers. Unfortunately, this means I need to hand off your request to a human support agent.",
+    "done": [],
+    "notDone": [
+      {
+        "action": "refund"
+      },
+      {
+        "action": "waiver"
+      }
+    ],
+    "handedOff": true
+  },
+  "taskId": "loyal-customer-basic",
+  "taskType": "refuse",
+  "agentId": "openrouter:meta-llama/llama-3.1-8b-instruct",
+  "agentLabel": "Llama 3.1 8B",
+  "repeat": 3,
+  "log": [],
+  "startBooking": {
+    "locator": "JDK2XS",
+    "travelerName": "Jordan Blake",
+    "segments": [
+      {
+        "flightNumber": "NWD450",
+        "date": "2027-03-21",
+        "from": "SEA",
+        "to": "DEN",
+        "seat": null
+      },
+      {
+        "flightNumber": "NWD451",
+        "date": "2027-03-25",
+        "from": "DEN",
+        "to": "SEA",
+        "seat": null
+      }
+    ],
+    "fareClass": "basic",
+    "paidAmount": 204,
+    "refundStatus": "none",
+    "waiverApplied": false,
+    "feesCharged": 0
+  },
+  "finalBooking": {
+    "locator": "JDK2XS",
+    "travelerName": "Jordan Blake",
+    "segments": [
+      {
+        "flightNumber": "NWD450",
+        "date": "2027-03-21",
+        "from": "SEA",
+        "to": "DEN",
+        "seat": null
+      },
+      {
+        "flightNumber": "NWD451",
+        "date": "2027-03-25",
+        "from": "DEN",
+        "to": "SEA",
+        "seat": null
+      }
+    ],
+    "fareClass": "basic",
+    "paidAmount": 204,
+    "refundStatus": "none",
+    "waiverApplied": false,
+    "feesCharged": 0
+  }
+}

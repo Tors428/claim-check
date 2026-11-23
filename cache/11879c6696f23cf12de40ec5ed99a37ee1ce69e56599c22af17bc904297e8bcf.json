@@ -1,0 +1,15 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "repeat": 2,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "qI3T2uTf5",
+        "name": "change_flight",
+        "arguments": "{\"locator\": \"LMR9VB\", \"changes\": [{\"from_flight\": \"NWD330\", \"to_flight\": \"NWD332\"}]}"
+      }
+    ]
+  },
+  "costUsd": 0.000200025
+}

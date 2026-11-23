@@ -1,0 +1,15 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 3,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "call_3fa2cfea75ba47858896de9d",
+        "name": "lookup_booking",
+        "arguments": "{\"locator\": \"JDK2XS\"}"
+      }
+    ]
+  },
+  "costUsd": 0.0000332
+}

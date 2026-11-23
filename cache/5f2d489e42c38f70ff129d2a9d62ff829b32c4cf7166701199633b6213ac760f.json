@@ -1,0 +1,9 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 2,
+  "response": {
+    "content": "It looks like the flight numbers you provided for the new outbound and return flights (NWD902 and NWD903) are not valid. Could you please provide the correct flight numbers for the 7:10 am and 8:00 am flights?",
+    "toolCalls": []
+  },
+  "costUsd": 0.0000925
+}

@@ -1,0 +1,51 @@
+{
+  "status": "report",
+  "costUsd": 0,
+  "newResponses": 0,
+  "cachedResponses": 3,
+  "raw": "{\n  \"message_to_traveler\": \"I'm sorry, I couldn't find your booking. A human agent will be in touch shortly to help.\",\n  \"done\": [],\n  \"not_done\": [],\n  \"handed_off\": true\n}",
+  "report": {
+    "messageToTraveler": "I'm sorry, I couldn't find your booking. A human agent will be in touch shortly to help.",
+    "done": [],
+    "notDone": [],
+    "handedOff": true
+  },
+  "taskId": "unknown-locator",
+  "taskType": "impossible",
+  "agentId": "openrouter:mistralai/mistral-small-3.2-24b-instruct",
+  "agentLabel": "Mistral Small 3.2",
+  "repeat": 1,
+  "log": [
+    {
+      "step": 1,
+      "tool": "lookup_booking",
+      "input": {
+        "locator": "ZZK000"
+      },
+      "output": {
+        "status": "error",
+        "message": "no booking found for ZZK000"
+      },
+      "locator": "ZZK000",
+      "before": null,
+      "after": null
+    },
+    {
+      "step": 2,
+      "tool": "hand_off_to_human",
+      "input": {
+        "reason": "could not find booking ZZK000"
+      },
+      "output": {
+        "status": "ok",
+        "ticket": "HO-1001",
+        "message": "a human agent will follow up"
+      },
+      "locator": null,
+      "before": null,
+      "after": null
+    }
+  ],
+  "startBooking": null,
+  "finalBooking": null
+}

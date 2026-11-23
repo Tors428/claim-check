@@ -1,0 +1,30 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 3,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "n7k1p662c",
+        "name": "lookup_booking",
+        "arguments": "{\"locator\":\"QZX7KD\"}"
+      },
+      {
+        "id": "s8yf4ja92",
+        "name": "lookup_booking",
+        "arguments": "{\"locator\":\"QZX7KD\"}"
+      },
+      {
+        "id": "9x8jfp13p",
+        "name": "search_flights",
+        "arguments": "{\"date\":\"2027-03-14\",\"from\":\"BOS\",\"to\":\"ORD\"}"
+      },
+      {
+        "id": "y5ybv8571",
+        "name": "hand_off_to_human",
+        "arguments": "{\"locator\":\"QZX7KD\",\"reason\":\"Unable to confirm if waiver can be applied to this fare for a change fee.\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00006653
+}

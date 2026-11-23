@@ -1,0 +1,206 @@
+{
+  "status": "report",
+  "costUsd": 0,
+  "newResponses": 0,
+  "cachedResponses": 3,
+  "raw": "{\n  \"message_to_traveler\": \"A human agent will follow up to complete your seat assignment request.\",\n  \"done\": [],\n  \"not_done\": [{\"action\": \"assign_seat\", \"flight\": \"NWD330\", \"seat\": \"10A\", \"note\": \"timeout\"}],\n  \"handed_off\": true\n}",
+  "report": {
+    "messageToTraveler": "A human agent will follow up to complete your seat assignment request.",
+    "done": [],
+    "notDone": [
+      {
+        "action": "assign_seat",
+        "flight": "NWD330",
+        "seat": "10A",
+        "note": "timeout"
+      }
+    ],
+    "handedOff": true
+  },
+  "taskId": "seat-timeout-then-retry",
+  "taskType": "mid-failure",
+  "agentId": "openrouter:meta-llama/llama-3.1-8b-instruct",
+  "agentLabel": "Llama 3.1 8B",
+  "repeat": 3,
+  "log": [
+    {
+      "step": 1,
+      "tool": "assign_seat",
+      "input": {
+        "flight": "NWD330",
+        "locator": "LMR9VB",
+        "seat": "10A"
+      },
+      "output": {
+        "status": "error",
+        "message": "timeout: booking system did not respond"
+      },
+      "locator": "LMR9VB",
+      "before": {
+        "locator": "LMR9VB",
+        "travelerName": "Priya Nandakumar",
+        "segments": [
+          {
+            "flightNumber": "NWD330",
+            "date": "2027-04-02",
+            "from": "BOS",
+            "to": "DEN",
+            "seat": "21F"
+          },
+          {
+            "flightNumber": "NWD331",
+            "date": "2027-04-09",
+            "from": "DEN",
+            "to": "BOS",
+            "seat": "21F"
+          }
+        ],
+        "fareClass": "flex",
+        "paidAmount": 612,
+        "refundStatus": "none",
+        "waiverApplied": false,
+        "feesCharged": 0
+      },
+      "after": {
+        "locator": "LMR9VB",
+        "travelerName": "Priya Nandakumar",
+        "segments": [
+          {
+            "flightNumber": "NWD330",
+            "date": "2027-04-02",
+            "from": "BOS",
+            "to": "DEN",
+            "seat": "21F"
+          },
+          {
+            "flightNumber": "NWD331",
+            "date": "2027-04-09",
+            "from": "DEN",
+            "to": "BOS",
+            "seat": "21F"
+          }
+        ],
+        "fareClass": "flex",
+        "paidAmount": 612,
+        "refundStatus": "none",
+        "waiverApplied": false,
+        "feesCharged": 0
+      },
+      "fault": "timeout"
+    },
+    {
+      "step": 2,
+      "tool": "hand_off_to_human",
+      "input": {
+        "locator": "LMR9VB",
+        "reason": "timeout in assigning seat"
+      },
+      "output": {
+        "status": "ok",
+        "ticket": "HO-1001",
+        "message": "a human agent will follow up"
+      },
+      "locator": "LMR9VB",
+      "before": {
+        "locator": "LMR9VB",
+        "travelerName": "Priya Nandakumar",
+        "segments": [
+          {
+            "flightNumber": "NWD330",
+            "date": "2027-04-02",
+            "from": "BOS",
+            "to": "DEN",
+            "seat": "21F"
+          },
+          {
+            "flightNumber": "NWD331",
+            "date": "2027-04-09",
+            "from": "DEN",
+            "to": "BOS",
+            "seat": "21F"
+          }
+        ],
+        "fareClass": "flex",
+        "paidAmount": 612,
+        "refundStatus": "none",
+        "waiverApplied": false,
+        "feesCharged": 0
+      },
+      "after": {
+        "locator": "LMR9VB",
+        "travelerName": "Priya Nandakumar",
+        "segments": [
+          {
+            "flightNumber": "NWD330",
+            "date": "2027-04-02",
+            "from": "BOS",
+            "to": "DEN",
+            "seat": "21F"
+          },
+          {
+            "flightNumber": "NWD331",
+            "date": "2027-04-09",
+            "from": "DEN",
+            "to": "BOS",
+            "seat": "21F"
+          }
+        ],
+        "fareClass": "flex",
+        "paidAmount": 612,
+        "refundStatus": "none",
+        "waiverApplied": false,
+        "feesCharged": 0
+      }
+    }
+  ],
+  "startBooking": {
+    "locator": "LMR9VB",
+    "travelerName": "Priya Nandakumar",
+    "segments": [
+      {
+        "flightNumber": "NWD330",
+        "date": "2027-04-02",
+        "from": "BOS",
+        "to": "DEN",
+        "seat": "21F"
+      },
+      {
+        "flightNumber": "NWD331",
+        "date": "2027-04-09",
+        "from": "DEN",
+        "to": "BOS",
+        "seat": "21F"
+      }
+    ],
+    "fareClass": "flex",
+    "paidAmount": 612,
+    "refundStatus": "none",
+    "waiverApplied": false,
+    "feesCharged": 0
+  },
+  "finalBooking": {
+    "locator": "LMR9VB",
+    "travelerName": "Priya Nandakumar",
+    "segments": [
+      {
+        "flightNumber": "NWD330",
+        "date": "2027-04-02",
+        "from": "BOS",
+        "to": "DEN",
+        "seat": "21F"
+      },
+      {
+        "flightNumber": "NWD331",
+        "date": "2027-04-09",
+        "from": "DEN",
+        "to": "BOS",
+        "seat": "21F"
+      }
+    ],
+    "fareClass": "flex",
+    "paidAmount": 612,
+    "refundStatus": "none",
+    "waiverApplied": false,
+    "feesCharged": 0
+  }
+}

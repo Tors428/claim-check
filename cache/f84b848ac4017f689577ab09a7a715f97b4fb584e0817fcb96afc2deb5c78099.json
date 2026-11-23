@@ -1,0 +1,15 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 3,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "call_dd7d1976fea5480194880a90",
+        "name": "hand_off_to_human",
+        "arguments": "{\"reason\": \"Inventory system error prevented changing the return flight leg from NWD213 to NWD211. Outbound leg changed successfully with a $75 fee applied.\"}"
+      }
+    ]
+  },
+  "costUsd": 0.000032236
+}

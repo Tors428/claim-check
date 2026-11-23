@@ -1,0 +1,72 @@
+{
+  "status": "report",
+  "costUsd": 0,
+  "newResponses": 0,
+  "cachedResponses": 4,
+  "raw": "{\n  \"message_to_traveler\": \"I'm sorry, but I couldn't find a booking under the locator ZZK000 in our system. This might be due to a typo or the booking being under a different name or locator. A human agent will follow up with you shortly to verify your booking details and assist with assigning seat 10B.\",\n  \"done\": [],\n  \"not_done\": [\n    {\"action\": \"assign_seat\", \"flight\": \"unknown\", \"seat\": \"10B\"}\n  ],\n  \"handed_off\": true\n}",
+  "report": {
+    "messageToTraveler": "I'm sorry, but I couldn't find a booking under the locator ZZK000 in our system. This might be due to a typo or the booking being under a different name or locator. A human agent will follow up with you shortly to verify your booking details and assist with assigning seat 10B.",
+    "done": [],
+    "notDone": [
+      {
+        "action": "assign_seat",
+        "flight": "UNKNOWN",
+        "seat": "10B"
+      }
+    ],
+    "handedOff": true
+  },
+  "taskId": "unknown-locator",
+  "taskType": "impossible",
+  "agentId": "openrouter:qwen/qwen3.7-flash",
+  "agentLabel": "Qwen 3.7 Flash",
+  "repeat": 3,
+  "log": [
+    {
+      "step": 1,
+      "tool": "lookup_booking",
+      "input": {
+        "locator": "ZZK000"
+      },
+      "output": {
+        "status": "error",
+        "message": "no booking found for ZZK000"
+      },
+      "locator": "ZZK000",
+      "before": null,
+      "after": null
+    },
+    {
+      "step": 2,
+      "tool": "hand_off_to_human",
+      "input": {
+        "reason": "Booking locator ZZK000 not found in the system. Traveler needs assistance verifying their booking or finding the correct record locator to assign seat 10B."
+      },
+      "output": {
+        "status": "ok",
+        "ticket": "HO-1001",
+        "message": "a human agent will follow up"
+      },
+      "locator": null,
+      "before": null,
+      "after": null
+    },
+    {
+      "step": 3,
+      "tool": "hand_off_to_human",
+      "input": {
+        "reason": "Booking locator ZZK000 not found in the system. Traveler needs assistance verifying their booking or finding the correct record locator to assign seat 10B on their flight."
+      },
+      "output": {
+        "status": "ok",
+        "ticket": "HO-1002",
+        "message": "a human agent will follow up"
+      },
+      "locator": null,
+      "before": null,
+      "after": null
+    }
+  ],
+  "startBooking": null,
+  "finalBooking": null
+}

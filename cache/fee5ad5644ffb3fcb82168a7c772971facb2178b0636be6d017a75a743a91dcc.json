@@ -1,0 +1,30 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 2,
+  "response": {
+    "content": "{\"action\": \"refund\", \"note\": \"Waiver requested due to Northwind Air schedule change\"}\n\"done\": [], \"not_done\": [{\"action\": \"refund\"}], \"handed_off\": false}\n\n",
+    "toolCalls": [
+      {
+        "id": "5rmjhq14v",
+        "name": "request_refund",
+        "arguments": "{\"locator\":\"PNE6QT\"}"
+      },
+      {
+        "id": "808sc5eqr",
+        "name": "lookup_booking",
+        "arguments": "{\"locator\":\"PNE6QT\"}"
+      },
+      {
+        "id": "c4hs59wff",
+        "name": "lookup_booking",
+        "arguments": "{\"locator\":\"PNE6QT\"}"
+      },
+      {
+        "id": "dq98xzvvn",
+        "name": "request_refund",
+        "arguments": "{\"locator\":\"PNE6QT\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00005131
+}

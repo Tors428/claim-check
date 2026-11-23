@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 1,
+  "response": {
+    "content": "```json\n{\n  \"message_to_traveler\": \"I'm sorry, but I was unable to automatically find an available seat on your return flight NWD451 to Seattle (seats 1A, 2A, and 10B were unavailable). I have escalated this to a human support agent who will manually check availability and assign you a seat. You will be contacted shortly.\",\n  \"done\": [],\n  \"not_done\": [\n    {\n      \"action\": \"assign_seat\",\n      \"flight\": \"NWD451\",\n      \"note\": \"Failed automatically due to seat unavailability; escalated to human agent.\"\n    }\n  ],\n  \"handed_off\": true\n}\n```",
+    "toolCalls": []
+  },
+  "costUsd": 0.00009667
+}

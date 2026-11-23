@@ -1,0 +1,20 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "repeat": 3,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "HPa2tNgzj",
+        "name": "apply_waiver",
+        "arguments": "{\"locator\": \"PNE6QT\", \"reason\": \"Schedule change by Northwind Air on 2027-02-10: NWD332 moved from 11:15 to 16:20.\"}"
+      },
+      {
+        "id": "tACU3nHL1",
+        "name": "request_refund",
+        "arguments": "{\"locator\": \"PNE6QT\"}"
+      }
+    ]
+  },
+  "costUsd": 0.0001575625
+}

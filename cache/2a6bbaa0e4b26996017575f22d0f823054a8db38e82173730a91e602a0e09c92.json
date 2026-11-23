@@ -1,0 +1,9 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 3,
+  "response": {
+    "content": "It seems there is no booking with the locator ZZK000. I'll try to help you with the rest of your request. However, for me to assist you further, please ensure that you're entering the correct locator.\n\n{\n  \"message_to_traveler\": \"Sorry, I couldn't find your booking. Could you please double-check the locator and try again?\",\n  \"done\": [],\n  \"not_done\": [],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.0000545
+}

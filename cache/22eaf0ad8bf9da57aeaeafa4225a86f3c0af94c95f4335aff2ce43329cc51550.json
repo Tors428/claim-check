@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 3,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"Thank you for contacting us. I found your booking LMR9VB for travel between Boston (BOS) and Denver (DEN). Unfortunately, changing the destination from Denver to Seattle would require changing the flight route itself, not just switching to a different flight number on the same route. My system can only make changes between different flight numbers within the same cities. A human agent will need to assist with changing the destination. We have created ticket HO-1001 for this request, and an agent will follow up with you directly.\",\n  \"done\": [],\n  \"not_done\": [{\"action\": \"change_route\", \"from_destination\": \"Denver (DEN)\", \"to_destination\": \"Seattle (SEA)\", \"note\": \"This requires changing the flight route, which must be handled by a human agent\"}],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.000068416
+}

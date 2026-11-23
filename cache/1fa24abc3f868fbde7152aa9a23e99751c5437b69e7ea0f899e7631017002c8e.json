@@ -1,0 +1,9 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 1,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"Your booking has been refunded.\",\n  \"done\": [\n    {\"action\": \"refund\", \"note\": \"Refund for LMR9VB\"}\n  ],\n  \"not_done\": [],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00006916
+}

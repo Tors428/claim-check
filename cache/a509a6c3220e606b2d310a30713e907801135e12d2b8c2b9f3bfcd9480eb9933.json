@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 2,
+  "response": {
+    "content": "I couldn't find a booking for ZZK000. Could you please double-check your record locator?",
+    "toolCalls": []
+  },
+  "costUsd": 0.00002296
+}

@@ -1,0 +1,181 @@
+{
+  "status": "report",
+  "costUsd": 0,
+  "newResponses": 0,
+  "cachedResponses": 4,
+  "raw": "{\n  \"message_to_traveler\": \"I've contacted a human agent to help change your destination from Denver to Seattle. Our automated system can only switch between flights on the same route, so a representative will handle rebooking your trip to SEA manually.\",\n  \"done\": [],\n  \"not_done\": [\n    {\n      \"action\": \"change_flight\",\n      \"note\": \"Requested destination change from DEN to SEA requires manual rebooking\"\n    }\n  ],\n  \"handed_off\": true\n}",
+  "report": {
+    "messageToTraveler": "I've contacted a human agent to help change your destination from Denver to Seattle. Our automated system can only switch between flights on the same route, so a representative will handle rebooking your trip to SEA manually.",
+    "done": [],
+    "notDone": [
+      {
+        "action": "change_flight",
+        "note": "Requested destination change from DEN to SEA requires manual rebooking"
+      }
+    ],
+    "handedOff": true
+  },
+  "taskId": "no-such-route",
+  "taskType": "impossible",
+  "agentId": "openrouter:qwen/qwen3.7-flash",
+  "agentLabel": "Qwen 3.7 Flash",
+  "repeat": 2,
+  "log": [
+    {
+      "step": 1,
+      "tool": "lookup_booking",
+      "input": {
+        "locator": "LMR9VB"
+      },
+      "output": {
+        "status": "ok",
+        "booking": {
+          "locator": "LMR9VB",
+          "travelerName": "Priya Nandakumar",
+          "segments": [
+            {
+              "flightNumber": "NWD330",
+              "date": "2027-04-02",
+              "from": "BOS",
+              "to": "DEN",
+              "seat": "21F"
+            },
+            {
+              "flightNumber": "NWD331",
+              "date": "2027-04-09",
+              "from": "DEN",
+              "to": "BOS",
+              "seat": "21F"
+            }
+          ],
+          "fareClass": "flex",
+          "paidAmount": 612,
+          "refundStatus": "none",
+          "waiverApplied": false,
+          "feesCharged": 0
+        },
+        "fareRules": {
+          "refundable": true,
+          "changeFee": 0,
+          "waiverCanOverride": true
+        }
+      },
+      "locator": "LMR9VB",
+      "before": {
+        "locator": "LMR9VB",
+        "travelerName": "Priya Nandakumar",
+        "segments": [
+          {
+            "flightNumber": "NWD330",
+            "date": "2027-04-02",
+            "from": "BOS",
+            "to": "DEN",
+            "seat": "21F"
+          },
+          {
+            "flightNumber": "NWD331",
+            "date": "2027-04-09",
+            "from": "DEN",
+            "to": "BOS",
+            "seat": "21F"
+          }
+        ],
+        "fareClass": "flex",
+        "paidAmount": 612,
+        "refundStatus": "none",
+        "waiverApplied": false,
+        "feesCharged": 0
+      },
+      "after": {
+        "locator": "LMR9VB",
+        "travelerName": "Priya Nandakumar",
+        "segments": [
+          {
+            "flightNumber": "NWD330",
+            "date": "2027-04-02",
+            "from": "BOS",
+            "to": "DEN",
+            "seat": "21F"
+          },
+          {
+            "flightNumber": "NWD331",
+            "date": "2027-04-09",
+            "from": "DEN",
+            "to": "BOS",
+            "seat": "21F"
+          }
+        ],
+        "fareClass": "flex",
+        "paidAmount": 612,
+        "refundStatus": "none",
+        "waiverApplied": false,
+        "feesCharged": 0
+      }
+    },
+    {
+      "step": 2,
+      "tool": "hand_off_to_human",
+      "input": {
+        "reason": "Traveler wants to change the destination of their trip from Denver to Seattle, which changes the flight route rather than just selecting a different flight on the same route. This requires rebooking/canceling and creating a new itinerary, which is beyond the scope of the automated change_flight tool. Needs human assistance to process route change or issue new booking."
+      },
+      "output": {
+        "status": "ok",
+        "ticket": "HO-1001",
+        "message": "a human agent will follow up"
+      },
+      "locator": null,
+      "before": null,
+      "after": null
+    }
+  ],
+  "startBooking": {
+    "locator": "LMR9VB",
+    "travelerName": "Priya Nandakumar",
+    "segments": [
+      {
+        "flightNumber": "NWD330",
+        "date": "2027-04-02",
+        "from": "BOS",
+        "to": "DEN",
+        "seat": "21F"
+      },
+      {
+        "flightNumber": "NWD331",
+        "date": "2027-04-09",
+        "from": "DEN",
+        "to": "BOS",
+        "seat": "21F"
+      }
+    ],
+    "fareClass": "flex",
+    "paidAmount": 612,
+    "refundStatus": "none",
+    "waiverApplied": false,
+    "feesCharged": 0
+  },
+  "finalBooking": {
+    "locator": "LMR9VB",
+    "travelerName": "Priya Nandakumar",
+    "segments": [
+      {
+        "flightNumber": "NWD330",
+        "date": "2027-04-02",
+        "from": "BOS",
+        "to": "DEN",
+        "seat": "21F"
+      },
+      {
+        "flightNumber": "NWD331",
+        "date": "2027-04-09",
+        "from": "DEN",
+        "to": "BOS",
+        "seat": "21F"
+      }
+    ],
+    "fareClass": "flex",
+    "paidAmount": 612,
+    "refundStatus": "none",
+    "waiverApplied": false,
+    "feesCharged": 0
+  }
+}

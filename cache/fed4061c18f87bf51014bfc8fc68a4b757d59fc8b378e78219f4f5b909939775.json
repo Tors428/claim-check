@@ -1,0 +1,9 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 3,
+  "response": {
+    "content": "The flight you want to change is NWD212 on March 14th. The flight you want to switch to departs at 7:10 AM. Can you please confirm the flight number of the 7:10 AM flight?",
+    "toolCalls": []
+  },
+  "costUsd": 0.00007604
+}

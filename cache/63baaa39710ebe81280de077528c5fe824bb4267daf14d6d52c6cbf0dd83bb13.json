@@ -1,0 +1,9 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 2,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"Sorry, it seems the flight number I assigned earlier is not on your booking. Let me try again to find any available seat on your flight back to Seattle.\",\n  \"done\": [],\n  \"not_done\": [\n    {\"action\": \"assign_seat\", \"flight\": \"NWD110\", \"seat\": \"open seat\"},\n    {\"action\": \"refund\"},\n    {\"action\": \"change_flight\"}\n  ],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00006241
+}

@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 2,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I've contacted a human agent to help change your destination from Denver to Seattle. Our automated system can only switch between flights on the same route, so a representative will handle rebooking your trip to SEA manually.\",\n  \"done\": [],\n  \"not_done\": [\n    {\n      \"action\": \"change_flight\",\n      \"note\": \"Requested destination change from DEN to SEA requires manual rebooking\"\n    }\n  ],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00025623
+}

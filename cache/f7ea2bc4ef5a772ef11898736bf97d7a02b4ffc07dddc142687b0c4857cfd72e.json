@@ -1,0 +1,9 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "repeat": 3,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I'm sorry, Avery. There was an issue processing your flight change request. I've created a ticket (HO-1001) for our team to assist you further. They'll be in touch soon to help move your flight from NWD212 to NWD210 for your travel on 2027-03-14.\",\n  \"done\": [],\n  \"not_done\": [{\"action\": \"change_flight\", \"from_flight\": \"NWD212\", \"to_flight\": \"NWD210\"}],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.0002747625
+}

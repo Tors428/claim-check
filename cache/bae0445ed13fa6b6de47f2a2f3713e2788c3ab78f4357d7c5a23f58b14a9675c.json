@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 1,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"Unfortunately, your current booking is on a Basic fare which does not allow flight changes. Therefore, I am unable to move you to the 6:05pm flight (NWD214).\",\n  \"done\": [],\n  \"not_done\": [\n    {\n      \"action\": \"change_flight\",\n      \"from_flight\": \"NWD210\",\n      \"to_flight\": \"NWD214\"\n    }\n  ],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00020558
+}

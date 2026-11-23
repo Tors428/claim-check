@@ -1,0 +1,15 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 2,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "call_8d79ccfd2b77419f8af34a7c",
+        "name": "hand_off_to_human",
+        "arguments": "{\"reason\": \"I cannot fulfill the request to assign any seat on flight NWD451 because the system provides no way to query available open seats. Only specific seat numbers known to be free can be manually assigned. A human agent must assist with this.\", \"locator\": \"JDK2XS\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00004539
+}

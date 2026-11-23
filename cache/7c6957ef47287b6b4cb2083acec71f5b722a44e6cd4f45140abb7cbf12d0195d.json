@@ -1,0 +1,9 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "repeat": 3,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I'm sorry, but our systems are down. I've created support ticket HO-1001 and a human agent will follow up shortly to assign your seat.\",\n  \"done\": [],\n  \"not_done\": [{\"action\": \"assign_seat\", \"flight\": \"NWD330\", \"seat\": \"10A\", \"note\": \"system down\"}],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.0002102625
+}

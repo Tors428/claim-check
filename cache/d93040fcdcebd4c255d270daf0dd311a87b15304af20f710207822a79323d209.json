@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 3,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I can see your booking JDK2XS with flight NWD451 from Denver to Seattle on March 25, 2027. Unfortunately, I don't have the ability to view available seat selections or automatically assign an arbitrary seat. To assign a seat, I would need you to specify exactly which seat you'd like (e.g., 12A, 15C). Would you prefer to select a specific seat number now, or would you like me to transfer you to a human agent who can help you choose from the available seats on your flight?\",\n  \"done\": [],\n  \"not_done\": [{\"action\": \"assign_seat\", \"flight\": \"NWD451\", \"note\": \"Cannot assign an arbitrary seat without availability information; requires traveler input or human assistance\"}],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00010025
+}

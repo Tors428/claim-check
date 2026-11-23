@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 1,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I've looked up your booking QZX7KD. Unfortunately, your fare class 'main' is non-refundable according to the fare rules. A full refund can only be processed if the fare allows it or if a valid waiver applies (e.g., due to an airline schedule change). Since there's no waiver on this booking and your reason for cancellation is personal preference rather than an airline-initiated change, I'm unable to process a refund. If you have further questions or need assistance with other options, please let me know.\",\n  \"done\": [],\n  \"not_done\": [\n    {\n      \"action\": \"refund\"\n    }\n  ],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00006352
+}

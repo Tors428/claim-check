@@ -1,0 +1,9 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 1,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"We've processed a full refund for your booking QZX7KD.\",\n  \"done\": [{\"action\": \"refund\"}],\n  \"not_done\": [],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.0000483
+}

@@ -1,0 +1,9 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 1,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"Unfortunately, our system timed out and we were unable to cancel and refund your booking LMR9VB. A human agent will follow up with you.\",\n  \"done\": [],\n  \"not_done\": [{\"action\": \"cancel\", \"locator\": \"LMR9VB\"}],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.0000482
+}

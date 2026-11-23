@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 2,
+  "response": {
+    "content": "I understand you'd like to request a refund for booking JDK2XS, but unfortunately, I'm unable to process this request. \n\nYour current fare class is \"basic,\" which is non-refundable according to our fare rules. Additionally, this fare type doesn't permit waivers to override its policies under any circumstances. Fares can only be waived when there's an airline-initiated schedule change, and your booking doesn't reflect such a change.\n\nIf you believe there may be exceptional circumstances warranting an exception, I'd be happy to transfer you to a human agent who can review your specific situation further.",
+    "toolCalls": []
+  },
+  "costUsd": 0.00007735
+}

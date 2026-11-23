@@ -1,0 +1,15 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "repeat": 2,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "U2y09nBCM",
+        "name": "hand_off_to_human",
+        "arguments": "{\"reason\": \"could not confirm refund due to system timeout\"}"
+      }
+    ]
+  },
+  "costUsd": 0.0001753875
+}

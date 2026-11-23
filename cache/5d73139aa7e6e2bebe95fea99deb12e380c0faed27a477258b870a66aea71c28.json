@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 1,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I attempted to cancel and refund your booking LMR9VB, but the booking system timed out. A human agent has been assigned to assist you with this request manually.\",\n  \"done\": [],\n  \"not_done\": [\n    {\n      \"action\": \"refund\"\n    }\n  ],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.000061636
+}

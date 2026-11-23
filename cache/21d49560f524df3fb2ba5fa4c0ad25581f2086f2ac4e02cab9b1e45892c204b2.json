@@ -1,0 +1,9 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "repeat": 2,
+  "response": {
+    "content": "```json\n{\n  \"message_to_traveler\": \"I'm sorry, but the 4:20 PM flight is sold out. Would you like to change to the 9:00 AM flight instead?\",\n  \"done\": [],\n  \"not_done\": [\n    {\n      \"action\": \"change_flight\",\n      \"from_flight\": \"NWD330\",\n      \"to_flight\": \"NWD332\",\n      \"note\": \"NWD332 is sold out\"\n    }\n  ],\n  \"handed_off\": false\n}\n```",
+    "toolCalls": []
+  },
+  "costUsd": 0.0002734875
+}

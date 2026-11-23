@@ -1,0 +1,40 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 2,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "pnxq1m175",
+        "name": "change_flight",
+        "arguments": "{\"changes\":[{\"from_flight\":\"NWD220\",\"to_flight\":\"NWD212\"},{\"from_flight\":\"NWD230\",\"to_flight\":\"NWD210\"}],\"locator\":\"QZX7KD\"}"
+      },
+      {
+        "id": "sdddnvdtx",
+        "name": "change_flight",
+        "arguments": "{\"changes\":[{\"from_flight\":\"NWD220\",\"to_flight\":\"NWD212\"},{\"from_flight\":\"NWD230\",\"to_flight\":\"NWD210\"}],\"locator\":\"QZX7KD\"}"
+      },
+      {
+        "id": "190x9y8z1",
+        "name": "lookup_booking",
+        "arguments": "{\"locator\":\"QZX7KD\"}"
+      },
+      {
+        "id": "drmx91yhs",
+        "name": "lookup_booking",
+        "arguments": "{\"locator\":\"QZX7KD\"}"
+      },
+      {
+        "id": "tf5e22p7r",
+        "name": "apply_waiver",
+        "arguments": "{\"locator\":\"QZX7KD\",\"reason\":\"Schedule change by airline. Change fee is waived.\"}"
+      },
+      {
+        "id": "xrbkxvgfc",
+        "name": "lookup_booking",
+        "arguments": "{\"locator\":\"QZX7KD\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00006108
+}

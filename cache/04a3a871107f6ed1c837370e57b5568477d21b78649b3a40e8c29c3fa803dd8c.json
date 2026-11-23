@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 3,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I was unable to move you to seat 10B on flight NWD452 as it is currently unavailable. Please let me know if you would like to select a different available seat instead.\",\n  \"done\": [],\n  \"not_done\": [\n    {\n      \"action\": \"assign_seat\",\n      \"flight\": \"NWD452\",\n      \"seat\": \"10B\",\n      \"note\": \"Seat 10B is not available on this flight.\"\n    }\n  ],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00016765
+}

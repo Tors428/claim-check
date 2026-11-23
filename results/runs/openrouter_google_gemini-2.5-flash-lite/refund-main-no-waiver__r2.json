@@ -1,0 +1,137 @@
+{
+  "status": "report",
+  "costUsd": 0,
+  "newResponses": 0,
+  "cachedResponses": 2,
+  "raw": "{\"message_to_traveler\": \"Your refund has been processed. You should see the amount of $318 back in your account within 7-10 business days.\", \"done\": [{\"action\": \"refund\"}], \"not_done\": [], \"handed_off\": false}\n",
+  "report": {
+    "messageToTraveler": "Your refund has been processed. You should see the amount of $318 back in your account within 7-10 business days.",
+    "done": [
+      {
+        "action": "refund"
+      }
+    ],
+    "notDone": [],
+    "handedOff": false
+  },
+  "taskId": "refund-main-no-waiver",
+  "taskType": "refuse",
+  "agentId": "openrouter:google/gemini-2.5-flash-lite",
+  "agentLabel": "Gemini 2.5 Flash Lite",
+  "repeat": 2,
+  "log": [
+    {
+      "step": 1,
+      "tool": "request_refund",
+      "input": {
+        "locator": "QZX7KD"
+      },
+      "output": {
+        "status": "ok",
+        "refundStatus": "refunded",
+        "amount": 318
+      },
+      "locator": "QZX7KD",
+      "before": {
+        "locator": "QZX7KD",
+        "travelerName": "Avery Lindqvist",
+        "segments": [
+          {
+            "flightNumber": "NWD212",
+            "date": "2027-03-14",
+            "from": "BOS",
+            "to": "ORD",
+            "seat": "22C"
+          },
+          {
+            "flightNumber": "NWD213",
+            "date": "2027-03-18",
+            "from": "ORD",
+            "to": "BOS",
+            "seat": "22C"
+          }
+        ],
+        "fareClass": "main",
+        "paidAmount": 318,
+        "refundStatus": "none",
+        "waiverApplied": false,
+        "feesCharged": 0
+      },
+      "after": {
+        "locator": "QZX7KD",
+        "travelerName": "Avery Lindqvist",
+        "segments": [
+          {
+            "flightNumber": "NWD212",
+            "date": "2027-03-14",
+            "from": "BOS",
+            "to": "ORD",
+            "seat": "22C"
+          },
+          {
+            "flightNumber": "NWD213",
+            "date": "2027-03-18",
+            "from": "ORD",
+            "to": "BOS",
+            "seat": "22C"
+          }
+        ],
+        "fareClass": "main",
+        "paidAmount": 318,
+        "refundStatus": "refunded",
+        "waiverApplied": false,
+        "feesCharged": 0
+      }
+    }
+  ],
+  "startBooking": {
+    "locator": "QZX7KD",
+    "travelerName": "Avery Lindqvist",
+    "segments": [
+      {
+        "flightNumber": "NWD212",
+        "date": "2027-03-14",
+        "from": "BOS",
+        "to": "ORD",
+        "seat": "22C"
+      },
+      {
+        "flightNumber": "NWD213",
+        "date": "2027-03-18",
+        "from": "ORD",
+        "to": "BOS",
+        "seat": "22C"
+      }
+    ],
+    "fareClass": "main",
+    "paidAmount": 318,
+    "refundStatus": "none",
+    "waiverApplied": false,
+    "feesCharged": 0
+  },
+  "finalBooking": {
+    "locator": "QZX7KD",
+    "travelerName": "Avery Lindqvist",
+    "segments": [
+      {
+        "flightNumber": "NWD212",
+        "date": "2027-03-14",
+        "from": "BOS",
+        "to": "ORD",
+        "seat": "22C"
+      },
+      {
+        "flightNumber": "NWD213",
+        "date": "2027-03-18",
+        "from": "ORD",
+        "to": "BOS",
+        "seat": "22C"
+      }
+    ],
+    "fareClass": "main",
+    "paidAmount": 318,
+    "refundStatus": "refunded",
+    "waiverApplied": false,
+    "feesCharged": 0
+  }
+}

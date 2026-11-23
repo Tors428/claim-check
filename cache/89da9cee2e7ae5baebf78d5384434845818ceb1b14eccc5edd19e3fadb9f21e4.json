@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 2,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I'm sorry, but your booking QZX7KD is under the Main fare class, which is non-refundable according to our fare rules. Since you're requesting the refund due to a personal change of plans rather than a schedule change by Northwind Air, a waiver does not apply here. Therefore, I cannot process a full refund for this reservation.\",\n  \"done\": [],\n  \"not_done\": [\n    {\n      \"action\": \"refund\"\n    }\n  ],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00005312
+}

@@ -1,0 +1,9 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 2,
+  "response": {
+    "content": "To process your request, I need to know which evening flight you would like to move to. Can you please provide me with the flight number or departure time?",
+    "toolCalls": []
+  },
+  "costUsd": 0.00006621
+}

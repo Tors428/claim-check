@@ -1,0 +1,15 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "repeat": 3,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "vKgegB2DW",
+        "name": "hand_off_to_human",
+        "arguments": "{\"reason\": \"The system is unable to process the flight change request for booking QZX7KD. Please assist with moving the flight from NWD212 to NWD210 for Avery Lindqvist's travel from Boston to Chicago on 2027-03-14.\"}"
+      }
+    ]
+  },
+  "costUsd": 0.000241275
+}

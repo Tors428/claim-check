@@ -1,0 +1,25 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 1,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "gghmp42jz",
+        "name": "lookup_booking",
+        "arguments": "{\"locator\":\"JDK2XS\"}"
+      },
+      {
+        "id": "3wwt80y38",
+        "name": "assign_seat",
+        "arguments": "{\"flight\":\"NWD202\",\"locator\":\"JDK2XS\",\"seat\":\"10C\"}"
+      },
+      {
+        "id": "3vzma8s40",
+        "name": "lookup_booking",
+        "arguments": "{\"locator\":\"JDK2XS\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00005005
+}

@@ -1,0 +1,15 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 3,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "call_61547f6a8d6943b0b302c7a5",
+        "name": "hand_off_to_human",
+        "arguments": "{\"locator\": \"JDK2XS\", \"reason\": \"Traveler requested a rule waiver and full refund for a basic fare booking. Fare rules explicitly set waiverCanOverride: false and refundable: false, with no airline schedule change on file. Policy prohibits me from overriding this. Handing off for agent review of potential exceptions or alternative options.\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00012545
+}

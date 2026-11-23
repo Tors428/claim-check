@@ -1,0 +1,9 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 1,
+  "response": {
+    "content": "I am unable to change your flights because NWD100 and NWD200 are not found on your booking QZX7KD. We looked up the booking but could not change the flights as the required information was not found on the booking.\n\n{\n  \"message_to_traveler\": \"I am unable to change your flights because NWD100 and NWD200 are not found on your booking QZX7KD. We looked up the booking but could not change the flights as the required information was not found on the booking.\",\n  \"done\": [],\n  \"not_done\": [\n    {\"action\": \"change_flight\", \"from_flight\": \"NWD212\", \"to_flight\": \"NWD213\"}\n  ],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00006492
+}

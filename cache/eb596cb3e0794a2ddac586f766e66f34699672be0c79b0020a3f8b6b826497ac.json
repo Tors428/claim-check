@@ -1,0 +1,9 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 1,
+  "response": {
+    "content": "{\"message_to_traveler\": \"I couldn't find your booking using the record locator ZZK000. Can you please check if the locator is correct and try again?\", \"done\": [], \"not_done\": [{\"action\": \"assign_seat\", \"flight\": \"NWD330\", \"seat\": \"10B\"}], \"handed_off\": false}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00006554
+}

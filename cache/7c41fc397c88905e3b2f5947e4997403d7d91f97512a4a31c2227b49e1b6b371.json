@@ -1,0 +1,20 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 1,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "d2vtnvc4a",
+        "name": "assign_seat",
+        "arguments": "{\"flight\":\"NWD330\",\"locator\":\"LMR9VB\",\"seat\":\"10A\"}"
+      },
+      {
+        "id": "gsxcw46qt",
+        "name": "lookup_booking",
+        "arguments": "{\"locator\":\"LMR9VB\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00005008
+}

@@ -1,0 +1,15 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 2,
+  "response": {
+    "content": "\"Unfortunately, we couldn't find your booking. Please try again, and if you continue to have trouble, we'll hand off the conversation to a human support agent.\"\n",
+    "toolCalls": [
+      {
+        "id": "vkdqyr1w9",
+        "name": "hand_off_to_human",
+        "arguments": "{\"locator\":\"LMR9VB\",\"reason\":\"couldn\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00006602
+}

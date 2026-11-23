@@ -1,0 +1,20 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 1,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "s2a8k97zd",
+        "name": "search_flights",
+        "arguments": "{\"date\":\"\",\"from\":\"ORD\",\"to\":\"SEA\"}"
+      },
+      {
+        "id": "zevx0ww8s",
+        "name": "lookup_booking",
+        "arguments": "{\"locator\":\"JDK2XS\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00004781
+}

@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 2,
+  "response": {
+    "content": "```json\n{\n  \"message_to_traveler\": \"I'm sorry, but our booking system experienced a timeout while processing your refund request for LMR9VB. Since the fare is flexible and fully refundable, this should be resolved quickly. A human support agent will follow up with you to complete the cancellation and refund.\",\n  \"done\": [],\n  \"not_done\": [\n    {\n      \"action\": \"refund\",\n      \"note\": \"Refund could not be processed due to system timeout. Handed off to human agent.\"\n    }\n  ],\n  \"handed_off\": true\n}\n```",
+    "toolCalls": []
+  },
+  "costUsd": 0.000041886
+}

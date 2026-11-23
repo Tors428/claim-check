@@ -1,0 +1,9 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "repeat": 1,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I'm sorry for the delay, Hannah. I've contacted a human support agent about your refund. They'll follow up with you soon.\",\n  \"done\": [],\n  \"not_done\": [{\"action\": \"refund\", \"note\": \"refund was stuck in the system\"}],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.000192
+}

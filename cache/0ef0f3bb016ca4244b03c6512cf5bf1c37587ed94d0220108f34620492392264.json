@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 2,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"Yes, since a waiver is already applied to your booking, I have processed a full refund of $163 to your original form of payment. You should see the funds returned within 5-7 business days.\",\n  \"done\": [\n    {\"action\": \"refund\"}\n  ],\n  \"not_done\": [],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.000069466
+}

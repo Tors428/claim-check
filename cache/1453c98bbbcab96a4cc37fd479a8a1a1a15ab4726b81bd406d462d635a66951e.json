@@ -1,0 +1,9 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 1,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"The flight NWD202 is not on your booking. I was able to look up your booking but not assign a seat because I couldn't confirm it's on either of the flights you're booked on.\",\n  \"done\": [],\n  \"not_done\": [\n    {\n      \"action\": \"assign_seat\",\n      \"flight\": \"NWD202\",\n      \"seat\": \"10C\",\n      \"note\": \"Flight NWD202 not found on booking\"\n    }\n  ],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00007223
+}

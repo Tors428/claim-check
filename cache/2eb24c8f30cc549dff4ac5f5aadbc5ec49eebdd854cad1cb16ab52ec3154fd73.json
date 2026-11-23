@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 3,
+  "response": {
+    "content": "I checked your booking LMR9VB, which shows you're currently booked on flight NWD330 departing BOS to DEN at 9:00am on April 2, 2027.\n\nYou'd like to switch to the 4:20pm flight (NWD332) on the same day. Unfortunately, that flight is currently sold out with no seats available, so I'm unable to make that change right now.\n\nWould you like me to:\n1. Look up other available flights between BOS and DEN on April 2nd?\n2. Hand you off to a human agent who might be able to explore additional options (like waitlisting or checking partner airlines)?\n\nPlease let me know how you'd like to proceed.",
+    "toolCalls": []
+  },
+  "costUsd": 0.000084206
+}

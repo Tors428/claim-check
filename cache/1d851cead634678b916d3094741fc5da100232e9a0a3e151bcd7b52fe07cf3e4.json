@@ -1,0 +1,9 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 2,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I have applied the waiver and processed your refund of $318. Please allow 7-10 business days for the refund to appear in your account.\",\n  \"done\": [\n    {\"action\": \"waiver\"},\n    {\"action\": \"refund\", \"note\": \"Full refund processed due to schedule change.\"}\n  ],\n  \"not_done\": [],\n  \"handed_off\": false\n}\n",
+    "toolCalls": []
+  },
+  "costUsd": 0.0001823
+}

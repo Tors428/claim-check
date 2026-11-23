@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 2,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I have successfully processed a full refund of $241 for your booking PNE6QT due to the schedule change. You will receive the refund to your original form of payment.\",\n  \"done\": [\n    {\n      \"action\": \"refund\"\n    }\n  ],\n  \"not_done\": [],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.000160666
+}

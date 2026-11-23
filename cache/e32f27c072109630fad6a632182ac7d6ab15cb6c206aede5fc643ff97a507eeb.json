@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 1,
+  "response": {
+    "content": "I checked your booking QZX7KD for your Boston to Chicago flight (NWD212), but unfortunately seat 10A is not currently available on that flight. \n\n{\n  \"message_to_traveler\": \"I'm sorry, but seat 10A is not available on your Boston to Chicago flight (NWD212). Would you like me to check for other available seats or assist you with anything else?\",\n  \"done\": [],\n  \"not_done\": [{\"action\": \"assign_seat\", \"flight\": \"NWD212\", \"seat\": \"10A\", \"note\": \"Seat 10A was not available on flight NWD212.\"}],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00006064
+}

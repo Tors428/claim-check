@@ -1,0 +1,9 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 3,
+  "response": {
+    "content": "You are flying from Boston to Denver on April 2nd and returning on April 9th. I can change your destination to Seattle instead of Denver. Would you like to do that?",
+    "toolCalls": []
+  },
+  "costUsd": 0.00006892
+}

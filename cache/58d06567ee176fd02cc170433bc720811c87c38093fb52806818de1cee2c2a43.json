@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 2,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I am unable to assign a seat at this time as I don't have access to a list of currently open seats on your flight. A human support agent will follow up to assist you with selecting an available seat.\",\n  \"done\": [],\n  \"not_done\": [\n    {\n      \"action\": \"assign_seat\",\n      \"flight\": \"NWD451\",\n      \"note\": \"Unable to identify an open seat automatically; requires human assistance.\"\n    }\n  ],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00005715
+}

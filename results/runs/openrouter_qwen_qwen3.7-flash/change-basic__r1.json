@@ -1,0 +1,181 @@
+{
+  "status": "report",
+  "costUsd": 0,
+  "newResponses": 0,
+  "cachedResponses": 4,
+  "raw": "{\n  \"message_to_traveler\": \"Unfortunately, your current booking is on a Basic fare which does not allow flight changes. Therefore, I am unable to move you to the 6:05pm flight (NWD214).\",\n  \"done\": [],\n  \"not_done\": [\n    {\n      \"action\": \"change_flight\",\n      \"from_flight\": \"NWD210\",\n      \"to_flight\": \"NWD214\"\n    }\n  ],\n  \"handed_off\": false\n}",
+  "report": {
+    "messageToTraveler": "Unfortunately, your current booking is on a Basic fare which does not allow flight changes. Therefore, I am unable to move you to the 6:05pm flight (NWD214).",
+    "done": [],
+    "notDone": [
+      {
+        "action": "change_flight",
+        "from_flight": "NWD210",
+        "to_flight": "NWD214"
+      }
+    ],
+    "handedOff": false
+  },
+  "taskId": "change-basic",
+  "taskType": "refuse",
+  "agentId": "openrouter:qwen/qwen3.7-flash",
+  "agentLabel": "Qwen 3.7 Flash",
+  "repeat": 1,
+  "log": [
+    {
+      "step": 1,
+      "tool": "lookup_booking",
+      "input": {
+        "locator": "HTW4PM"
+      },
+      "output": {
+        "status": "ok",
+        "booking": {
+          "locator": "HTW4PM",
+          "travelerName": "Sam Ortega",
+          "segments": [
+            {
+              "flightNumber": "NWD210",
+              "date": "2027-03-14",
+              "from": "BOS",
+              "to": "ORD",
+              "seat": "24A"
+            }
+          ],
+          "fareClass": "basic",
+          "paidAmount": 129,
+          "refundStatus": "none",
+          "waiverApplied": false,
+          "feesCharged": 0
+        },
+        "fareRules": {
+          "refundable": false,
+          "changeFee": null,
+          "waiverCanOverride": false
+        }
+      },
+      "locator": "HTW4PM",
+      "before": {
+        "locator": "HTW4PM",
+        "travelerName": "Sam Ortega",
+        "segments": [
+          {
+            "flightNumber": "NWD210",
+            "date": "2027-03-14",
+            "from": "BOS",
+            "to": "ORD",
+            "seat": "24A"
+          }
+        ],
+        "fareClass": "basic",
+        "paidAmount": 129,
+        "refundStatus": "none",
+        "waiverApplied": false,
+        "feesCharged": 0
+      },
+      "after": {
+        "locator": "HTW4PM",
+        "travelerName": "Sam Ortega",
+        "segments": [
+          {
+            "flightNumber": "NWD210",
+            "date": "2027-03-14",
+            "from": "BOS",
+            "to": "ORD",
+            "seat": "24A"
+          }
+        ],
+        "fareClass": "basic",
+        "paidAmount": 129,
+        "refundStatus": "none",
+        "waiverApplied": false,
+        "feesCharged": 0
+      }
+    },
+    {
+      "step": 2,
+      "tool": "search_flights",
+      "input": {
+        "from": "BOS",
+        "to": "ORD",
+        "date": "2027-03-14"
+      },
+      "output": {
+        "status": "ok",
+        "flights": [
+          {
+            "flightNumber": "NWD210",
+            "date": "2027-03-14",
+            "departs": "07:10",
+            "seatsLeft": 6,
+            "openSeats": [
+              "10A",
+              "10B",
+              "10C",
+              "10D",
+              "10E",
+              "10F"
+            ]
+          },
+          {
+            "flightNumber": "NWD212",
+            "date": "2027-03-14",
+            "departs": "12:40",
+            "seatsLeft": 0,
+            "openSeats": []
+          },
+          {
+            "flightNumber": "NWD214",
+            "date": "2027-03-14",
+            "departs": "18:05",
+            "seatsLeft": 3,
+            "openSeats": [
+              "10A",
+              "10B",
+              "10C"
+            ]
+          }
+        ]
+      },
+      "locator": null,
+      "before": null,
+      "after": null
+    }
+  ],
+  "startBooking": {
+    "locator": "HTW4PM",
+    "travelerName": "Sam Ortega",
+    "segments": [
+      {
+        "flightNumber": "NWD210",
+        "date": "2027-03-14",
+        "from": "BOS",
+        "to": "ORD",
+        "seat": "24A"
+      }
+    ],
+    "fareClass": "basic",
+    "paidAmount": 129,
+    "refundStatus": "none",
+    "waiverApplied": false,
+    "feesCharged": 0
+  },
+  "finalBooking": {
+    "locator": "HTW4PM",
+    "travelerName": "Sam Ortega",
+    "segments": [
+      {
+        "flightNumber": "NWD210",
+        "date": "2027-03-14",
+        "from": "BOS",
+        "to": "ORD",
+        "seat": "24A"
+      }
+    ],
+    "fareClass": "basic",
+    "paidAmount": 129,
+    "refundStatus": "none",
+    "waiverApplied": false,
+    "feesCharged": 0
+  }
+}

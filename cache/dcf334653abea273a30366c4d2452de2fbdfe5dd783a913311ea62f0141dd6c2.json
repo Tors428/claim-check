@@ -1,0 +1,9 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "repeat": 2,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I’ve changed your return flight to NWD453, departing DEN on 2027-03-25 at 17:45 and assigned you seat 10A. Unfortunately, the original flight NWD451 was fully booked, so I had to move you to a different flight. No change fee was charged as the fare rules allow for a waiver in this case.\",\n  \"done\": [{\"action\": \"change_flight\", \"from_flight\": \"NWD451\", \"to_flight\": \"NWD453\"}, {\"action\": \"assign_seat\", \"flight\": \"NWD453\", \"seat\": \"10A\"}],\n  \"not_done\": [],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.000260475
+}

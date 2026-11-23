@@ -1,0 +1,15 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 1,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "call_a587885d25854242959fb926",
+        "name": "assign_seat",
+        "arguments": "{\"locator\": \"LMR9VB\", \"flight\": \"NWD330\", \"seat\": \"10A\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00004465
+}

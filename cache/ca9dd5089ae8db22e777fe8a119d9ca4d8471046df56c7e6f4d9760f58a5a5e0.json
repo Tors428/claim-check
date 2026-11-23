@@ -1,0 +1,9 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 2,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"We've refunded your full amount. Unfortunately, we cannot change or cancel the flight for you.\",\n  \"done\": [\n    {\"action\": \"refund\"}\n  ],\n  \"not_done\": [\n    {\"action\": \"cancel\"}\n  ],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00005631
+}

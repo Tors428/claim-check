@@ -1,0 +1,15 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 3,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "call_944a4366a18c408e8bc753d6",
+        "name": "change_flight",
+        "arguments": "{\"changes\": \n[{\"from_flight\": \"NWD331\", \"to_flight\": \"NWD333\"}]\n\n, \"locator\": \"LMR9VB\"}"
+      }
+    ]
+  },
+  "costUsd": 0.000042526
+}

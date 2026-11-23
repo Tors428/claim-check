@@ -1,0 +1,9 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 2,
+  "response": {
+    "content": "Here is your refund for booking LMR9VB. You should see the refund of $612 within 7-10 business days.\n{\"message_to_traveler\": \"Here is your refund for booking LMR9VB. You should see the refund of $612 within 7-10 business days.\", \"done\": [{\"action\": \"refund\"}], \"not_done\": [], \"handed_off\": false}\n",
+    "toolCalls": []
+  },
+  "costUsd": 0.00007623
+}

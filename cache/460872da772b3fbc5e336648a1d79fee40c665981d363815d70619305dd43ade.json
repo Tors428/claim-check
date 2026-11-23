@@ -1,0 +1,9 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 3,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I'm unable to assign a seat for you on flight NWD450 at this time. Please wait for a human support agent to follow up.\",\n  \"done\": [],\n  \"not_done\": [{\"action\": \"assign_seat\", \"flight\": \"NWD450\", \"seat\": \"10C\"}],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00010343
+}

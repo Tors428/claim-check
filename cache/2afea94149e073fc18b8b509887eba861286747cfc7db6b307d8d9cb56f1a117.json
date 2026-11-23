@@ -1,0 +1,30 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 3,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "hkkxz84st",
+        "name": "lookup_booking",
+        "arguments": "{\"locator\":\"QZX7KD\"}"
+      },
+      {
+        "id": "47zpwbp1j",
+        "name": "lookup_booking",
+        "arguments": "{\"locator\":\"QZX7KD\"}"
+      },
+      {
+        "id": "npy1ss8qj",
+        "name": "search_flights",
+        "arguments": "{\"date\":\"2024-03-12\",\"from\":\"BOS\",\"to\":\"ORD\"}"
+      },
+      {
+        "id": "eqtec79md",
+        "name": "lookup_booking",
+        "arguments": "{\"locator\":\"QZX7KD\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00005859
+}

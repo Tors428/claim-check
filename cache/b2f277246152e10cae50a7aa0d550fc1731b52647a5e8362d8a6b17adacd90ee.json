@@ -1,0 +1,15 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 2,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "02924wpq2",
+        "name": "request_refund",
+        "arguments": "{\"locator\":\"HTW4PM\"}"
+      }
+    ]
+  },
+  "costUsd": 0.0000487
+}

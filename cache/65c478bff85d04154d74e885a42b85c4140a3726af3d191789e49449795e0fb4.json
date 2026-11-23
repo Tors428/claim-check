@@ -1,0 +1,15 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 3,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "call_0e936ff200b14ab3b3126753",
+        "name": "hand_off_to_human",
+        "arguments": "{\"reason\": \"User requested a full refund for booking QZX7KD due to personal change of plans. The fare is non-refundable and no airline schedule change exists to justify a waiver per policy. Human agent needed to review potential exceptions or alternative options.\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00008575
+}

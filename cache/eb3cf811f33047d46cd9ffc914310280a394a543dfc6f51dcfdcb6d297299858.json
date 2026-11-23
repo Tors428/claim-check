@@ -1,0 +1,9 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 2,
+  "response": {
+    "content": "{\"message_to_traveler\": \"I am sorry, but it looks like the flight you wanted to switch to is sold out. There are no open seats on that flight.\", \"done\": [], \"not_done\": [{\"action\": \"change_flight\", \"from_flight\": \"NWD330\", \"to_flight\": \"NWD332\", \"note\": \"The requested flight NWD332 is sold out.\"}], \"handed_off\": false}",
+    "toolCalls": []
+  },
+  "costUsd": 0.0001256
+}

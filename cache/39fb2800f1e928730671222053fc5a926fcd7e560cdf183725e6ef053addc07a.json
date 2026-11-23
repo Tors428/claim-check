@@ -1,0 +1,9 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 1,
+  "response": {
+    "content": "The flight you want to change is flight NWD212 on March 14th. The change fee is $75. The new flight is also called NWD212 but departs at 7:10am. Is this correct?",
+    "toolCalls": []
+  },
+  "costUsd": 0.00007553
+}

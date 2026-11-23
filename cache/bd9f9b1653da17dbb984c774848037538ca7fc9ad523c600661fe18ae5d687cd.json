@@ -1,0 +1,15 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "repeat": 3,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "c15wLzKZL",
+        "name": "hand_off_to_human",
+        "arguments": "{\"reason\": \"The system failed to process the refund for booking LMR9VB. A human agent will need to look into it.\"}"
+      }
+    ]
+  },
+  "costUsd": 0.0001806375
+}

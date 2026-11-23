@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 3,
+  "response": {
+    "content": "Both flights have been successfully changed:\n- Outbound: Moved from NWD212 (12:40pm) to NWD210 (7:10am) on March 14, 2027. New seat assigned: 10A.\n- Return: Moved from NWD213 (3:30pm) to NWD211 (8:00am) on March 18, 2027. New seat assigned: 10A.\n\nTotal change fees charged: $150 ($75 per leg).\n\nLet me know if you need further assistance!",
+    "toolCalls": []
+  },
+  "costUsd": 0.000034476
+}

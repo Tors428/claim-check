@@ -1,0 +1,9 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 3,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I don't have enough information to assign a seat on your return flight to Seattle.\",\n  \"done\": [],\n  \"not_done\": [{\"action\": \"assign_seat\", \"note\": \"seat assignment on return flight\", \"flight\": \"flight back to Seattle\", \"seat\": \"any open seat\", \"locator\": \"JDK2XS\"}],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.0000572
+}

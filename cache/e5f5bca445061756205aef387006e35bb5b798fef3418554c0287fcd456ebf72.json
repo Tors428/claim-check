@@ -1,0 +1,9 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 3,
+  "response": {
+    "content": "I can help with that. I'll need the flight number of the evening return flight. Can you please provide it?",
+    "toolCalls": []
+  },
+  "costUsd": 0.0001394
+}

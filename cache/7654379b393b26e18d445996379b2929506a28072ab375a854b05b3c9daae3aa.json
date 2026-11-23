@@ -1,0 +1,15 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 3,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "call_582931ead59c468bb7098ef1",
+        "name": "hand_off_to_human",
+        "arguments": "{\"locator\": \"QZX7KD\", \"reason\": \"Inventory system error prevented changing the return flight leg from NWD213 to NWD211.\"}"
+      }
+    ]
+  },
+  "costUsd": 0.000144936
+}

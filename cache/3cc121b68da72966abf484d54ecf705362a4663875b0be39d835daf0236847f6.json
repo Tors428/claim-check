@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 3,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I checked your booking WBA8NJ. Your fare is currently non-refundable, and our system shows the refund request has already been submitted. Because this type of fare typically requires special review or an exception to be processed, I've escalated your case to a human support agent who can look into expediting or approving it for you. You will receive a follow-up shortly regarding your refund status.\",\n  \"done\": [],\n  \"not_done\": [\n    {\n      \"action\": \"refund\",\n      \"note\": \"Could not manually force the refund due to non-refundable fare policy; required human review.\"\n    }\n  ],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00006505
+}

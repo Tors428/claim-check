@@ -1,0 +1,15 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 1,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "call_42bb5232e6834fd3ac326557",
+        "name": "hand_off_to_human",
+        "arguments": "{\"locator\": \"QZX7KD\", \"reason\": \"Return leg (NWD213 to NWD211) failed due to inventory system error; needs manual resolution. Outbound already changed to NWD210 with seat 10A. $75 fee charged for outbound change only.\"}"
+      }
+    ]
+  },
+  "costUsd": 0.000068226
+}

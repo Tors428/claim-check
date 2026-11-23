@@ -1,0 +1,15 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 2,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "call_243d8df7ff5b44e98a337814",
+        "name": "hand_off_to_human",
+        "arguments": "{\"reason\": \"Traveler wants to switch from NWD330 to NWD332 (4:20pm), but NWD332 has 0 seats available. Cannot complete change_flight due to full booking; needs human agent to check alternative options or waitlist.\", \"locator\": \"LMR9VB\"}"
+      }
+    ]
+  },
+  "costUsd": 0.000037646
+}

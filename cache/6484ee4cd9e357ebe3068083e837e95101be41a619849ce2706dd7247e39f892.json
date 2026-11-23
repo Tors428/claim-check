@@ -1,0 +1,9 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 1,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I'm sorry, but waivers can't be applied to basic fares, so the refund can't be processed.\",\n  \"done\": [],\n  \"not_done\": [\n    {\"action\": \"refund\"},\n    {\"action\": \"waiver\"}\n  ],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00008562
+}

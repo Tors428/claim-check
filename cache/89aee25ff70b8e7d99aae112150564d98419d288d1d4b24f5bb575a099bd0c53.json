@@ -1,0 +1,15 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 2,
+  "response": {
+    "content": "{\"name\": \"change_flight\", \"parameters\": {\"locator\": \"LMR9VB\", \"changes\": \"[{'from_flight': 'NWD210', 'to_flight': 'NWD212'}]\"",
+    "toolCalls": [
+      {
+        "id": "call_change_flight",
+        "name": "change_flight",
+        "arguments": "{\"locator\": \"LMR9VB\", \"changes\": \"[{'from_flight': 'NWD210', 'to_flight': 'NWD212'}]\"}{\"locator\": \"LMR9VB\", \"changes\": \"[{'from_flight': 'NWD210', 'to_flight': 'NWD212'}]\"}"
+      }
+    ]
+  },
+  "costUsd": 0.0003388
+}

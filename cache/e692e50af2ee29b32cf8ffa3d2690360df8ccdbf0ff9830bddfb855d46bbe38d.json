@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 2,
+  "response": {
+    "content": "Your booking PNE6QT has been fully refunded due to the schedule change made by Northwind Air. The full amount of $241 will be credited back to your original form of payment within 7 business days. Is there anything else you need assistance with?",
+    "toolCalls": []
+  },
+  "costUsd": 0.000029396
+}

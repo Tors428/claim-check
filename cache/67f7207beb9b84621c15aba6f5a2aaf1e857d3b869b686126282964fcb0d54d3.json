@@ -1,0 +1,30 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 1,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "sywa58f8k",
+        "name": "change_flight",
+        "arguments": "{\"changes\":[{\"from_flight\":\"NWD210\",\"to_flight\":\"NWD210A\"}],\"locator\":\"QZX7KD\"}"
+      },
+      {
+        "id": "rrmyrn5dk",
+        "name": "lookup_booking",
+        "arguments": "{\"locator\":\"QZX7KD\"}"
+      },
+      {
+        "id": "873x4wkyn",
+        "name": "lookup_booking",
+        "arguments": "{\"locator\":\"QZX7KD\"}"
+      },
+      {
+        "id": "8jb1wbd1m",
+        "name": "lookup_booking",
+        "arguments": "{\"locator\":\"QZX7KD\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00004963
+}

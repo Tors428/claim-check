@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 3,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I've reviewed your booking QZX7KD. Your fare class is non-refundable, and since you're requesting a refund due to personal plans rather than an airline schedule change, it doesn't qualify for a waiver under our current policy. I've escalated this to a human support agent who can review your request for any potential exceptions. You will receive a follow-up regarding ticket HO-1002.\",\n  \"done\": [],\n  \"not_done\": [\n    {\"action\": \"refund\"}\n  ],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.000067256
+}

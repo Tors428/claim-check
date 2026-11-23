@@ -1,0 +1,15 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 1,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "call_3c108f065b2446dfb8649c17",
+        "name": "hand_off_to_human",
+        "arguments": "{\"reason\": \"Flight change completed successfully. No further action needed by human agent. This handoff appears to have been triggered unnecessarily.\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00004506
+}

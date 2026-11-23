@@ -1,0 +1,15 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 2,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "7gfq2g6sp",
+        "name": "hand_off_to_human",
+        "arguments": "{\"reason\":\"refund completed, nothing else to do\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00005201
+}

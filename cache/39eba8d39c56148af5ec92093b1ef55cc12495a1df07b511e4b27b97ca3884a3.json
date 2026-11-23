@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 1,
+  "response": {
+    "content": "I'm sorry, but I couldn't find any available Northwind Air flights from Boston (BOS) to Seattle (SEA) on April 2, 2027. Because there are no direct flights available on that route and date, I’m unable to process your change request.\n\nYour current booking (LMR9VB) is for:\n- Outbound: NWD330 from BOS to DEN on April 2, 2027\n- Return: NWD331 from DEN to BOS on April 9, 2027\n\nSince I cannot locate suitable alternative flights from BOS to SEA on your preferred date, I’ll need to hand this off to a human agent who can help explore other options, such as:\n- Flights on different dates\n- Multi-city itineraries or connecting flights not shown in the basic search\n- Coordination with partner airlines if applicable\n\nWould you like me to proceed with handing this off to a human support agent now?",
+    "toolCalls": []
+  },
+  "costUsd": 0.0000909
+}

@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 1,
+  "response": {
+    "content": "```json\n{\n  \"message_to_traveler\": \"Your refund for booking LMR9VB has been processed successfully. A full refund of $612 has been issued to your original payment method.\",\n  \"done\": [\n    {\"action\": \"refund\"}\n  ],\n  \"not_done\": [],\n  \"handed_off\": false\n}\n```",
+    "toolCalls": []
+  },
+  "costUsd": 0.000118896
+}

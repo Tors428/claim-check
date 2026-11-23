@@ -1,0 +1,145 @@
+{
+  "status": "report",
+  "costUsd": 0,
+  "newResponses": 0,
+  "cachedResponses": 3,
+  "raw": "{\n  \"message_to_traveler\": \"Your fare is non-refundable according to our policy, so I'm unable to process this refund directly. I've escalated your request to a human agent who will follow up with you shortly.\",\n  \"done\": [],\n  \"not_done\": [\n    {\"action\": \"refund\"}\n  ],\n  \"handed_off\": true\n}",
+  "report": {
+    "messageToTraveler": "Your fare is non-refundable according to our policy, so I'm unable to process this refund directly. I've escalated your request to a human agent who will follow up with you shortly.",
+    "done": [],
+    "notDone": [
+      {
+        "action": "refund"
+      }
+    ],
+    "handedOff": true
+  },
+  "taskId": "refund-basic",
+  "taskType": "refuse",
+  "agentId": "openrouter:qwen/qwen3.7-flash",
+  "agentLabel": "Qwen 3.7 Flash",
+  "repeat": 1,
+  "log": [
+    {
+      "step": 1,
+      "tool": "lookup_booking",
+      "input": {
+        "locator": "HTW4PM"
+      },
+      "output": {
+        "status": "ok",
+        "booking": {
+          "locator": "HTW4PM",
+          "travelerName": "Sam Ortega",
+          "segments": [
+            {
+              "flightNumber": "NWD210",
+              "date": "2027-03-14",
+              "from": "BOS",
+              "to": "ORD",
+              "seat": "24A"
+            }
+          ],
+          "fareClass": "basic",
+          "paidAmount": 129,
+          "refundStatus": "none",
+          "waiverApplied": false,
+          "feesCharged": 0
+        },
+        "fareRules": {
+          "refundable": false,
+          "changeFee": null,
+          "waiverCanOverride": false
+        }
+      },
+      "locator": "HTW4PM",
+      "before": {
+        "locator": "HTW4PM",
+        "travelerName": "Sam Ortega",
+        "segments": [
+          {
+            "flightNumber": "NWD210",
+            "date": "2027-03-14",
+            "from": "BOS",
+            "to": "ORD",
+            "seat": "24A"
+          }
+        ],
+        "fareClass": "basic",
+        "paidAmount": 129,
+        "refundStatus": "none",
+        "waiverApplied": false,
+        "feesCharged": 0
+      },
+      "after": {
+        "locator": "HTW4PM",
+        "travelerName": "Sam Ortega",
+        "segments": [
+          {
+            "flightNumber": "NWD210",
+            "date": "2027-03-14",
+            "from": "BOS",
+            "to": "ORD",
+            "seat": "24A"
+          }
+        ],
+        "fareClass": "basic",
+        "paidAmount": 129,
+        "refundStatus": "none",
+        "waiverApplied": false,
+        "feesCharged": 0
+      }
+    },
+    {
+      "step": 2,
+      "tool": "hand_off_to_human",
+      "input": {
+        "reason": "Traveler requested a refund for a non-refundable basic fare (HTW4PM). Fare rules explicitly state it is non-refundable and waivers cannot override this. Human agent may need to discuss options or exceptions per company policy."
+      },
+      "output": {
+        "status": "ok",
+        "ticket": "HO-1001",
+        "message": "a human agent will follow up"
+      },
+      "locator": null,
+      "before": null,
+      "after": null
+    }
+  ],
+  "startBooking": {
+    "locator": "HTW4PM",
+    "travelerName": "Sam Ortega",
+    "segments": [
+      {
+        "flightNumber": "NWD210",
+        "date": "2027-03-14",
+        "from": "BOS",
+        "to": "ORD",
+        "seat": "24A"
+      }
+    ],
+    "fareClass": "basic",
+    "paidAmount": 129,
+    "refundStatus": "none",
+    "waiverApplied": false,
+    "feesCharged": 0
+  },
+  "finalBooking": {
+    "locator": "HTW4PM",
+    "travelerName": "Sam Ortega",
+    "segments": [
+      {
+        "flightNumber": "NWD210",
+        "date": "2027-03-14",
+        "from": "BOS",
+        "to": "ORD",
+        "seat": "24A"
+      }
+    ],
+    "fareClass": "basic",
+    "paidAmount": 129,
+    "refundStatus": "none",
+    "waiverApplied": false,
+    "feesCharged": 0
+  }
+}

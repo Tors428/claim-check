@@ -1,0 +1,9 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 2,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"The change fee of $75 has been charged to your booking. You are now booked on flight NWD210Z departing at 7:10am.\",\n  \"done\": [{\"action\": \"change_flight\", \"from_flight\": \"NWD210\", \"to_flight\": \"NWD210Z\", \"note\": \"charged a change fee of $75\"}],\n  \"not_done\": [],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00007052
+}

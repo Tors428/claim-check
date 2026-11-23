@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 1,
+  "response": {
+    "content": "I'm sorry, but your booking HTW4PM is for a basic fare which does not allow changes to different flights. According to our fare rules, basic fares are non-changeable. \n\nIf you need to fly on the 6:05pm flight (NWD214) instead, you would need to book a new ticket. Would you like me to help you with anything else regarding your current booking?",
+    "toolCalls": []
+  },
+  "costUsd": 0.00007425
+}

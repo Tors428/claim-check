@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 1,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"Your outbound flight has been successfully moved to NWD210 (7:10 AM). However, there was an issue with changing your return flight to NWD211 (8:00 AM). A human agent is handling this and will follow up shortly.\",\n  \"done\": [\n    {\"action\": \"change_flight\", \"from_flight\": \"NWD212\", \"to_flight\": \"NWD210\", \"note\": \"Successfully changed. New seat assigned: 10A. Change fee of $75 charged.\"}\n  ],\n  \"not_done\": [\n    {\"action\": \"change_flight\", \"from_flight\": \"NWD213\", \"to_flight\": \"NWD211\", \"note\": \"Failed due to inventory system error.\"}\n  ],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.000071646
+}

@@ -1,0 +1,15 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 3,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "t8x3e7hne",
+        "name": "change_flight",
+        "arguments": "{\"changes\":[{\"from_flight\":\"NWD110\",\"to_flight\":\"NWD120\"}],\"locator\":\"LMR9VB\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00004527
+}

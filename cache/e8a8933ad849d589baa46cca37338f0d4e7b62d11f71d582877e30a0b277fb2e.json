@@ -1,0 +1,9 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 1,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"We were unable to assign a seat to 10B on this flight.\",\n  \"done\": [],\n  \"not_done\": [\n    {\n      \"action\": \"assign_seat\",\n      \"flight\": \"NWD210\",\n      \"seat\": \"10B\",\n      \"note\": \"flight not found on booking\"\n    }\n  ],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00006071
+}

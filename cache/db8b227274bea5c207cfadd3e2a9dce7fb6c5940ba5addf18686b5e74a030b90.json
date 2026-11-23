@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 2,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I've reviewed your booking WBA8NJ. Your refund request has been noted in the system, but because your fare class is non-refundable per our policy, I am unable to process the refund automatically. I have escalated this to a human agent who can review your specific situation for potential exceptions. A representative will follow up shortly.\",\n  \"done\": [],\n  \"not_done\": [\n    {\n      \"action\": \"refund\",\n      \"note\": \"Non-refundable fare; requires manual review.\"\n    }\n  ],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00004848
+}

@@ -1,0 +1,9 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 2,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"Sorry to hear that you're not traveling! We've processed the refund for LMR9VB as per our cancellation policy.\",\n  \"done\": [{\"action\": \"refund\"}],\n  \"not_done\": [],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00006418
+}

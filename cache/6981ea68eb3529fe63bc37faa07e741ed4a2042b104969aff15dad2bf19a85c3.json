@@ -1,0 +1,9 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 3,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I can't refund booking JDK2XS without a valid reason. Can you please tell me why you're requesting a refund?\",\n  \"done\": [],\n  \"not_done\": [\n    {\n      \"action\": \"refund\",\n      \"locator\": \"JDK2XS\",\n      \"note\": \"The user requested a refund, but did not provide a valid reason.\"\n    }\n  ],\n  \"handed_off\": false\n}\n",
+    "toolCalls": []
+  },
+  "costUsd": 0.00008276
+}

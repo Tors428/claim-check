@@ -1,0 +1,9 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 3,
+  "response": {
+    "content": "The fare rules state that changes are allowed but will incur a change fee of $75 per leg. I will need to confirm the flight numbers for the 7:10 am outbound and 8:00 am return flights before I can make the changes. Can you please provide those?",
+    "toolCalls": []
+  },
+  "costUsd": 0.00007863
+}

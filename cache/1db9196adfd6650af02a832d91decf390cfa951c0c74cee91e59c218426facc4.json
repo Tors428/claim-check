@@ -1,0 +1,9 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 2,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I've refunded your ticket, but I had to hand off the rest of your request to a human agent.\",\n  \"done\": [{\"action\": \"refund\"}],\n  \"not_done\": [{\"action\": \"refund\"}],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00005152
+}

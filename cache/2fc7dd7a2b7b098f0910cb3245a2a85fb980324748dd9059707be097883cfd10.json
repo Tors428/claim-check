@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 1,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I've checked availability for the 4:20 PM flight (NWD332) on April 2nd, but it is currently fully booked with zero seats available. Because of this, I am unable to process the flight change at this time. Please try again later when seats open up.\",\n  \"done\": [],\n  \"not_done\": [\n    {\n      \"action\": \"change_flight\",\n      \"from_flight\": \"NWD330\",\n      \"to_flight\": \"NWD332\"\n    }\n  ],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00022433
+}

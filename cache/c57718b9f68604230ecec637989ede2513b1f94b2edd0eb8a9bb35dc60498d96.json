@@ -1,0 +1,15 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 2,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "call_39daf05b740142c19fb0ab91",
+        "name": "hand_off_to_human",
+        "arguments": "{\"reason\": \"Request already completed - return flight changed from NWD331 to NWD333 on 2027-04-09. No further assistance required. Please cancel this hand-off.\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00005832
+}

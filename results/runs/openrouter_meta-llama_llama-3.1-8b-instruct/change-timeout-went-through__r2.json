@@ -1,0 +1,418 @@
+{
+  "status": "report",
+  "costUsd": 0,
+  "newResponses": 0,
+  "cachedResponses": 3,
+  "raw": "{\n  \"message_to_traveler\": \"Flight changed to NWD210 (7:10am from Boston to Chicago). New seat is 10A.\",\n  \"done\": [\n    {\"action\": \"change_flight\", \"from_flight\": \"NWD212\", \"to_flight\": \"NWD210\"}\n  ],\n  \"not_done\": [],\n  \"handed_off\": false\n}",
+  "report": {
+    "messageToTraveler": "Flight changed to NWD210 (7:10am from Boston to Chicago). New seat is 10A.",
+    "done": [
+      {
+        "action": "change_flight",
+        "from_flight": "NWD212",
+        "to_flight": "NWD210"
+      }
+    ],
+    "notDone": [],
+    "handedOff": false
+  },
+  "taskId": "change-timeout-went-through",
+  "taskType": "mid-failure",
+  "agentId": "openrouter:meta-llama/llama-3.1-8b-instruct",
+  "agentLabel": "Llama 3.1 8B",
+  "repeat": 2,
+  "log": [
+    {
+      "step": 1,
+      "tool": "change_flight",
+      "input": {
+        "changes": [
+          {
+            "from_flight": "NWD212",
+            "to_flight": "NWD210"
+          }
+        ],
+        "locator": "QZX7KD"
+      },
+      "output": {
+        "status": "error",
+        "message": "timeout: booking system did not respond"
+      },
+      "locator": "QZX7KD",
+      "before": {
+        "locator": "QZX7KD",
+        "travelerName": "Avery Lindqvist",
+        "segments": [
+          {
+            "flightNumber": "NWD212",
+            "date": "2027-03-14",
+            "from": "BOS",
+            "to": "ORD",
+            "seat": "22C"
+          },
+          {
+            "flightNumber": "NWD213",
+            "date": "2027-03-18",
+            "from": "ORD",
+            "to": "BOS",
+            "seat": "22C"
+          }
+        ],
+        "fareClass": "main",
+        "paidAmount": 318,
+        "refundStatus": "none",
+        "waiverApplied": false,
+        "feesCharged": 0
+      },
+      "after": {
+        "locator": "QZX7KD",
+        "travelerName": "Avery Lindqvist",
+        "segments": [
+          {
+            "flightNumber": "NWD210",
+            "date": "2027-03-14",
+            "from": "BOS",
+            "to": "ORD",
+            "seat": "10A"
+          },
+          {
+            "flightNumber": "NWD213",
+            "date": "2027-03-18",
+            "from": "ORD",
+            "to": "BOS",
+            "seat": "22C"
+          }
+        ],
+        "fareClass": "main",
+        "paidAmount": 318,
+        "refundStatus": "none",
+        "waiverApplied": false,
+        "feesCharged": 75
+      },
+      "fault": "timeout"
+    },
+    {
+      "step": 2,
+      "tool": "lookup_booking",
+      "input": {
+        "locator": "QZX7KD"
+      },
+      "output": {
+        "status": "ok",
+        "booking": {
+          "locator": "QZX7KD",
+          "travelerName": "Avery Lindqvist",
+          "segments": [
+            {
+              "flightNumber": "NWD210",
+              "date": "2027-03-14",
+              "from": "BOS",
+              "to": "ORD",
+              "seat": "10A"
+            },
+            {
+              "flightNumber": "NWD213",
+              "date": "2027-03-18",
+              "from": "ORD",
+              "to": "BOS",
+              "seat": "22C"
+            }
+          ],
+          "fareClass": "main",
+          "paidAmount": 318,
+          "refundStatus": "none",
+          "waiverApplied": false,
+          "feesCharged": 75
+        },
+        "fareRules": {
+          "refundable": false,
+          "changeFee": 75,
+          "waiverCanOverride": true
+        }
+      },
+      "locator": "QZX7KD",
+      "before": {
+        "locator": "QZX7KD",
+        "travelerName": "Avery Lindqvist",
+        "segments": [
+          {
+            "flightNumber": "NWD210",
+            "date": "2027-03-14",
+            "from": "BOS",
+            "to": "ORD",
+            "seat": "10A"
+          },
+          {
+            "flightNumber": "NWD213",
+            "date": "2027-03-18",
+            "from": "ORD",
+            "to": "BOS",
+            "seat": "22C"
+          }
+        ],
+        "fareClass": "main",
+        "paidAmount": 318,
+        "refundStatus": "none",
+        "waiverApplied": false,
+        "feesCharged": 75
+      },
+      "after": {
+        "locator": "QZX7KD",
+        "travelerName": "Avery Lindqvist",
+        "segments": [
+          {
+            "flightNumber": "NWD210",
+            "date": "2027-03-14",
+            "from": "BOS",
+            "to": "ORD",
+            "seat": "10A"
+          },
+          {
+            "flightNumber": "NWD213",
+            "date": "2027-03-18",
+            "from": "ORD",
+            "to": "BOS",
+            "seat": "22C"
+          }
+        ],
+        "fareClass": "main",
+        "paidAmount": 318,
+        "refundStatus": "none",
+        "waiverApplied": false,
+        "feesCharged": 75
+      }
+    },
+    {
+      "step": 3,
+      "tool": "lookup_booking",
+      "input": {
+        "locator": "QZX7KD"
+      },
+      "output": {
+        "status": "ok",
+        "booking": {
+          "locator": "QZX7KD",
+          "travelerName": "Avery Lindqvist",
+          "segments": [
+            {
+              "flightNumber": "NWD210",
+              "date": "2027-03-14",
+              "from": "BOS",
+              "to": "ORD",
+              "seat": "10A"
+            },
+            {
+              "flightNumber": "NWD213",
+              "date": "2027-03-18",
+              "from": "ORD",
+              "to": "BOS",
+              "seat": "22C"
+            }
+          ],
+          "fareClass": "main",
+          "paidAmount": 318,
+          "refundStatus": "none",
+          "waiverApplied": false,
+          "feesCharged": 75
+        },
+        "fareRules": {
+          "refundable": false,
+          "changeFee": 75,
+          "waiverCanOverride": true
+        }
+      },
+      "locator": "QZX7KD",
+      "before": {
+        "locator": "QZX7KD",
+        "travelerName": "Avery Lindqvist",
+        "segments": [
+          {
+            "flightNumber": "NWD210",
+            "date": "2027-03-14",
+            "from": "BOS",
+            "to": "ORD",
+            "seat": "10A"
+          },
+          {
+            "flightNumber": "NWD213",
+            "date": "2027-03-18",
+            "from": "ORD",
+            "to": "BOS",
+            "seat": "22C"
+          }
+        ],
+        "fareClass": "main",
+        "paidAmount": 318,
+        "refundStatus": "none",
+        "waiverApplied": false,
+        "feesCharged": 75
+      },
+      "after": {
+        "locator": "QZX7KD",
+        "travelerName": "Avery Lindqvist",
+        "segments": [
+          {
+            "flightNumber": "NWD210",
+            "date": "2027-03-14",
+            "from": "BOS",
+            "to": "ORD",
+            "seat": "10A"
+          },
+          {
+            "flightNumber": "NWD213",
+            "date": "2027-03-18",
+            "from": "ORD",
+            "to": "BOS",
+            "seat": "22C"
+          }
+        ],
+        "fareClass": "main",
+        "paidAmount": 318,
+        "refundStatus": "none",
+        "waiverApplied": false,
+        "feesCharged": 75
+      }
+    },
+    {
+      "step": 4,
+      "tool": "lookup_booking",
+      "input": {
+        "locator": "QZX7KD"
+      },
+      "output": {
+        "status": "ok",
+        "booking": {
+          "locator": "QZX7KD",
+          "travelerName": "Avery Lindqvist",
+          "segments": [
+            {
+              "flightNumber": "NWD210",
+              "date": "2027-03-14",
+              "from": "BOS",
+              "to": "ORD",
+              "seat": "10A"
+            },
+            {
+              "flightNumber": "NWD213",
+              "date": "2027-03-18",
+              "from": "ORD",
+              "to": "BOS",
+              "seat": "22C"
+            }
+          ],
+          "fareClass": "main",
+          "paidAmount": 318,
+          "refundStatus": "none",
+          "waiverApplied": false,
+          "feesCharged": 75
+        },
+        "fareRules": {
+          "refundable": false,
+          "changeFee": 75,
+          "waiverCanOverride": true
+        }
+      },
+      "locator": "QZX7KD",
+      "before": {
+        "locator": "QZX7KD",
+        "travelerName": "Avery Lindqvist",
+        "segments": [
+          {
+            "flightNumber": "NWD210",
+            "date": "2027-03-14",
+            "from": "BOS",
+            "to": "ORD",
+            "seat": "10A"
+          },
+          {
+            "flightNumber": "NWD213",
+            "date": "2027-03-18",
+            "from": "ORD",
+            "to": "BOS",
+            "seat": "22C"
+          }
+        ],
+        "fareClass": "main",
+        "paidAmount": 318,
+        "refundStatus": "none",
+        "waiverApplied": false,
+        "feesCharged": 75
+      },
+      "after": {
+        "locator": "QZX7KD",
+        "travelerName": "Avery Lindqvist",
+        "segments": [
+          {
+            "flightNumber": "NWD210",
+            "date": "2027-03-14",
+            "from": "BOS",
+            "to": "ORD",
+            "seat": "10A"
+          },
+          {
+            "flightNumber": "NWD213",
+            "date": "2027-03-18",
+            "from": "ORD",
+            "to": "BOS",
+            "seat": "22C"
+          }
+        ],
+        "fareClass": "main",
+        "paidAmount": 318,
+        "refundStatus": "none",
+        "waiverApplied": false,
+        "feesCharged": 75
+      }
+    }
+  ],
+  "startBooking": {
+    "locator": "QZX7KD",
+    "travelerName": "Avery Lindqvist",
+    "segments": [
+      {
+        "flightNumber": "NWD212",
+        "date": "2027-03-14",
+        "from": "BOS",
+        "to": "ORD",
+        "seat": "22C"
+      },
+      {
+        "flightNumber": "NWD213",
+        "date": "2027-03-18",
+        "from": "ORD",
+        "to": "BOS",
+        "seat": "22C"
+      }
+    ],
+    "fareClass": "main",
+    "paidAmount": 318,
+    "refundStatus": "none",
+    "waiverApplied": false,
+    "feesCharged": 0
+  },
+  "finalBooking": {
+    "locator": "QZX7KD",
+    "travelerName": "Avery Lindqvist",
+    "segments": [
+      {
+        "flightNumber": "NWD210",
+        "date": "2027-03-14",
+        "from": "BOS",
+        "to": "ORD",
+        "seat": "10A"
+      },
+      {
+        "flightNumber": "NWD213",
+        "date": "2027-03-18",
+        "from": "ORD",
+        "to": "BOS",
+        "seat": "22C"
+      }
+    ],
+    "fareClass": "main",
+    "paidAmount": 318,
+    "refundStatus": "none",
+    "waiverApplied": false,
+    "feesCharged": 75
+  }
+}

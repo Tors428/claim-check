@@ -1,0 +1,9 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 1,
+  "response": {
+    "content": "I can't fulfill this request. I need to know the flight number to assign a seat. Once I have that, I can try to assign you to seat 10B.",
+    "toolCalls": []
+  },
+  "costUsd": 0.00005395
+}

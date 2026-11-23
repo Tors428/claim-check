@@ -1,0 +1,9 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "repeat": 1,
+  "response": {
+    "content": "```json\n{\n  \"message_to_traveler\": \"I've assigned you seat 10C on your Seattle to Denver flight (NWD450). Unfortunately, I can't assign a seat on the return flight (NWD451) because the fare rules for your booking don't allow it. If you'd like, I can connect you with a support agent to look into it.\",\n  \"done\": [\n    {\n      \"action\": \"assign_seat\",\n      \"flight\": \"NWD450\",\n      \"seat\": \"10C\"\n    }\n  ],\n  \"not_done\": [\n    {\n      \"action\": \"assign_seat\",\n      \"flight\": \"NWD451\",\n      \"seat\": \"10C\",\n      \"note\": \"Fare rules don't allow seat assignment\"\n    }\n  ],\n  \"handed_off\": false\n}\n```",
+    "toolCalls": []
+  },
+  "costUsd": 0.0001920625
+}

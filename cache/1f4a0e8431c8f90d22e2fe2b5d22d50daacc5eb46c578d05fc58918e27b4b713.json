@@ -1,0 +1,15 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 2,
+  "response": {
+    "content": "I have applied the necessary waiver based on the schedule change made by Northwind Air. As a result, your booking has been fully refunded for $241.\n\n",
+    "toolCalls": [
+      {
+        "id": "call_4084894db9804d1c8e1ced8f",
+        "name": "hand_off_to_human",
+        "arguments": "{}"
+      }
+    ]
+  },
+  "costUsd": 0.000154626
+}

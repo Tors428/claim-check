@@ -1,0 +1,15 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 3,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "call_bc88ca9195f94fc4bdec2508",
+        "name": "hand_off_to_human",
+        "arguments": "{\"locator\": \"LMR9VB\", \"reason\": \"Traveler wants to change the destination of their booking from Denver (DEN) to Seattle (SEA). This requires changing the route itself, not just the flight number on the same route. My available change_flight tool only allows changing between different flight numbers on the same route (same origin/destination cities). A human agent needs to handle this route change request.\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00006505
+}

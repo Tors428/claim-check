@@ -1,0 +1,9 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 2,
+  "response": {
+    "content": "The original flight was NWD331. I need to know which evening flight you would like to change it to. Once I have that information, I can try to change your flight. If I am unable to change your flight, I will let you know.",
+    "toolCalls": []
+  },
+  "costUsd": 0.00007975
+}

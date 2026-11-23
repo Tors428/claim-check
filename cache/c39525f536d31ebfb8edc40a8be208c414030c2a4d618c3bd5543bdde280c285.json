@@ -1,0 +1,9 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 1,
+  "response": {
+    "content": "{\"message_to_traveler\": \"The refund has been processed for $241.\", \"done\": [{\"action\": \"refund\"}], \"not_done\": [], \"handed_off\": false}\n",
+    "toolCalls": []
+  },
+  "costUsd": 0.00007874
+}

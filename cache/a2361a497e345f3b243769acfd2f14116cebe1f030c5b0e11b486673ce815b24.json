@@ -1,0 +1,9 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 1,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I'm sorry, but we timed out responding to your seat assignment request. A human support agent will follow up with you.\",\n  \"done\": [{\"action\": \"seat assignment\", \"flight\": \"NWD330\", \"seat\": \"10A\"}],\n  \"not_done\": [{\"action\": \"seat assignment\", \"flight\": \"NWD330\", \"seat\": \"10A\"}],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00005552
+}

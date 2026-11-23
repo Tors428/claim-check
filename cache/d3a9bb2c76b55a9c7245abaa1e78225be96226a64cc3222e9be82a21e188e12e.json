@@ -1,0 +1,9 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 1,
+  "response": {
+    "content": "That flight is the same price and can be changed for free. I'll need to know the flight number of the 4:20pm flight to make that change for you.",
+    "toolCalls": []
+  },
+  "costUsd": 0.00006932
+}

@@ -1,0 +1,15 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 2,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "call_b08d5e3a2b8a49a89792bb25",
+        "name": "request_refund",
+        "arguments": "{\"locator\": \"PNE6QT\"}"
+      }
+    ]
+  },
+  "costUsd": 0.000055256
+}

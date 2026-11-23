@@ -1,0 +1,15 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 3,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "tool_hand_off_to_human_wWJSU01D6TERWFLYER1A",
+        "name": "hand_off_to_human",
+        "arguments": "{\"reason\":\"The booking system did not respond, so I couldn't change the flight.\",\"locator\":\"QZX7KD\"}"
+      }
+    ]
+  },
+  "costUsd": 0.0000818
+}

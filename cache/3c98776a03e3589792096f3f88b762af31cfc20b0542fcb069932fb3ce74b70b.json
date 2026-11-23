@@ -1,0 +1,15 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 1,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "call_46194827d61744e9b69fb705",
+        "name": "hand_off_to_human",
+        "arguments": "{\"reason\": \"No action needed - refund already completed successfully. The system does not require human intervention for this straightforward refund process.\"}"
+      }
+    ]
+  },
+  "costUsd": 0.000028446
+}

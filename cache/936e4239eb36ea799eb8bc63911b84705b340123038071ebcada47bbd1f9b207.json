@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 1,
+  "response": {
+    "content": "I was unable to assign seat 10B on flight NWD452 as it is currently not available. A human agent has been contacted to help you find an alternative available seat on your Seattle to Denver flight. You will receive follow-up regarding this request.\n\n{\n  \"message_to_traveler\": \"Seat 10B on flight NWD452 is not available. A human agent has been contacted to assist you with finding an alternative available seat on your Seattle to Denver flight.\",\n  \"done\": [],\n  \"not_done\": [\n    {\n      \"action\": \"assign_seat\",\n      \"flight\": \"NWD452\",\n      \"seat\": \"10B\"\n    }\n  ],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.000098646
+}

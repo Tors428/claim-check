@@ -1,0 +1,9 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "repeat": 2,
+  "response": {
+    "content": "```json\n{\n  \"message_to_traveler\": \"I'm sorry, but your fare is non-refundable and a waiver cannot override this rule. A human agent will contact you shortly to discuss other options.\",\n  \"done\": [],\n  \"not_done\": [\n    {\n      \"action\": \"refund\",\n      \"note\": \"The fare is non-refundable and a waiver cannot override this rule.\"\n    }\n  ],\n  \"handed_off\": true\n}\n```",
+    "toolCalls": []
+  },
+  "costUsd": 0.000171625
+}

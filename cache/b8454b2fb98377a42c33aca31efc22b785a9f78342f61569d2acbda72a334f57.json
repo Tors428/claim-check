@@ -1,0 +1,20 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 2,
+  "response": {
+    "content": "The fare rules indicate that your fare is non-refundable and has a change fee of $75. However, since Northwind Air changed your flight, I can apply a waiver to override these rules.\n\nI will proceed with applying the waiver and processing your refund. Please note that refunds typically take 7-10 business days to reflect in your account.\n",
+    "toolCalls": [
+      {
+        "id": "tool_apply_waiver_4Uz9LS4IPItNWljCSOVA",
+        "name": "apply_waiver",
+        "arguments": "{\"reason\":\"Northwind Air initiated a schedule change.\",\"locator\":\"QZX7KD\"}"
+      },
+      {
+        "id": "tool_request_refund_4kMh1g92dtSzPwvgOJ2T",
+        "name": "request_refund",
+        "arguments": "{\"locator\":\"QZX7KD\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00010283
+}

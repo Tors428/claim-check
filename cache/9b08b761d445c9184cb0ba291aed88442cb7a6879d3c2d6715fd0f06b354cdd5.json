@@ -1,0 +1,9 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 1,
+  "response": {
+    "content": "Can you please tell me which flight your return to Seattle is on?",
+    "toolCalls": []
+  },
+  "costUsd": 0.0000403
+}

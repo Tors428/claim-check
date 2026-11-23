@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 3,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"Unfortunately, the 4:20pm flight (NWD332) is currently sold out, so I'm unable to switch you to it. I have handed you off to a human agent who can assist with alternative options.\",\n  \"done\": [],\n  \"not_done\": [\n    {\n      \"action\": \"change_flight\",\n      \"from_flight\": \"NWD330\",\n      \"to_flight\": \"NWD332\"\n    }\n  ],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00016551
+}

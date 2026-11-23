@@ -1,0 +1,9 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 1,
+  "response": {
+    "content": "The flight was changed by Northwind Air, so I can offer you a refund. Would you like to proceed?",
+    "toolCalls": []
+  },
+  "costUsd": 0.00006363
+}

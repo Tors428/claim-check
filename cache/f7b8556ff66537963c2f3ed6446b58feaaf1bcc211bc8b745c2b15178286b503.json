@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 1,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I was unable to find any available Northwind Air flights from Boston (BOS) to Seattle (SEA) on April 2, 2027. Because no matching flights were found, I could not process your change request. I have handed this off to a human agent who can help explore alternative routes, dates, or partner airline options.\",\n  \"done\": [],\n  \"not_done\": [\n    {\n      \"action\": \"change_flight\",\n      \"note\": \"No flights available from BOS to SEA on 2027-04-02.\"\n    }\n  ],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00020958
+}

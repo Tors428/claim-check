@@ -1,0 +1,15 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 3,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "call_fddc627fab714d1687588e0e",
+        "name": "hand_off_to_human",
+        "arguments": "{\"reason\": \"Booking locator ZZK000 not found in the system. Traveler needs assistance verifying their booking or finding the correct record locator to assign seat 10B.\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00003115
+}

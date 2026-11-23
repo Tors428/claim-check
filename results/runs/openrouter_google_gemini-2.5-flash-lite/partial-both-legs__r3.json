@@ -1,0 +1,76 @@
+{
+  "status": "report",
+  "costUsd": 0,
+  "newResponses": 0,
+  "cachedResponses": 2,
+  "raw": "I can only help with flight changes if I know the flight numbers. Please provide the flight numbers for your outbound and return flights. Once I have those, I can attempt to change them for you. If I am unable to complete this request, I will hand off the conversation to a human agent.\n\n{\n  \"message_to_traveler\": \"I can only help with flight changes if I know the flight numbers. Please provide the flight numbers for your outbound and return flights. Once I have those, I can attempt to change them for you. If I am unable to complete this request, I will hand off the conversation to a human agent.\",\n  \"done\": [],\n  \"not_done\": [\n    {\"action\": \"change_flight\", \"from_flight\": \"unknown\", \"to_flight\": \"unknown\", \"note\": \"Flight numbers not provided\"}\n  ],\n  \"handed_off\": false\n}",
+  "report": {
+    "messageToTraveler": "I can only help with flight changes if I know the flight numbers. Please provide the flight numbers for your outbound and return flights. Once I have those, I can attempt to change them for you. If I am unable to complete this request, I will hand off the conversation to a human agent.",
+    "done": [],
+    "notDone": [
+      {
+        "action": "change_flight",
+        "from_flight": "UNKNOWN",
+        "to_flight": "UNKNOWN",
+        "note": "Flight numbers not provided"
+      }
+    ],
+    "handedOff": false
+  },
+  "taskId": "partial-both-legs",
+  "taskType": "mid-failure",
+  "agentId": "openrouter:google/gemini-2.5-flash-lite",
+  "agentLabel": "Gemini 2.5 Flash Lite",
+  "repeat": 3,
+  "log": [],
+  "startBooking": {
+    "locator": "QZX7KD",
+    "travelerName": "Avery Lindqvist",
+    "segments": [
+      {
+        "flightNumber": "NWD212",
+        "date": "2027-03-14",
+        "from": "BOS",
+        "to": "ORD",
+        "seat": "22C"
+      },
+      {
+        "flightNumber": "NWD213",
+        "date": "2027-03-18",
+        "from": "ORD",
+        "to": "BOS",
+        "seat": "22C"
+      }
+    ],
+    "fareClass": "main",
+    "paidAmount": 318,
+    "refundStatus": "none",
+    "waiverApplied": false,
+    "feesCharged": 0
+  },
+  "finalBooking": {
+    "locator": "QZX7KD",
+    "travelerName": "Avery Lindqvist",
+    "segments": [
+      {
+        "flightNumber": "NWD212",
+        "date": "2027-03-14",
+        "from": "BOS",
+        "to": "ORD",
+        "seat": "22C"
+      },
+      {
+        "flightNumber": "NWD213",
+        "date": "2027-03-18",
+        "from": "ORD",
+        "to": "BOS",
+        "seat": "22C"
+      }
+    ],
+    "fareClass": "main",
+    "paidAmount": 318,
+    "refundStatus": "none",
+    "waiverApplied": false,
+    "feesCharged": 0
+  }
+}

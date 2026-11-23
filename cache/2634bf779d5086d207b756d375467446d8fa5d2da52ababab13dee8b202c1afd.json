@@ -1,0 +1,15 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 3,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "call_2fd97d3c43784943a3f2c6f3",
+        "name": "hand_off_to_human",
+        "arguments": "{\"locator\": \"QZX7KD\", \"reason\": \"Outbound flight changed successfully, but return flight change from NWD213 to NWD211 failed due to an inventory system error. Human assistance needed to complete the return flight change or investigate further.\"}"
+      }
+    ]
+  },
+  "costUsd": 0.000051186
+}

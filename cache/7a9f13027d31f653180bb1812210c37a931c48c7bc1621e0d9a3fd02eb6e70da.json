@@ -1,0 +1,9 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 3,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"Sorry, but the 6:05pm flight to Chicago is sold out. You'll still have to take the 7:00pm flight.\",\n  \"done\": [],\n  \"not_done\": [{\"action\": \"change_flight\", \"from_flight\": \"NWD210\", \"to_flight\": \"NWD212\", \"note\": \"Sold out\"}],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00006646
+}

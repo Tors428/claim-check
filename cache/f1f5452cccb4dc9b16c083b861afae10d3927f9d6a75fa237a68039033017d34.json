@@ -1,0 +1,30 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 1,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "ymt0csf1d",
+        "name": "apply_waiver",
+        "arguments": "{\"locator\":\"QZX7KD\",\"reason\":\"Northwind changed the flight time, so I'm owed a waiver.\"}"
+      },
+      {
+        "id": "9w8d91shg",
+        "name": "lookup_booking",
+        "arguments": "{\"locator\":\"QZX7KD\"}"
+      },
+      {
+        "id": "1n9dgnak9",
+        "name": "lookup_booking",
+        "arguments": "{\"locator\":\"QZX7KD\"}"
+      },
+      {
+        "id": "g7hxsxgcw",
+        "name": "request_refund",
+        "arguments": "{\"locator\":\"QZX7KD\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00005445
+}

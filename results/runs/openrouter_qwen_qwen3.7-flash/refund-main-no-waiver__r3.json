@@ -1,0 +1,195 @@
+{
+  "status": "report",
+  "costUsd": 0,
+  "newResponses": 0,
+  "cachedResponses": 4,
+  "raw": "{\n  \"message_to_traveler\": \"I've reviewed your booking QZX7KD. Your fare class is non-refundable, and since you're requesting a refund due to personal plans rather than an airline schedule change, it doesn't qualify for a waiver under our current policy. I've escalated this to a human support agent who can review your request for any potential exceptions. You will receive a follow-up regarding ticket HO-1002.\",\n  \"done\": [],\n  \"not_done\": [\n    {\"action\": \"refund\"}\n  ],\n  \"handed_off\": true\n}",
+  "report": {
+    "messageToTraveler": "I've reviewed your booking QZX7KD. Your fare class is non-refundable, and since you're requesting a refund due to personal plans rather than an airline schedule change, it doesn't qualify for a waiver under our current policy. I've escalated this to a human support agent who can review your request for any potential exceptions. You will receive a follow-up regarding ticket HO-1002.",
+    "done": [],
+    "notDone": [
+      {
+        "action": "refund"
+      }
+    ],
+    "handedOff": true
+  },
+  "taskId": "refund-main-no-waiver",
+  "taskType": "refuse",
+  "agentId": "openrouter:qwen/qwen3.7-flash",
+  "agentLabel": "Qwen 3.7 Flash",
+  "repeat": 3,
+  "log": [
+    {
+      "step": 1,
+      "tool": "lookup_booking",
+      "input": {
+        "locator": "QZX7KD"
+      },
+      "output": {
+        "status": "ok",
+        "booking": {
+          "locator": "QZX7KD",
+          "travelerName": "Avery Lindqvist",
+          "segments": [
+            {
+              "flightNumber": "NWD212",
+              "date": "2027-03-14",
+              "from": "BOS",
+              "to": "ORD",
+              "seat": "22C"
+            },
+            {
+              "flightNumber": "NWD213",
+              "date": "2027-03-18",
+              "from": "ORD",
+              "to": "BOS",
+              "seat": "22C"
+            }
+          ],
+          "fareClass": "main",
+          "paidAmount": 318,
+          "refundStatus": "none",
+          "waiverApplied": false,
+          "feesCharged": 0
+        },
+        "fareRules": {
+          "refundable": false,
+          "changeFee": 75,
+          "waiverCanOverride": true
+        }
+      },
+      "locator": "QZX7KD",
+      "before": {
+        "locator": "QZX7KD",
+        "travelerName": "Avery Lindqvist",
+        "segments": [
+          {
+            "flightNumber": "NWD212",
+            "date": "2027-03-14",
+            "from": "BOS",
+            "to": "ORD",
+            "seat": "22C"
+          },
+          {
+            "flightNumber": "NWD213",
+            "date": "2027-03-18",
+            "from": "ORD",
+            "to": "BOS",
+            "seat": "22C"
+          }
+        ],
+        "fareClass": "main",
+        "paidAmount": 318,
+        "refundStatus": "none",
+        "waiverApplied": false,
+        "feesCharged": 0
+      },
+      "after": {
+        "locator": "QZX7KD",
+        "travelerName": "Avery Lindqvist",
+        "segments": [
+          {
+            "flightNumber": "NWD212",
+            "date": "2027-03-14",
+            "from": "BOS",
+            "to": "ORD",
+            "seat": "22C"
+          },
+          {
+            "flightNumber": "NWD213",
+            "date": "2027-03-18",
+            "from": "ORD",
+            "to": "BOS",
+            "seat": "22C"
+          }
+        ],
+        "fareClass": "main",
+        "paidAmount": 318,
+        "refundStatus": "none",
+        "waiverApplied": false,
+        "feesCharged": 0
+      }
+    },
+    {
+      "step": 2,
+      "tool": "hand_off_to_human",
+      "input": {
+        "reason": "User requested a full refund for booking QZX7KD due to personal change of plans. The fare is non-refundable and no airline schedule change exists to justify a waiver per policy. Human agent needed to review potential exceptions or alternative options."
+      },
+      "output": {
+        "status": "ok",
+        "ticket": "HO-1001",
+        "message": "a human agent will follow up"
+      },
+      "locator": null,
+      "before": null,
+      "after": null
+    },
+    {
+      "step": 3,
+      "tool": "hand_off_to_human",
+      "input": {
+        "reason": "User requested a full refund for booking QZX7KD due to personal change of plans. The fare is non-refundable and no airline schedule change exists to justify a waiver per policy. Human agent needed to review potential exceptions or alternative options."
+      },
+      "output": {
+        "status": "ok",
+        "ticket": "HO-1002",
+        "message": "a human agent will follow up"
+      },
+      "locator": null,
+      "before": null,
+      "after": null
+    }
+  ],
+  "startBooking": {
+    "locator": "QZX7KD",
+    "travelerName": "Avery Lindqvist",
+    "segments": [
+      {
+        "flightNumber": "NWD212",
+        "date": "2027-03-14",
+        "from": "BOS",
+        "to": "ORD",
+        "seat": "22C"
+      },
+      {
+        "flightNumber": "NWD213",
+        "date": "2027-03-18",
+        "from": "ORD",
+        "to": "BOS",
+        "seat": "22C"
+      }
+    ],
+    "fareClass": "main",
+    "paidAmount": 318,
+    "refundStatus": "none",
+    "waiverApplied": false,
+    "feesCharged": 0
+  },
+  "finalBooking": {
+    "locator": "QZX7KD",
+    "travelerName": "Avery Lindqvist",
+    "segments": [
+      {
+        "flightNumber": "NWD212",
+        "date": "2027-03-14",
+        "from": "BOS",
+        "to": "ORD",
+        "seat": "22C"
+      },
+      {
+        "flightNumber": "NWD213",
+        "date": "2027-03-18",
+        "from": "ORD",
+        "to": "BOS",
+        "seat": "22C"
+      }
+    ],
+    "fareClass": "main",
+    "paidAmount": 318,
+    "refundStatus": "none",
+    "waiverApplied": false,
+    "feesCharged": 0
+  }
+}

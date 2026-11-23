@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 2,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"Your flights have been successfully changed. Your new itinerary is:\\n- Outbound: NWD210 departing BOS at 7:10 AM on March 14\\n- Return: NWD211 departing ORD at 8:00 AM on March 18\\nA total of $150 in change fees ($75 per leg) has been charged. Automatic seat assignments of 10A have been made for both legs.\",\n  \"done\": [\n    {\"action\": \"change_flight\", \"from_flight\": \"NWD212\", \"to_flight\": \"NWD210\"},\n    {\"action\": \"change_flight\", \"from_flight\": \"NWD213\", \"to_flight\": \"NWD211\"}\n  ],\n  \"not_done\": [],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.000126326
+}

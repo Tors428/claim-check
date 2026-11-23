@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 3,
+  "response": {
+    "content": "I've successfully assigned seat 10A to your Denver flight (NWD330). Let me know if you need anything else!\n\n```json\n{\n  \"message_to_traveler\": \"Seat 10A has been assigned to your Denver flight NWD330.\",\n  \"done\": [{\"action\": \"assign_seat\", \"flight\": \"NWD330\", \"seat\": \"10A\"}],\n  \"not_done\": [],\n  \"handed_off\": false\n}\n```",
+    "toolCalls": []
+  },
+  "costUsd": 0.000034006
+}

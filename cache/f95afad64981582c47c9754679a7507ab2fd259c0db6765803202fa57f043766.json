@@ -1,0 +1,15 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 3,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "call_8fc433a4ddbb4fad9cf2e742",
+        "name": "hand_off_to_human",
+        "arguments": "{\"locator\": \"QZX7KD\", \"reason\": \"Flight change from NWD212 to NWD210 (BOS to ORD on 2027-03-14) failed due to booking system timeout. Need to retry the change or assist traveler with alternative options.\"}"
+      }
+    ]
+  },
+  "costUsd": 0.0000392
+}

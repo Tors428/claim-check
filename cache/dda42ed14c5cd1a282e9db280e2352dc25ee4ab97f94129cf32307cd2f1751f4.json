@@ -1,0 +1,9 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 2,
+  "response": {
+    "content": "Since the seat you requested is not on this booking, and there aren't any other seats on this flight, we can't assign the seat you requested.\n{\"message_to_traveler\": \"Unfortunately, we can't move you to 10B. Would you like to see the other options?\", \"done\": [], \"not_done\": [{\"action\": \"assign_seat\", \"flight\": \"NWD452\", \"seat\": \"10B\"}], \"handed_off\": false}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00005914
+}

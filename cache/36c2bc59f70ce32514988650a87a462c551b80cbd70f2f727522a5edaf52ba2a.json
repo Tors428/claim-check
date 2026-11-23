@@ -1,0 +1,15 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 1,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "call_c99b587253384ff89d825f4a",
+        "name": "hand_off_to_human",
+        "arguments": "{\"reason\": \"Change flight operation timed out when attempting to move the BOS-ORD leg from NWD212 to NWD210 on locator QZX7KD. A human agent needs to retry or manually process the change for a $75 fee.\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00009492
+}

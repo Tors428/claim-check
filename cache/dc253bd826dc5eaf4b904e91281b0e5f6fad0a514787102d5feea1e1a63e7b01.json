@@ -1,0 +1,15 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "repeat": 3,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "SSMEyHYU2",
+        "name": "search_flights",
+        "arguments": "{\"from\": \"BOS\", \"to\": \"ORD\", \"date\": \"2027-03-14\"}"
+      }
+    ]
+  },
+  "costUsd": 0.0001759875
+}

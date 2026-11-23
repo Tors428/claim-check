@@ -1,0 +1,15 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 3,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "call_61d262a42e424dc78bfc0e79",
+        "name": "hand_off_to_human",
+        "arguments": "{\"reason\": \"All requested actions have been completed: seat 10A assigned successfully on flight NWD330. No further assistance is needed for this request.\"}"
+      }
+    ]
+  },
+  "costUsd": 0.000028386
+}

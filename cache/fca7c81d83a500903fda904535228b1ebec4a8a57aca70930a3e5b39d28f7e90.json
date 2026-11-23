@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 2,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I found your booking LMR9VB. You're currently on flight NWD330 departing at 9:00am from BOS to DEN. The 4:20pm flight you requested is NWD332, but it's currently fully booked with no available seats. Since I can't complete this change due to seat availability, I've handed you off to a human agent who will follow up to help explore other options or assist further.\",\n  \"done\": [],\n  \"not_done\": [{\"action\": \"change_flight\", \"from_flight\": \"NWD330\", \"to_flight\": \"NWD332\", \"note\": \"Flight NWD332 has 0 seats available\"}],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.000060536
+}

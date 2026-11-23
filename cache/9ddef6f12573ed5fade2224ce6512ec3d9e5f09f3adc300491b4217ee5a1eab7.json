@@ -1,0 +1,9 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 3,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"Waiver applied and refund processed. You should receive your refund soon.\",\n  \"done\": [\n    {\"action\": \"refund\"},\n    {\"action\": \"waiver\"}\n  ],\n  \"not_done\": [],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00005968
+}

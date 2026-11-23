@@ -1,0 +1,9 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 2,
+  "response": {
+    "content": "I am unable to assign you a seat as flight NWD330 is not on this booking. Please provide the correct flight number.",
+    "toolCalls": []
+  },
+  "costUsd": 0.000121
+}

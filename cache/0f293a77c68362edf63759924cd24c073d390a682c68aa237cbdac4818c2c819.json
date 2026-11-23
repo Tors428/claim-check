@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 1,
+  "response": {
+    "content": "```json\n{\n  \"message_to_traveler\": \"I've moved your Boston to Chicago flight from NWD212 to NWD210 (departing at 7:10am). A change fee of $75 has been charged to your account. You've been automatically assigned seat 10A on the new flight.\",\n  \"done\": [\n    {\"action\": \"change_flight\", \"from_flight\": \"NWD212\", \"to_flight\": \"NWD210\"}\n  ],\n  \"not_done\": [],\n  \"handed_off\": false\n}\n```",
+    "toolCalls": []
+  },
+  "costUsd": 0.00010876
+}

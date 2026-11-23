@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 1,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I've applied a fare waiver due to the schedule change initiated by Northwind Air and processed a full refund of $241 to your original payment method. The refund should appear within 7-10 business days.\",\n  \"done\": [\n    {\n      \"action\": \"refund\"\n    }\n  ],\n  \"not_done\": [],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.000079106
+}

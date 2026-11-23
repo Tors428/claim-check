@@ -1,0 +1,9 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 2,
+  "response": {
+    "content": "I need more information to process your request. Please provide the current return flight number and the desired evening return flight number. This information is necessary to modify your booking. Once I have these details, I can attempt to change your flight. If there are any fare differences or change fees, I will let you know. If the change is not possible due to fare rules, I will explain that as well.\n\n{\n  \"message_to_traveler\": \"I need more information to process your request. Please provide the current return flight number and the desired evening return flight number.\",\n  \"done\": [],\n  \"not_done\": [\n    {\n      \"action\": \"change_flight\",\n      \"from_flight\": \"current return flight number\",\n      \"to_flight\": \"evening return flight number\",\n      \"note\": \"Missing current return flight number and desired evening return flight number.\"\n    }\n  ],\n  \"handed_off\": false\n}\n",
+    "toolCalls": []
+  },
+  "costUsd": 0.00012138
+}

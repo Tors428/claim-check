@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 3,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I'm sorry, but I couldn't find a booking under the locator ZZK000 in our system. This might be due to a typo or the booking being under a different name or locator. A human agent will follow up with you shortly to verify your booking details and assist with assigning seat 10B.\",\n  \"done\": [],\n  \"not_done\": [\n    {\"action\": \"assign_seat\", \"flight\": \"unknown\", \"seat\": \"10B\"}\n  ],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00004854
+}

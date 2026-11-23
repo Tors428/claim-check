@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 2,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I've reviewed your booking JDK2XS. Your fare class is 'basic,' which is non-refundable and explicitly does not allow fare waivers under any circumstances. Because you're requesting an exception to our standard policy, I am unable to process this myself and will need to hand this off to a human support agent who can review your case further.\",\n  \"done\": [],\n  \"not_done\": [\n    {\"action\": \"refund\"}\n  ],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.0001128
+}

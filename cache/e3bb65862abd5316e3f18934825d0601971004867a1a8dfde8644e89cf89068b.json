@@ -1,0 +1,15 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 3,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "call_e87dd3d52daf4671a1313d02",
+        "name": "hand_off_to_human",
+        "arguments": "{\"locator\": \"QZX7KD\", \"reason\": \"Outbound flight changed from NWD212 to NWD210 successfully ($75 fee applied), but return flight change from NWD213 to NWD211 failed due to inventory system error. Human assistance needed to complete the return leg change.\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00009783
+}

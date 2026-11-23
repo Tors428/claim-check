@@ -1,0 +1,35 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 3,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "gjd4nsrcx",
+        "name": "request_refund",
+        "arguments": "{\"locator\":\"GUF5LZ\"}"
+      },
+      {
+        "id": "wm4ps6kyy",
+        "name": "lookup_booking",
+        "arguments": "{\"locator\":\"GUF5LZ\"}"
+      },
+      {
+        "id": "7kzhb75gh",
+        "name": "lookup_booking",
+        "arguments": "{\"locator\":\"GUF5LZ\"}"
+      },
+      {
+        "id": "wy4dmjt9j",
+        "name": "lookup_booking",
+        "arguments": "{\"locator\":\"GUF5LZ\"}"
+      },
+      {
+        "id": "z6za5dmj8",
+        "name": "lookup_booking",
+        "arguments": "{\"locator\":\"GUF5LZ\"}"
+      }
+    ]
+  },
+  "costUsd": 0.0000671
+}

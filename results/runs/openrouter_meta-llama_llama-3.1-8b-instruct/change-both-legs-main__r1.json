@@ -1,0 +1,184 @@
+{
+  "status": "report",
+  "costUsd": 0,
+  "newResponses": 0,
+  "cachedResponses": 3,
+  "raw": "{\n  \"message_to_traveler\": \"We can't find the flight numbers on your booking to change them. A human agent will follow up.\",\n  \"done\": [],\n  \"not_done\": [{\"action\": \"change_flight\", \"from_flight\": \"NWD200\", \"to_flight\": \"NWD210\", \"note\": \"outbound\"} , {\"action\": \"change_flight\", \"from_flight\": \"NWD300\", \"to_flight\": \"NWD320\", \"note\": \"return\"}],\n  \"handed_off\": true\n}",
+  "report": {
+    "messageToTraveler": "We can't find the flight numbers on your booking to change them. A human agent will follow up.",
+    "done": [],
+    "notDone": [
+      {
+        "action": "change_flight",
+        "from_flight": "NWD200",
+        "to_flight": "NWD210",
+        "note": "outbound"
+      },
+      {
+        "action": "change_flight",
+        "from_flight": "NWD300",
+        "to_flight": "NWD320",
+        "note": "return"
+      }
+    ],
+    "handedOff": true
+  },
+  "taskId": "change-both-legs-main",
+  "taskType": "simple",
+  "agentId": "openrouter:meta-llama/llama-3.1-8b-instruct",
+  "agentLabel": "Llama 3.1 8B",
+  "repeat": 1,
+  "log": [
+    {
+      "step": 1,
+      "tool": "change_flight",
+      "input": {
+        "changes": [
+          {
+            "from_flight": "NWD200",
+            "to_flight": "NWD210"
+          },
+          {
+            "from_flight": "NWD300",
+            "to_flight": "NWD320"
+          }
+        ],
+        "locator": "QZX7KD"
+      },
+      "output": {
+        "status": "error",
+        "legs": [
+          {
+            "from_flight": "NWD200",
+            "to_flight": "NWD210",
+            "status": "error",
+            "message": "NWD200 is not on this booking"
+          },
+          {
+            "from_flight": "NWD300",
+            "to_flight": "NWD320",
+            "status": "error",
+            "message": "NWD300 is not on this booking"
+          }
+        ],
+        "totalFeesCharged": 0
+      },
+      "locator": "QZX7KD",
+      "before": {
+        "locator": "QZX7KD",
+        "travelerName": "Avery Lindqvist",
+        "segments": [
+          {
+            "flightNumber": "NWD212",
+            "date": "2027-03-14",
+            "from": "BOS",
+            "to": "ORD",
+            "seat": "22C"
+          },
+          {
+            "flightNumber": "NWD213",
+            "date": "2027-03-18",
+            "from": "ORD",
+            "to": "BOS",
+            "seat": "22C"
+          }
+        ],
+        "fareClass": "main",
+        "paidAmount": 318,
+        "refundStatus": "none",
+        "waiverApplied": false,
+        "feesCharged": 0
+      },
+      "after": {
+        "locator": "QZX7KD",
+        "travelerName": "Avery Lindqvist",
+        "segments": [
+          {
+            "flightNumber": "NWD212",
+            "date": "2027-03-14",
+            "from": "BOS",
+            "to": "ORD",
+            "seat": "22C"
+          },
+          {
+            "flightNumber": "NWD213",
+            "date": "2027-03-18",
+            "from": "ORD",
+            "to": "BOS",
+            "seat": "22C"
+          }
+        ],
+        "fareClass": "main",
+        "paidAmount": 318,
+        "refundStatus": "none",
+        "waiverApplied": false,
+        "feesCharged": 0
+      }
+    },
+    {
+      "step": 2,
+      "tool": "hand_off_to_human",
+      "input": {
+        "reason": "Couldn't find existing flight numbers on the booking."
+      },
+      "output": {
+        "status": "ok",
+        "ticket": "HO-1001",
+        "message": "a human agent will follow up"
+      },
+      "locator": null,
+      "before": null,
+      "after": null
+    }
+  ],
+  "startBooking": {
+    "locator": "QZX7KD",
+    "travelerName": "Avery Lindqvist",
+    "segments": [
+      {
+        "flightNumber": "NWD212",
+        "date": "2027-03-14",
+        "from": "BOS",
+        "to": "ORD",
+        "seat": "22C"
+      },
+      {
+        "flightNumber": "NWD213",
+        "date": "2027-03-18",
+        "from": "ORD",
+        "to": "BOS",
+        "seat": "22C"
+      }
+    ],
+    "fareClass": "main",
+    "paidAmount": 318,
+    "refundStatus": "none",
+    "waiverApplied": false,
+    "feesCharged": 0
+  },
+  "finalBooking": {
+    "locator": "QZX7KD",
+    "travelerName": "Avery Lindqvist",
+    "segments": [
+      {
+        "flightNumber": "NWD212",
+        "date": "2027-03-14",
+        "from": "BOS",
+        "to": "ORD",
+        "seat": "22C"
+      },
+      {
+        "flightNumber": "NWD213",
+        "date": "2027-03-18",
+        "from": "ORD",
+        "to": "BOS",
+        "seat": "22C"
+      }
+    ],
+    "fareClass": "main",
+    "paidAmount": 318,
+    "refundStatus": "none",
+    "waiverApplied": false,
+    "feesCharged": 0
+  }
+}

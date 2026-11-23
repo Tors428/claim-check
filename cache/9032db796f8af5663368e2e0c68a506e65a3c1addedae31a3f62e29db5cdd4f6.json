@@ -1,0 +1,15 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 2,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "tool_request_refund_Jddos1p33wn5BZByNxvC",
+        "name": "request_refund",
+        "arguments": "{\"locator\":\"HTW4PM\"}"
+      }
+    ]
+  },
+  "costUsd": 0.0000419
+}

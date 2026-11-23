@@ -1,0 +1,9 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 1,
+  "response": {
+    "content": "{\"message_to_traveler\": \"I apologize, but I couldn't find flight 330 on your booking. Please double-check your flight details and let me know if there's anything else I can help you with.\", \"done\": [], \"not_done\": [{\"action\": \"assign_seat\", \"flight\": \"NWD330\", \"seat\": \"10A\", \"note\": \"Flight not found on booking.\"}], \"handed_off\": false}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00008631
+}

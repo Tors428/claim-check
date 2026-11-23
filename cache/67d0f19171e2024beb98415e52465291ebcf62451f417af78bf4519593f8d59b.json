@@ -1,0 +1,15 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 3,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "fd6gxp88t",
+        "name": "assign_seat",
+        "arguments": "{\"flight\":\"NWD220\",\"locator\":\"LMR9VB\",\"seat\":\"10A\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00005279
+}

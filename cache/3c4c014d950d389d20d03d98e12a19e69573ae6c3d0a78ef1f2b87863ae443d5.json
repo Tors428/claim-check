@@ -1,0 +1,15 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 3,
+  "response": {
+    "content": "Unfortunately we can't change a non-refundable fare. The booking details also show that waivers are overridden if possible. However, the notes on your booking do not mention any schedule changes made by us, so we can't apply a waiver either.\n\nTo do the change, I'd need to hand this off to a human since we can't override the fare rules that way. \n",
+    "toolCalls": [
+      {
+        "id": "dcsy0f208",
+        "name": "hand_off_to_human",
+        "arguments": "{\"locator\":\"QZX7KD\",\"reason\":\"Need to override fare rules or manually apply a waiver to change flights.\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00008045
+}

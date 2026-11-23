@@ -1,0 +1,9 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 1,
+  "response": {
+    "content": "I am unable to assign a seat for you. It appears that flight NWD1086 is not part of your booking LMR9VB. Please double-check the flight number and try again. If you continue to have issues, I can connect you with a human agent.",
+    "toolCalls": []
+  },
+  "costUsd": 0.00006407
+}

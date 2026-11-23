@@ -1,0 +1,9 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 3,
+  "response": {
+    "content": "{\"message_to_traveler\": \"I can help with that. What are the flight numbers for the 7:10 am outbound and 8:00 am return flights you would like to change to?\", \"done\": [], \"not_done\": [], \"handed_off\": false}\n",
+    "toolCalls": []
+  },
+  "costUsd": 0.0000863
+}

@@ -1,0 +1,15 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 3,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "8bgs5wwyn",
+        "name": "hand_off_to_human",
+        "arguments": "{\"reason\":\"The fare does not allow for changes or refunds.\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00005357
+}

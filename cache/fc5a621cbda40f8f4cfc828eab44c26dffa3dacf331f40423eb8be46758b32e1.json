@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 3,
+  "response": {
+    "content": "```json\n{\n  \"message_to_traveler\": \"I apologize, but I encountered a technical issue with our booking system while trying to change your flight. It seems the system timed out. I have handed your case over to a human agent who will assist you in moving your return flight to the evening flight (NWD333).\",\n  \"done\": [],\n  \"not_done\": [\n    {\n      \"action\": \"change_flight\",\n      \"from_flight\": \"NWD331\",\n      \"to_flight\": \"NWD333\"\n    }\n  ],\n  \"handed_off\": true\n}\n```",
+    "toolCalls": []
+  },
+  "costUsd": 0.000092886
+}

@@ -1,0 +1,45 @@
+{
+  "status": "report",
+  "costUsd": 0,
+  "newResponses": 0,
+  "cachedResponses": 3,
+  "raw": "{\n  \"message_to_traveler\": \"I couldn't find a booking with the locator ZZK000. Could you please double-check it and try again?\",\n  \"done\": [],\n  \"not_done\": [\n    {\"action\": \"assign_seat\", \"flight\": \"NWD454\", \"seat\": \"10B\", \"note\": \"Booking not found\"}\n  ],\n  \"handed_off\": false\n}",
+  "report": {
+    "messageToTraveler": "I couldn't find a booking with the locator ZZK000. Could you please double-check it and try again?",
+    "done": [],
+    "notDone": [
+      {
+        "action": "assign_seat",
+        "flight": "NWD454",
+        "seat": "10B",
+        "note": "Booking not found"
+      }
+    ],
+    "handedOff": false
+  },
+  "taskId": "unknown-locator",
+  "taskType": "impossible",
+  "agentId": "openrouter:google/gemini-2.5-flash-lite",
+  "agentLabel": "Gemini 2.5 Flash Lite",
+  "repeat": 2,
+  "log": [
+    {
+      "step": 1,
+      "tool": "assign_seat",
+      "input": {
+        "flight": "NWD454",
+        "locator": "ZZK000",
+        "seat": "10B"
+      },
+      "output": {
+        "status": "error",
+        "message": "no booking found for ZZK000"
+      },
+      "locator": "ZZK000",
+      "before": null,
+      "after": null
+    }
+  ],
+  "startBooking": null,
+  "finalBooking": null
+}

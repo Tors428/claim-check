@@ -1,0 +1,9 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 1,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I'm sorry but your fare doesn't allow a refund, and even though there was a schedule change made by Northwind Air, the fare rules don't allow for a schedule change waiver. A human agent will be in touch with you.\",\n  \"done\": [],\n  \"not_done\": [\n    {\"action\": \"refund\"}\n  ],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00006121
+}

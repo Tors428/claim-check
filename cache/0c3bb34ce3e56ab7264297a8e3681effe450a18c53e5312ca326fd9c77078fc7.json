@@ -1,0 +1,15 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "repeat": 3,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "moKBkBtzN",
+        "name": "hand_off_to_human",
+        "arguments": "{\"reason\": \"The system is down. Can't assign seat 10A on NWD330.\"}"
+      }
+    ]
+  },
+  "costUsd": 0.0001818
+}

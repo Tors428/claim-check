@@ -1,0 +1,15 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 1,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "ysr3810ey",
+        "name": "change_flight",
+        "arguments": "{\"changes\":[{\"from_flight\":\"NWD200\",\"to_flight\":\"NWD210\"},{\"from_flight\":\"NWD300\",\"to_flight\":\"NWD320\"}],\"locator\":\"QZX7KD\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00004751
+}

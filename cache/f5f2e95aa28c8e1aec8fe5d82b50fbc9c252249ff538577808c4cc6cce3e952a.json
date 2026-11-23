@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 1,
+  "response": {
+    "content": "I looked up your booking LMR9VB for the Boston to Denver route on April 2, 2027. You're currently booked on flight NWD330 departing at 9:00 AM.\n\nI searched for the 4:20 PM flight (NWD332) on the same day, but it currently shows zero available seats. Unfortunately, I cannot switch you to that flight because there are no open seats remaining.\n\nYour fare class (flex) allows free changes with no change fee, so once seats become available on NWD332, you'll be able to switch without cost. Would you like me to keep an eye out for availability, or would you prefer to speak with a human agent who can help further?",
+    "toolCalls": []
+  },
+  "costUsd": 0.00006861
+}

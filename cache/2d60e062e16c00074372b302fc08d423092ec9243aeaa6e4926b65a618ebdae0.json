@@ -1,0 +1,9 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "repeat": 1,
+  "response": {
+    "content": "I'm sorry, seat 10B isn't available on your flight. Would you like to choose a different seat or see other options?",
+    "toolCalls": []
+  },
+  "costUsd": 0.0001773
+}

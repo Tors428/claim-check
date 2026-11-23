@@ -1,0 +1,15 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 3,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "tool_lookup_booking_HXJ8x5KMMBZRjwBlausq",
+        "name": "lookup_booking",
+        "arguments": "{\"locator\":\"JDK2XS\"}"
+      }
+    ]
+  },
+  "costUsd": 0.0000415
+}

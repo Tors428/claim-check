@@ -1,0 +1,9 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "repeat": 1,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I'm sorry, I couldn't find your booking. A human agent will be in touch shortly to help.\",\n  \"done\": [],\n  \"not_done\": [],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.0001690125
+}

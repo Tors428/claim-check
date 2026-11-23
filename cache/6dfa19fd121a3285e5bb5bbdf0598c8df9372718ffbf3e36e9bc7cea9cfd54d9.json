@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 3,
+  "response": {
+    "content": "Your booking LMR9VB has been refunded in full for $612. You should see this reflected on your payment method shortly.",
+    "toolCalls": []
+  },
+  "costUsd": 0.000024706
+}

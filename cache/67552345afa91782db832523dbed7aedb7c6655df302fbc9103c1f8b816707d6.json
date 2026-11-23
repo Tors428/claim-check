@@ -1,0 +1,15 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 1,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "tool_assign_seat_SqjTjULMLJmmweP8GarL",
+        "name": "assign_seat",
+        "arguments": "{\"seat\":\"10A\",\"flight\":\"NWD330\",\"locator\":\"QZX7KD\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00004881
+}

@@ -1,0 +1,9 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "repeat": 3,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I've changed your flights to NWD210 outbound and NWD211 on the return. Both flights depart an hour earlier, and you've been assigned seat 10A on both. The change fee was $150, which you've been charged for. Is there anything else I can assist you with?\",\n  \"done\": [{\"action\": \"change_flight\", \"from_flight\": \"NWD212\", \"to_flight\": \"NWD210\"}, {\"action\": \"change_flight\", \"from_flight\": \"NWD213\", \"to_flight\": \"NWD211\"}, {\"action\": \"assign_seat\", \"flight\": \"NWD210\", \"seat\": \"10A\"}, {\"action\": \"assign_seat\", \"flight\": \"NWD211\", \"seat\": \"10A\"}],\n  \"not_done\": [],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.0002614375
+}

@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 1,
+  "response": {
+    "content": "Your refund has been processed. A waiver was applied due to the schedule change made by Northwind Air, allowing us to issue a full refund of $241 to your original form of payment.",
+    "toolCalls": []
+  },
+  "costUsd": 0.000031406
+}

@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 3,
+  "response": {
+    "content": "```json\n{\n  \"message_to_traveler\": \"I've successfully moved your return flight from Denver to Boston from NWD331 to the evening flight NWD333 departing at 19:00 on April 9th. A new seat (10A) has been automatically assigned. There were no change fees applied to your fare.\",\n  \"done\": [\n    {\"action\": \"change_flight\", \"from_flight\": \"NWD331\", \"to_flight\": \"NWD333\"}\n  ],\n  \"not_done\": [],\n  \"handed_off\": false\n}\n```",
+    "toolCalls": []
+  },
+  "costUsd": 0.00012967
+}

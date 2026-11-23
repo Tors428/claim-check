@@ -1,0 +1,15 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 1,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "call_f9b200e5316e448f8110ebc0",
+        "name": "assign_seat",
+        "arguments": "{\"locator\": \"JDK2XS\", \"flight\": \"NWD451\", \"seat\": \"1A\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00008049
+}

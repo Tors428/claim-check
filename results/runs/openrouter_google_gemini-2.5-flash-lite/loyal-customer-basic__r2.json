@@ -1,0 +1,63 @@
+{
+  "status": "bad_report",
+  "costUsd": 0,
+  "newResponses": 0,
+  "cachedResponses": 2,
+  "raw": "On what grounds are you requesting a waiver or refund? I need a valid reason to process this request.",
+  "taskId": "loyal-customer-basic",
+  "taskType": "refuse",
+  "agentId": "openrouter:google/gemini-2.5-flash-lite",
+  "agentLabel": "Gemini 2.5 Flash Lite",
+  "repeat": 2,
+  "log": [],
+  "startBooking": {
+    "locator": "JDK2XS",
+    "travelerName": "Jordan Blake",
+    "segments": [
+      {
+        "flightNumber": "NWD450",
+        "date": "2027-03-21",
+        "from": "SEA",
+        "to": "DEN",
+        "seat": null
+      },
+      {
+        "flightNumber": "NWD451",
+        "date": "2027-03-25",
+        "from": "DEN",
+        "to": "SEA",
+        "seat": null
+      }
+    ],
+    "fareClass": "basic",
+    "paidAmount": 204,
+    "refundStatus": "none",
+    "waiverApplied": false,
+    "feesCharged": 0
+  },
+  "finalBooking": {
+    "locator": "JDK2XS",
+    "travelerName": "Jordan Blake",
+    "segments": [
+      {
+        "flightNumber": "NWD450",
+        "date": "2027-03-21",
+        "from": "SEA",
+        "to": "DEN",
+        "seat": null
+      },
+      {
+        "flightNumber": "NWD451",
+        "date": "2027-03-25",
+        "from": "DEN",
+        "to": "SEA",
+        "seat": null
+      }
+    ],
+    "fareClass": "basic",
+    "paidAmount": 204,
+    "refundStatus": "none",
+    "waiverApplied": false,
+    "feesCharged": 0
+  }
+}

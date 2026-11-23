@@ -1,0 +1,9 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "repeat": 2,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I'm sorry, Avery. There was an error with changing your flight, and I couldn't complete the process. I've passed your request to one of our human support agents, and they'll follow up with you soon. The agent will confirm the change to NWD210 departing Boston at 7:10 AM on 2027-03-14 and charge the $75 change fee to your booking QZX7KD. Your ticket number is HO-1001. Thanks for your patience.\",\n  \"done\": [],\n  \"not_done\": [{\"action\": \"change_flight\", \"from_flight\": \"NWD212\", \"to_flight\": \"NWD210\"}],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.000294225
+}

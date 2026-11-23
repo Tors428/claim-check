@@ -1,0 +1,9 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 2,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I'm unable to change your return flight on LMR9VB. Please ask for a human agent to assist with this request.\",\n  \"done\": [],\n  \"not_done\": [\n    {\"action\": \"change_flight\", \"from_flight\": \"NWD331\", \"to_flight\": \"NWD212\"}\n  ],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00005152
+}

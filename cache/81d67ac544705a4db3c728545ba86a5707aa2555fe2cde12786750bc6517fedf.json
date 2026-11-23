@@ -1,0 +1,9 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 1,
+  "response": {
+    "content": "The user wants to change their return flight. I have the booking information and know the current return flight is NWD331. However, I don't know the flight number of the \"evening flight\" they want to switch to. I need this information to use the `change_flight` tool. Therefore, I should hand this off to a human agent.\n\n{\n  \"message_to_traveler\": \"I can help with that. Could you please provide the flight number for the evening return flight you'd like to switch to?\",\n  \"done\": [],\n  \"not_done\": [],\n  \"handed_off\": true,\n  \"hand_off_reason\": \"Need flight number for the evening return flight to change the booking.\"\n}\n",
+    "toolCalls": []
+  },
+  "costUsd": 0.00012325
+}

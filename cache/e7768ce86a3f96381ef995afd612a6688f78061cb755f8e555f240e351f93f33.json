@@ -1,0 +1,9 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "repeat": 3,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I'm sorry, Hannah. A refund was already requested on your booking, so I can't change your seat. I've passed this request along to a human agent, and they'll email you at hannahw@northwind.com to finish assisting you. Your ticket number is HO-1001.\",\n  \"done\": [],\n  \"not_done\": [{\"action\": \"assign_seat\", \"flight\": \"NWD452\", \"seat\": \"10B\", \"note\": \"human will do this\"}],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.000209625
+}

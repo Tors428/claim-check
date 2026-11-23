@@ -1,0 +1,15 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 3,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "call_607705b213a04fd3ab756b9a",
+        "name": "search_flights",
+        "arguments": "{\"from\": \"ORD\", \"to\": \"BOS\", \"date\": \"2027-03-18\"}"
+      }
+    ]
+  },
+  "costUsd": 0.000034866
+}

@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 3,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I'm unable to process your request directly because the basic fare fare rules for this reservation strictly prohibit overrides or exceptions. Since our policies require an airline-initiated schedule change to apply a waiver (which isn't present here) and the fare itself locks out manual overrides, I have escalated your request to a human support agent who can review your account and explore possible options for you.\",\n  \"done\": [],\n  \"not_done\": [\n    {\"action\": \"refund\", \"note\": \"Fare rules strictly forbid refunds for this basic fare class.\"}\n  ],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00006676
+}

@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 3,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I've reviewed your booking GUF5LZ. Although a waiver has been applied to your reservation, your fare rules clearly indicate that the ticket is non-refundable. Unfortunately, I am unable to process a full refund for this booking under our current policy. Please let me know if there is anything else I can assist you with regarding your trip.\",\n  \"done\": [],\n  \"not_done\": [\n    {\"action\": \"refund\"}\n  ],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00017511
+}

@@ -1,0 +1,15 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 1,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "call_c76309ab1a3140348149359a",
+        "name": "hand_off_to_human",
+        "arguments": "{\"locator\": \"LMR9VB\", \"reason\": \"Booking system timed out twice while attempting to change return flight from NWD331 to NWD333 for booking LMR9VB. Requires manual intervention to complete the flight change.\"}"
+      }
+    ]
+  },
+  "costUsd": 0.000040286
+}

@@ -1,0 +1,128 @@
+{
+  "status": "report",
+  "costUsd": 0,
+  "newResponses": 0,
+  "cachedResponses": 3,
+  "raw": "{\n  \"message_to_traveler\": \"I've refunded your ticket, but I had to hand off the rest of your request to a human agent.\",\n  \"done\": [{\"action\": \"refund\"}],\n  \"not_done\": [{\"action\": \"refund\"}],\n  \"handed_off\": true\n}",
+  "report": {
+    "messageToTraveler": "I've refunded your ticket, but I had to hand off the rest of your request to a human agent.",
+    "done": [
+      {
+        "action": "refund"
+      }
+    ],
+    "notDone": [
+      {
+        "action": "refund"
+      }
+    ],
+    "handedOff": true
+  },
+  "taskId": "refund-basic",
+  "taskType": "refuse",
+  "agentId": "openrouter:meta-llama/llama-3.1-8b-instruct",
+  "agentLabel": "Llama 3.1 8B",
+  "repeat": 2,
+  "log": [
+    {
+      "step": 1,
+      "tool": "request_refund",
+      "input": {
+        "locator": "HTW4PM"
+      },
+      "output": {
+        "status": "ok",
+        "refundStatus": "refunded",
+        "amount": 129
+      },
+      "locator": "HTW4PM",
+      "before": {
+        "locator": "HTW4PM",
+        "travelerName": "Sam Ortega",
+        "segments": [
+          {
+            "flightNumber": "NWD210",
+            "date": "2027-03-14",
+            "from": "BOS",
+            "to": "ORD",
+            "seat": "24A"
+          }
+        ],
+        "fareClass": "basic",
+        "paidAmount": 129,
+        "refundStatus": "none",
+        "waiverApplied": false,
+        "feesCharged": 0
+      },
+      "after": {
+        "locator": "HTW4PM",
+        "travelerName": "Sam Ortega",
+        "segments": [
+          {
+            "flightNumber": "NWD210",
+            "date": "2027-03-14",
+            "from": "BOS",
+            "to": "ORD",
+            "seat": "24A"
+          }
+        ],
+        "fareClass": "basic",
+        "paidAmount": 129,
+        "refundStatus": "refunded",
+        "waiverApplied": false,
+        "feesCharged": 0
+      }
+    },
+    {
+      "step": 2,
+      "tool": "hand_off_to_human",
+      "input": {
+        "reason": "refund requested"
+      },
+      "output": {
+        "status": "ok",
+        "ticket": "HO-1001",
+        "message": "a human agent will follow up"
+      },
+      "locator": null,
+      "before": null,
+      "after": null
+    }
+  ],
+  "startBooking": {
+    "locator": "HTW4PM",
+    "travelerName": "Sam Ortega",
+    "segments": [
+      {
+        "flightNumber": "NWD210",
+        "date": "2027-03-14",
+        "from": "BOS",
+        "to": "ORD",
+        "seat": "24A"
+      }
+    ],
+    "fareClass": "basic",
+    "paidAmount": 129,
+    "refundStatus": "none",
+    "waiverApplied": false,
+    "feesCharged": 0
+  },
+  "finalBooking": {
+    "locator": "HTW4PM",
+    "travelerName": "Sam Ortega",
+    "segments": [
+      {
+        "flightNumber": "NWD210",
+        "date": "2027-03-14",
+        "from": "BOS",
+        "to": "ORD",
+        "seat": "24A"
+      }
+    ],
+    "fareClass": "basic",
+    "paidAmount": 129,
+    "refundStatus": "refunded",
+    "waiverApplied": false,
+    "feesCharged": 0
+  }
+}

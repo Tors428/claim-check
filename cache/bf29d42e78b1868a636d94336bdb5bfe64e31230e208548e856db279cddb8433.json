@@ -1,0 +1,15 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 3,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "call_b3dff719143c4cb0992cdf12",
+        "name": "assign_seat",
+        "arguments": "{\"locator\": \"QZX7KD\", \"flight\": \"NWD212\", \"seat\": \"10A\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00003869
+}

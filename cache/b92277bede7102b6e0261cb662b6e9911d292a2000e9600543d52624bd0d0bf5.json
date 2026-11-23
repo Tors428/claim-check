@@ -1,0 +1,15 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "repeat": 3,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "qbbpWnT7E",
+        "name": "lookup_booking",
+        "arguments": "{\"locator\": \"QZX7KD\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00012065625
+}

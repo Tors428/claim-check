@@ -1,0 +1,76 @@
+{
+  "status": "report",
+  "costUsd": 0,
+  "newResponses": 0,
+  "cachedResponses": 2,
+  "raw": "I need more information to process your request. Please provide the current return flight number and the desired evening return flight number. This information is necessary to modify your booking. Once I have these details, I can attempt to change your flight. If there are any fare differences or change fees, I will let you know. If the change is not possible due to fare rules, I will explain that as well.\n\n{\n  \"message_to_traveler\": \"I need more information to process your request. Please provide the current return flight number and the desired evening return flight number.\",\n  \"done\": [],\n  \"not_done\": [\n    {\n      \"action\": \"change_flight\",\n      \"from_flight\": \"current return flight number\",\n      \"to_flight\": \"evening return flight number\",\n      \"note\": \"Missing current return flight number and desired evening return flight number.\"\n    }\n  ],\n  \"handed_off\": false\n}\n",
+  "report": {
+    "messageToTraveler": "I need more information to process your request. Please provide the current return flight number and the desired evening return flight number.",
+    "done": [],
+    "notDone": [
+      {
+        "action": "change_flight",
+        "from_flight": "CURRENTRETURNFLIGHTNUMBER",
+        "to_flight": "EVENINGRETURNFLIGHTNUMBER",
+        "note": "Missing current return flight number and desired evening return flight number."
+      }
+    ],
+    "handedOff": false
+  },
+  "taskId": "change-return-flex",
+  "taskType": "simple",
+  "agentId": "openrouter:google/gemini-2.5-flash-lite",
+  "agentLabel": "Gemini 2.5 Flash Lite",
+  "repeat": 2,
+  "log": [],
+  "startBooking": {
+    "locator": "LMR9VB",
+    "travelerName": "Priya Nandakumar",
+    "segments": [
+      {
+        "flightNumber": "NWD330",
+        "date": "2027-04-02",
+        "from": "BOS",
+        "to": "DEN",
+        "seat": "21F"
+      },
+      {
+        "flightNumber": "NWD331",
+        "date": "2027-04-09",
+        "from": "DEN",
+        "to": "BOS",
+        "seat": "21F"
+      }
+    ],
+    "fareClass": "flex",
+    "paidAmount": 612,
+    "refundStatus": "none",
+    "waiverApplied": false,
+    "feesCharged": 0
+  },
+  "finalBooking": {
+    "locator": "LMR9VB",
+    "travelerName": "Priya Nandakumar",
+    "segments": [
+      {
+        "flightNumber": "NWD330",
+        "date": "2027-04-02",
+        "from": "BOS",
+        "to": "DEN",
+        "seat": "21F"
+      },
+      {
+        "flightNumber": "NWD331",
+        "date": "2027-04-09",
+        "from": "DEN",
+        "to": "BOS",
+        "seat": "21F"
+      }
+    ],
+    "fareClass": "flex",
+    "paidAmount": 612,
+    "refundStatus": "none",
+    "waiverApplied": false,
+    "feesCharged": 0
+  }
+}

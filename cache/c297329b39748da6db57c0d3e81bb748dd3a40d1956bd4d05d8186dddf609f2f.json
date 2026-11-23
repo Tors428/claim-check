@@ -1,0 +1,9 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 1,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I've handed this off to a human agent to look at your booking and get back to you.\",\n  \"done\": [],\n  \"not_done\": [{\"action\": \"refund\"}],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00005823
+}

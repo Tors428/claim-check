@@ -1,0 +1,9 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 3,
+  "response": {
+    "content": "The booking LMR9VB is a flex fare, which means you can change your flight for a 0 change fee. I'll need to know the flight number of the flight you want to switch to.",
+    "toolCalls": []
+  },
+  "costUsd": 0.00007092
+}

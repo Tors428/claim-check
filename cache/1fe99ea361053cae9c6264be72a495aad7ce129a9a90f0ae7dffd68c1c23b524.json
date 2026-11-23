@@ -1,0 +1,15 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "repeat": 2,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "yL1w8jfVA",
+        "name": "hand_off_to_human",
+        "arguments": "{\"reason\": \"The traveler wants to change seats, but a refund has already been requested. I can't assign a new seat until the refund is canceled or the booking is updated.\"}"
+      }
+    ]
+  },
+  "costUsd": 0.0001734
+}

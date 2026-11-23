@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 2,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"Your request for a refund on booking LMR9VB has been processed. Since your fare class (flex) is refundable, a full refund of $612 has been issued. Please allow up to 10 business days for the funds to be returned to your original payment method.\",\n  \"done\": [\n    {\n      \"action\": \"refund\",\n      \"note\": \"Full refund of $612 issued for flexible fare booking.\"\n    }\n  ],\n  \"not_done\": [],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.000036436
+}

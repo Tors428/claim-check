@@ -1,0 +1,15 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 1,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "call_2f638a0729d948e696c582a9",
+        "name": "hand_off_to_human",
+        "arguments": "{\"reason\": \"Seat assignment for return flight NWD331 to seat 10A was not requested but may be needed; traveler only asked for outbound window seat, so no further action required. Booking confirmed with seat 10A on NWD330.\\\"\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00003076
+}

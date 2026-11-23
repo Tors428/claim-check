@@ -1,0 +1,9 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "repeat": 2,
+  "response": {
+    "content": "I'm sorry, Priya. There are no flights available from Boston to Seattle on the dates close to your trip. Would you like to change your destination to another city or choose different dates?",
+    "toolCalls": []
+  },
+  "costUsd": 0.0001990875
+}

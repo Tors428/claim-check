@@ -1,0 +1,9 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 2,
+  "response": {
+    "content": "{ \"message_to_traveler\": \"I couldn't assign you a seat because NWD330 isn't on your booking. Here are the flights on your booking: NWD450 and NWD451. You can try to assign a seat on one of those with the same tool.\", \"done\": [], \"not_done\": [{\"action\": \"assign_seat\", \"flight\": null, \"seat\": \"10C\"}], \"handed_off\": false }",
+    "toolCalls": []
+  },
+  "costUsd": 0.00006044
+}

@@ -1,0 +1,15 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 2,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "call_b7d0005d11c54052982e71b5",
+        "name": "hand_off_to_human",
+        "arguments": "{\"locator\": \"LMR9VB\", \"reason\": \"Booking system timed out while requesting refund for LMR9VB. The fare is flexible and refundable per rules, but the automated process failed. A human agent needs to retry or troubleshoot.\"}"
+      }
+    ]
+  },
+  "costUsd": 0.000059676
+}

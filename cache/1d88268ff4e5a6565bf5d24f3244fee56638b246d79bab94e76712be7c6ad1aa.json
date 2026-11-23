@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 3,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"Seat 10A is currently unavailable on your Boston to Chicago flight (NWD212). A human agent will follow up shortly to help you select an alternative available seat.\",\n  \"done\": [],\n  \"not_done\": [\n    {\"action\": \"assign_seat\", \"flight\": \"NWD212\", \"seat\": \"10A\"}\n  ],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.000193316
+}

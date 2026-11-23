@@ -1,0 +1,20 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "repeat": 1,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "GZ86tDWxh",
+        "name": "search_flights",
+        "arguments": "{\"from\": \"BOS\", \"to\": \"ORD\", \"date\": \"2027-03-14\"}"
+      },
+      {
+        "id": "YrC4PqUDS",
+        "name": "search_flights",
+        "arguments": "{\"from\": \"ORD\", \"to\": \"BOS\", \"date\": \"2027-03-18\"}"
+      }
+    ]
+  },
+  "costUsd": 0.0001870875
+}

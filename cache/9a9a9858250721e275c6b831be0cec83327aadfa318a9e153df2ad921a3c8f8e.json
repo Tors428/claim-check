@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 1,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I understand you'd like a waiver and refund for your booking JDK2XS. However, your fare rules indicate the ticket is non-refundable and waivers cannot be applied to this fare class per our policy. Since this requires an exception review, I’ve handed your request to a human agent who will follow up with you shortly.\",\n  \"done\": [],\n  \"not_done\": [\n    {\"action\": \"waiver\", \"note\": \"Fare does not allow waivers\"}\n  ],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00003697
+}

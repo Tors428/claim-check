@@ -1,0 +1,20 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 3,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "vvyq8pvxp",
+        "name": "lookup_booking",
+        "arguments": "{\"locator\":\"HTW4PM\"}"
+      },
+      {
+        "id": "33ggkbfzw",
+        "name": "request_refund",
+        "arguments": "{\"locator\":\"HTW4PM\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00007414
+}

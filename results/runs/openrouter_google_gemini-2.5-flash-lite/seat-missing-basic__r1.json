@@ -1,0 +1,141 @@
+{
+  "status": "report",
+  "costUsd": 0,
+  "newResponses": 0,
+  "cachedResponses": 3,
+  "raw": "{\"message_to_traveler\": \"I am sorry, but it seems that the flight you provided for your Seattle to Denver trip is not on the booking. Could you please provide the correct flight number?\", \"done\": [], \"not_done\": [{\"action\": \"assign_seat\", \"flight\": \"SEATTLE-DENVER\", \"seat\": \"10C\", \"note\": \"Flight SEATTLE-DENVER is not on the booking.\"}]}\n",
+  "report": {
+    "messageToTraveler": "I am sorry, but it seems that the flight you provided for your Seattle to Denver trip is not on the booking. Could you please provide the correct flight number?",
+    "done": [],
+    "notDone": [
+      {
+        "action": "assign_seat",
+        "flight": "SEATTLE-DENVER",
+        "seat": "10C",
+        "note": "Flight SEATTLE-DENVER is not on the booking."
+      }
+    ],
+    "handedOff": false
+  },
+  "taskId": "seat-missing-basic",
+  "taskType": "simple",
+  "agentId": "openrouter:google/gemini-2.5-flash-lite",
+  "agentLabel": "Gemini 2.5 Flash Lite",
+  "repeat": 1,
+  "log": [
+    {
+      "step": 1,
+      "tool": "assign_seat",
+      "input": {
+        "flight": "SEATTLE-DENVER",
+        "seat": "10C",
+        "locator": "JDK2XS"
+      },
+      "output": {
+        "status": "error",
+        "message": "SEATTLE-DENVER is not on this booking"
+      },
+      "locator": "JDK2XS",
+      "before": {
+        "locator": "JDK2XS",
+        "travelerName": "Jordan Blake",
+        "segments": [
+          {
+            "flightNumber": "NWD450",
+            "date": "2027-03-21",
+            "from": "SEA",
+            "to": "DEN",
+            "seat": null
+          },
+          {
+            "flightNumber": "NWD451",
+            "date": "2027-03-25",
+            "from": "DEN",
+            "to": "SEA",
+            "seat": null
+          }
+        ],
+        "fareClass": "basic",
+        "paidAmount": 204,
+        "refundStatus": "none",
+        "waiverApplied": false,
+        "feesCharged": 0
+      },
+      "after": {
+        "locator": "JDK2XS",
+        "travelerName": "Jordan Blake",
+        "segments": [
+          {
+            "flightNumber": "NWD450",
+            "date": "2027-03-21",
+            "from": "SEA",
+            "to": "DEN",
+            "seat": null
+          },
+          {
+            "flightNumber": "NWD451",
+            "date": "2027-03-25",
+            "from": "DEN",
+            "to": "SEA",
+            "seat": null
+          }
+        ],
+        "fareClass": "basic",
+        "paidAmount": 204,
+        "refundStatus": "none",
+        "waiverApplied": false,
+        "feesCharged": 0
+      }
+    }
+  ],
+  "startBooking": {
+    "locator": "JDK2XS",
+    "travelerName": "Jordan Blake",
+    "segments": [
+      {
+        "flightNumber": "NWD450",
+        "date": "2027-03-21",
+        "from": "SEA",
+        "to": "DEN",
+        "seat": null
+      },
+      {
+        "flightNumber": "NWD451",
+        "date": "2027-03-25",
+        "from": "DEN",
+        "to": "SEA",
+        "seat": null
+      }
+    ],
+    "fareClass": "basic",
+    "paidAmount": 204,
+    "refundStatus": "none",
+    "waiverApplied": false,
+    "feesCharged": 0
+  },
+  "finalBooking": {
+    "locator": "JDK2XS",
+    "travelerName": "Jordan Blake",
+    "segments": [
+      {
+        "flightNumber": "NWD450",
+        "date": "2027-03-21",
+        "from": "SEA",
+        "to": "DEN",
+        "seat": null
+      },
+      {
+        "flightNumber": "NWD451",
+        "date": "2027-03-25",
+        "from": "DEN",
+        "to": "SEA",
+        "seat": null
+      }
+    ],
+    "fareClass": "basic",
+    "paidAmount": 204,
+    "refundStatus": "none",
+    "waiverApplied": false,
+    "feesCharged": 0
+  }
+}

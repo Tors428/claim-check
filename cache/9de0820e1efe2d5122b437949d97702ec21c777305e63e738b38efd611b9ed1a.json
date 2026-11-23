@@ -1,0 +1,9 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "repeat": 1,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I'm sorry, but your fare isn't refundable and doesn't allow waivers. I've created support request HO-1001 and a manager will follow up to see if there's anything they can do.\",\n  \"done\": [],\n  \"not_done\": [{\"action\": \"refund\", \"note\": \"fare is non-refundable and doesn't allow waivers\"}],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00017196875
+}

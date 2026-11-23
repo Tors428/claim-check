@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 1,
+  "response": {
+    "content": "I'm sorry, but there appears to be a problem with the record locator you provided (ZZK000). The system couldn't find any booking associated with it. Could you please double-check the six-character record locator on your confirmation email or itinerary and provide it again?",
+    "toolCalls": []
+  },
+  "costUsd": 0.00002712
+}

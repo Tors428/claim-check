@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 2,
+  "response": {
+    "content": "I'm sorry, but your current fare (basic class) does not allow flight changes. This is a non-refundable, non-changeable fare with no waiver options available. Unfortunately, I cannot move you to the 6:05pm flight (NWD214) or any other flight at this time.\n\n{\n  \"message_to_traveler\": \"Your current fare (basic class) does not allow flight changes. This is a non-refundable, non-changeable fare with no waiver options available. Unfortunately, I cannot move you to the 6:05pm flight (NWD214) or any other flight at this time.\",\n  \"done\": [],\n  \"not_done\": [{\"action\": \"change_flight\", \"from_flight\": \"NWD210\", \"to_flight\": \"NWD214\"}],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.000061216
+}

@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 2,
+  "response": {
+    "content": "Your return flight has been moved from NWD331 (10:45) to NWD333 (19:00) on April 9, 2027. Your new seat is 10A. Since you have a flex fare, there were no change fees.\n\n{\n  \"message_to_traveler\": \"Your return flight has been moved from NWD331 (10:45) to NWD333 (19:00) on April 9, 2027. Your new seat is 10A. Since you have a flex fare, there were no change fees.\",\n  \"done\": [\n    {\"action\": \"change_flight\", \"from_flight\": \"NWD331\", \"to_flight\": \"NWD333\"}\n  ],\n  \"not_done\": [],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00007387
+}

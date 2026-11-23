@@ -1,0 +1,9 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 2,
+  "response": {
+    "content": "{\"message_to_traveler\": \"I have processed a full refund for your booking.\", \"done\": [{\"action\": \"refund\"}], \"not_done\": [], \"handed_off\": false}",
+    "toolCalls": []
+  },
+  "costUsd": 0.0000783
+}

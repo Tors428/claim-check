@@ -1,0 +1,15 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 2,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "hxrv41dw3",
+        "name": "hand_off_to_human",
+        "arguments": "{\"locator\":\"LMR9VB\",\"reason\":\"timeout trying to assign seat, need human to finish this request\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00007975
+}

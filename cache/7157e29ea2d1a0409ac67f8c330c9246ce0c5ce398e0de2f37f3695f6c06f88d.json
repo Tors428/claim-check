@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 1,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I have moved your return flight from Denver to the evening option, NWD333, departing at 19:00 on April 9th. You have been automatically assigned seat 10A. There is no charge for this change.\",\n  \"done\": [\n    {\n      \"action\": \"change_flight\",\n      \"from_flight\": \"NWD331\",\n      \"to_flight\": \"NWD333\"\n    }\n  ],\n  \"not_done\": [],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00015126
+}

@@ -1,0 +1,15 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 1,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "tool_hand_off_to_human_ECzeLIIgh2E5XgdhwY1q",
+        "name": "hand_off_to_human",
+        "arguments": "{\"reason\":\"Customer is asking to waive fare rules and refund a booking without providing a valid reason that aligns with the policy. I cannot fulfill this request directly.\",\"locator\":\"JDK2XS\"}"
+      }
+    ]
+  },
+  "costUsd": 0.0000623
+}

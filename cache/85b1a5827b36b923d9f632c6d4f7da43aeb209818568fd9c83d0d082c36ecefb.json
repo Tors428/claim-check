@@ -1,0 +1,9 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 3,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"We changed your flights as requested. However, we couldn't change the return flight to the 8:00am flight as there is no such flight. We're handing off this case to a human support agent.\",\n  \"done\": [\n    {\"action\": \"change_flight\", \"from_flight\": \"NWD212\", \"to_flight\": \"NWD210\"},\n    {\"action\": \"change_flight\", \"from_flight\": \"NWD213\", \"to_flight\": \"NWD209\", \"note\": \"failed to change\"}\n  ],\n  \"not_done\": [\n    {\"action\": \"change_flight\", \"from_flight\": \"NWD213\", \"to_flight\": \"NWD209\"},\n    {\"action\": \"assign_seat\", \"flight\": \"NWD209\", \"seat\": \"10A\", \"note\": \"flight not updated\"}\n  ],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00006802
+}

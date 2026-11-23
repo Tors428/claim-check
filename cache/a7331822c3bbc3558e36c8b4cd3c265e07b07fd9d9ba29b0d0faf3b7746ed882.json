@@ -1,0 +1,15 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 3,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "call_0399a643527d40a7a2680cee",
+        "name": "hand_off_to_human",
+        "arguments": "{\"reason\": \"No further action needed - request completed successfully.\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00002816
+}

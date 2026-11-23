@@ -1,0 +1,15 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 1,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "58y2rsm88",
+        "name": "assign_seat",
+        "arguments": "{\"flight\":\"NWD510\",\"locator\":\"JDK2XS\",\"seat\":\"open seat on NWD510\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00005686
+}

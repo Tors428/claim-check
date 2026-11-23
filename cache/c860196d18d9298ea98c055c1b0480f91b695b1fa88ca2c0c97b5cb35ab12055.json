@@ -1,0 +1,20 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 1,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "j9hps9t5s",
+        "name": "change_flight",
+        "arguments": "{\"changes\":[{\"from_flight\":\"NWD210\",\"to_flight\":\"NWD212\"}],\"locator\":\"LMR9VB\"}"
+      },
+      {
+        "id": "q0q43h0ee",
+        "name": "lookup_booking",
+        "arguments": "{\"locator\":\"LMR9VB\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00005163
+}

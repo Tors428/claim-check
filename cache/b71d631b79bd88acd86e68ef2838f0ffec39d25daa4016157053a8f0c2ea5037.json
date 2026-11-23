@@ -1,0 +1,9 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 2,
+  "response": {
+    "content": "{\"message_to_traveler\": \"I have processed your refund. You should see the amount of $163 back in your account within 7-10 business days.\", \"done\": [{\"action\": \"refund\", \"note\": \"Waiver was applied to override non-refundable fare rules.\"}], \"not_done\": [], \"handed_off\": false}\n",
+    "toolCalls": []
+  },
+  "costUsd": 0.0001013
+}

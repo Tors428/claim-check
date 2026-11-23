@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 2,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"Your seat 10C has been successfully assigned on your Seattle to Denver flight (NWD450). No further assistance is required for this request.\",\n  \"done\": [{\"action\": \"assign_seat\", \"flight\": \"NWD450\", \"seat\": \"10C\"}],\n  \"not_done\": [],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.000089066
+}

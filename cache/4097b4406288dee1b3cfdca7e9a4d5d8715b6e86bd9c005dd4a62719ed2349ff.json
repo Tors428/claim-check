@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 1,
+  "response": {
+    "content": "I can see that your refund has been marked as \"requested\" for booking WBA8NJ. However, according to the fare rules for your ticket, this fare class is **non-refundable**. \n\nWhile my system allows for a waiver to be applied in certain situations (such as an airline-initiated schedule change), I can only process it if the fare rules permit it. Your fare does allow overrides via waiver (`waiverCanOverride: true`), but currently no waiver is applied to your booking.\n\nWithout a valid waiver from Northwind Air (for example, due to a schedule change we made), I'm unable to force the refund through for a non-refundable fare. \n\nWould you like me to connect you with a human agent who may have additional options or authority regarding your refund request?",
+    "toolCalls": []
+  },
+  "costUsd": 0.00006521
+}

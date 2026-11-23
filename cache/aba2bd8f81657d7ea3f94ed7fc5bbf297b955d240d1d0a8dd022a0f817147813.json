@@ -1,0 +1,15 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 2,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "call_c0726e0c2dd6406c8904eca8",
+        "name": "hand_off_to_human",
+        "arguments": "{\"locator\": \"QZX7KD\", \"reason\": \"Booking lacks system-confirmed notes of a Northwind-initiated schedule change required to apply a waiver per policy. Needs agent verification.\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00019913
+}

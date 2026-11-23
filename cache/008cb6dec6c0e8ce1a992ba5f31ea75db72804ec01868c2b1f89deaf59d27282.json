@@ -1,0 +1,9 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "repeat": 3,
+  "response": {
+    "content": "I'm sorry, but seat 10A is not available on your current flight, NWD212. However, I can find other options for you. There are other flights available on the same day. NWD210 departing at 07:10 and NWD214 departing at 18:05 both have seat 10A available. Would you like to change your flight to one of these options?",
+    "toolCalls": []
+  },
+  "costUsd": 0.0002321625
+}

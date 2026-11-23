@@ -1,0 +1,9 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "repeat": 3,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I'm sorry, but the 4:20 PM flight (NWD332) is sold out. The 9:00 AM flight (NWD330) is available with seats 10A, 10B, 10C, and 10D open. Would you like to switch to this flight instead?\",\n  \"done\": [],\n  \"not_done\": [{\"action\": \"change_flight\", \"from_flight\": \"NWD330\", \"to_flight\": \"NWD332\", \"note\": \"flight sold out\"}],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.000279675
+}

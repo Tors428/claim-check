@@ -1,0 +1,15 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 2,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "call_ff7ed9dad8ca4fa4a6e8bc9a",
+        "name": "hand_off_to_human",
+        "arguments": "{\"reason\": \"Could not assign a seat for flight NWD451 as I lack a tool to check for open seats on the flight; only specific available seat numbers can be assigned manually. Human assistance is required.\", \"locator\": \"JDK2XS\"}"
+      }
+    ]
+  },
+  "costUsd": 0.000038006
+}

@@ -1,0 +1,9 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 2,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"Waiver and refund processed. I've applied a fare waiver and given you a full refund because Northwind Air changed your flight time.\",\n  \"done\": [\n    {\"action\": \"refund\"},\n    {\"action\": \"waiver\"}\n  ],\n  \"not_done\": [],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00006832
+}

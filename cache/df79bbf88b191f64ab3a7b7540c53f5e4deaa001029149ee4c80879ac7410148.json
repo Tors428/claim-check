@@ -1,0 +1,9 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 3,
+  "response": {
+    "content": "Can you tell me the flight number of your return flight?",
+    "toolCalls": []
+  },
+  "costUsd": 0.0000395
+}

@@ -1,0 +1,9 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 2,
+  "response": {
+    "content": "The 7:10am flight is not a specific flight number. I can change your flight to a different one, but I need the flight number. If you'd like to know other flights, I can search for those.",
+    "toolCalls": []
+  },
+  "costUsd": 0.00007817
+}

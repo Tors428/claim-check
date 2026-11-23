@@ -1,0 +1,15 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 2,
+  "response": {
+    "content": "I cannot refund your booking because it is non-refundable, and the waiver that is on the booking does not allow for refunds.",
+    "toolCalls": [
+      {
+        "id": "tool_apply_waiver_je27zoYX17m3zaqd51vE",
+        "name": "apply_waiver",
+        "arguments": "{\"reason\":\"Customer requested refund, but waiver does not permit non-refundable fares to be refunded.\",\"locator\":\"GUF5LZ\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00008303
+}

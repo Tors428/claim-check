@@ -1,0 +1,15 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 3,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "call_f6986aafcd324a56b513b902",
+        "name": "hand_off_to_human",
+        "arguments": "{\"reason\": \"Booking system timed out during refund request for LMR9VB. Requires manual completion of cancellation and refund process.\"}"
+      }
+    ]
+  },
+  "costUsd": 0.000027546
+}

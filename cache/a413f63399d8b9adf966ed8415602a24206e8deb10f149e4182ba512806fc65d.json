@@ -1,0 +1,9 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 2,
+  "response": {
+    "content": "I am unable to move your flight to the 7:10am. It appears that flight number is not available. I can change your flight to NWD210, would you like to do that?",
+    "toolCalls": []
+  },
+  "costUsd": 0.00008492
+}

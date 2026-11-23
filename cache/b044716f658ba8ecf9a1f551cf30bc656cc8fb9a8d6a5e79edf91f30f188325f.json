@@ -1,0 +1,15 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "repeat": 2,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "4lzBfD3sF",
+        "name": "assign_seat",
+        "arguments": "{\"locator\": \"LMR9VB\", \"flight\": \"NWD330\", \"seat\": \"10A\"}"
+      }
+    ]
+  },
+  "costUsd": 0.000174225
+}

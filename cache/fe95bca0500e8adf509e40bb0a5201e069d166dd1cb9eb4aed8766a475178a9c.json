@@ -1,0 +1,15 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 2,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "call_1791cdfdd1a1400ca73460c7",
+        "name": "hand_off_to_human",
+        "arguments": "{\"locator\": \"QZX7KD\", \"reason\": \"The booking system timed out while attempting to change flight NWD212 to NWD210 for the 7:10am departure. The user's request to change their Boston to Chicago flight could not be completed due to a technical timeout error. A human agent needs to retry the flight change or assist further.\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00004518
+}

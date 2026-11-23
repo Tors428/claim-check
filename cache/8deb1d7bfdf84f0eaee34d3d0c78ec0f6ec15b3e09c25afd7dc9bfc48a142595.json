@@ -1,0 +1,9 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 1,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"We can't find the flight numbers on your booking to change them. A human agent will follow up.\",\n  \"done\": [],\n  \"not_done\": [{\"action\": \"change_flight\", \"from_flight\": \"NWD200\", \"to_flight\": \"NWD210\", \"note\": \"outbound\"} , {\"action\": \"change_flight\", \"from_flight\": \"NWD300\", \"to_flight\": \"NWD320\", \"note\": \"return\"}],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.0000615
+}

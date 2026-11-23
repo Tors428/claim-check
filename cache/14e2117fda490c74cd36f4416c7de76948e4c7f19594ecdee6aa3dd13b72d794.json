@@ -1,0 +1,9 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 1,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"Unfortunately, we cannot assign a seat to flight NWD452 as it is not on your booking. We also cannot assign a seat to flight NWD451 because it is full.\",\n  \"done\": [],\n  \"not_done\": [\n    {\"action\": \"assign seat\", \"flight\": \"NWD510\", \"seat\": \"open seat on NWD510\", \"note\": \"Booking does not have this flight.\"}\n  ],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00007501
+}

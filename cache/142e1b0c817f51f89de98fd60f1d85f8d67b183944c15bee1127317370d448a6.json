@@ -1,0 +1,15 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 2,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "call_f38c6f1924f94cf4aabd9c2f",
+        "name": "hand_off_to_human",
+        "arguments": "{\"locator\": \"JDK2XS\", \"reason\": \"The customer requested any seat on flight NWD451 (back to Seattle). The automated tool 'assign_seat' requires a specific seat number that is known to be open, but I do not have a function to check the list of currently open/available seats on the flight. Therefore, I could not complete the request automatically.\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00004472
+}

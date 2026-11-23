@@ -1,0 +1,15 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 2,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "call_be99d3d34dba4cc8a7c5ff5a",
+        "name": "hand_off_to_human",
+        "arguments": "{\"reason\": \"Seat 10A is not available on flight NWD212. The traveler may need assistance finding an alternative seat or further options.\", \"locator\": \"QZX7KD\"}"
+      }
+    ]
+  },
+  "costUsd": 0.000039896
+}

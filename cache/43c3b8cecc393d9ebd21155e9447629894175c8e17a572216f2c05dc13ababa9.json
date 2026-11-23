@@ -1,0 +1,9 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 1,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I'm sorry we can't assist with flight changes at this time. We've handed off your request to our human support team.\",\n  \"done\": [],\n  \"not_done\": [\n    {\"action\": \"change_flight\", \"from_flight\": \"NWD100\", \"to_flight\": \"NWD110\", \"note\": \"outbound to 7:10am\"}, \n    {\"action\": \"change_flight\", \"from_flight\": \"NWD200\", \"to_flight\": \"NWD210\", \"note\": \"return to 8:00am\"}\n  ],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00007583
+}

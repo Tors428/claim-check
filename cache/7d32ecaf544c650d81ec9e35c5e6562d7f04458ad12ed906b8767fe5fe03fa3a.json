@@ -1,0 +1,9 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "repeat": 2,
+  "response": {
+    "content": "I'm sorry, but the 4:20 PM flight is sold out. Would you like to change to the 9:00 AM flight instead?",
+    "toolCalls": []
+  },
+  "costUsd": 0.000240825
+}

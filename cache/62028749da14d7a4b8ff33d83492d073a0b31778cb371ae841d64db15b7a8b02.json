@@ -1,0 +1,9 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "repeat": 2,
+  "response": {
+    "content": "The outbound flight was changed, but there was an error changing the return flight. I'll need to hand this off to a human agent to finish the request.\n\n```json\n{\n  \"message_to_traveler\": \"I've changed your outbound flight to NWD210, but there was an error changing your return flight. I'll need to hand this off to a human agent to finish the request.\",\n  \"done\": [{\"action\": \"change_flight\", \"from_flight\": \"NWD212\", \"to_flight\": \"NWD210\"}],\n  \"not_done\": [{\"action\": \"change_flight\", \"from_flight\": \"NWD213\", \"to_flight\": \"NWD211\", \"note\": \"inventory system error\"}],\n  \"handed_off\": true\n}\n```",
+    "toolCalls": []
+  },
+  "costUsd": 0.0003008625
+}

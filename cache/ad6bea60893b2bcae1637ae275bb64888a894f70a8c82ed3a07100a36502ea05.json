@@ -1,0 +1,9 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 2,
+  "response": {
+    "content": "This booking was already refunded. Therefore, I have not processed your request. I have also not refunded you. If you believe this is in error, please contact customer service.\n{\n  \"message_to_traveler\": \"This booking was already refunded. Therefore, I have not processed your request. I have also not refunded you. If you believe this is in error, please contact customer service.\",\n  \"done\": [],\n  \"not_done\": [\n    {\"action\": \"refund\", \"note\": \"Booking LMR9VB was already refunded.\"}\n  ],\n  \"handed_off\": false\n}\n",
+    "toolCalls": []
+  },
+  "costUsd": 0.00009635
+}

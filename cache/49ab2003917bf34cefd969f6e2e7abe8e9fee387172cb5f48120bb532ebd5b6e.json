@@ -1,0 +1,15 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 1,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "call_72b5be56b02349d795d63094",
+        "name": "hand_off_to_human",
+        "arguments": "{\"reason\": \"Requested seat 10B on flight NWD452 which is not available. Need to find alternative available seats for traveler.\"}"
+      }
+    ]
+  },
+  "costUsd": 0.000054846
+}

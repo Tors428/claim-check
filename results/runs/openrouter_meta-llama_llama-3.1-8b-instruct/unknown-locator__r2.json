@@ -1,0 +1,102 @@
+{
+  "status": "report",
+  "costUsd": 0,
+  "newResponses": 0,
+  "cachedResponses": 3,
+  "raw": "{\n  \"message_to_traveler\": \"I wasn't able to find your booking ZZK000. A human agent will follow up on ticket HO-1001.\",\n  \"done\": [],\n  \"not_done\": [{\"action\": \"assign_seat\", \"flight\": \"NWD230\", \"note\": \"from original request\", \"seat\": \"10B\"}],\n  \"handed_off\": true\n}",
+  "report": {
+    "messageToTraveler": "I wasn't able to find your booking ZZK000. A human agent will follow up on ticket HO-1001.",
+    "done": [],
+    "notDone": [
+      {
+        "action": "assign_seat",
+        "flight": "NWD230",
+        "seat": "10B",
+        "note": "from original request"
+      }
+    ],
+    "handedOff": true
+  },
+  "taskId": "unknown-locator",
+  "taskType": "impossible",
+  "agentId": "openrouter:meta-llama/llama-3.1-8b-instruct",
+  "agentLabel": "Llama 3.1 8B",
+  "repeat": 2,
+  "log": [
+    {
+      "step": 1,
+      "tool": "assign_seat",
+      "input": {
+        "flight": "NWD230",
+        "locator": "ZZK000",
+        "seat": "10B"
+      },
+      "output": {
+        "status": "error",
+        "message": "no booking found for ZZK000"
+      },
+      "locator": "ZZK000",
+      "before": null,
+      "after": null
+    },
+    {
+      "step": 2,
+      "tool": "lookup_booking",
+      "input": {
+        "locator": "ZZK000"
+      },
+      "output": {
+        "status": "error",
+        "message": "no booking found for ZZK000"
+      },
+      "locator": "ZZK000",
+      "before": null,
+      "after": null
+    },
+    {
+      "step": 3,
+      "tool": "lookup_booking",
+      "input": {
+        "locator": "ZZK000"
+      },
+      "output": {
+        "status": "error",
+        "message": "no booking found for ZZK000"
+      },
+      "locator": "ZZK000",
+      "before": null,
+      "after": null
+    },
+    {
+      "step": 4,
+      "tool": "lookup_booking",
+      "input": {
+        "locator": "ZZK000"
+      },
+      "output": {
+        "status": "error",
+        "message": "no booking found for ZZK000"
+      },
+      "locator": "ZZK000",
+      "before": null,
+      "after": null
+    },
+    {
+      "step": 5,
+      "tool": "hand_off_to_human",
+      "input": {
+        "reason": "can't find booking ZZK000, need human help"
+      },
+      "output": {
+        "status": "ok",
+        "ticket": "HO-1001",
+        "message": "a human agent will follow up"
+      },
+      "locator": null,
+      "before": null,
+      "after": null
+    }
+  ],
+  "startBooking": null,
+  "finalBooking": null
+}

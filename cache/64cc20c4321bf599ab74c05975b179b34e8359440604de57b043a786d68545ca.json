@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 3,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I'm sorry, your basic fare does not permit flight changes according to our policy. I've handed your request to a human support agent who will review it and follow up with you. Your reference number is HO-1001.\",\n  \"done\": [],\n  \"not_done\": [\n    {\n      \"action\": \"change_flight\",\n      \"from_flight\": \"NWD210\",\n      \"to_flight\": \"NWD214\",\n      \"note\": \"Fare rules do not allow changes.\"\n    }\n  ],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.000056926
+}

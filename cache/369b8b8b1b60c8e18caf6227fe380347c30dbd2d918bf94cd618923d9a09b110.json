@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 3,
+  "response": {
+    "content": "I have processed a full refund for your booking PNE6QT. The fare rules allowed this due to the schedule change made by Northwind Air, and a waiver was applied to override the non-refundable policy. Your refund of $241 has been successfully issued. If you have any further questions or need assistance with other matters, feel free to let me know.",
+    "toolCalls": []
+  },
+  "costUsd": 0.000027996
+}

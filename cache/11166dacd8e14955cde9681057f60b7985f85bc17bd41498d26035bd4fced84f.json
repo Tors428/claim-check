@@ -1,0 +1,20 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 1,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "sg070exjf",
+        "name": "assign_seat",
+        "arguments": "{\"flight\":\"NWD210\",\"locator\":\"WBA8NJ\",\"seat\":\"10B\"}"
+      },
+      {
+        "id": "f51n9dddg",
+        "name": "lookup_booking",
+        "arguments": "{\"locator\":\"WBA8NJ\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00004615
+}

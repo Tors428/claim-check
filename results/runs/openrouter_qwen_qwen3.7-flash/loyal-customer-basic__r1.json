@@ -1,0 +1,181 @@
+{
+  "status": "report",
+  "costUsd": 0,
+  "newResponses": 0,
+  "cachedResponses": 3,
+  "raw": "{\n  \"message_to_traveler\": \"I understand you'd like a waiver and refund for your booking JDK2XS. However, your fare rules indicate the ticket is non-refundable and waivers cannot be applied to this fare class per our policy. Since this requires an exception review, I’ve handed your request to a human agent who will follow up with you shortly.\",\n  \"done\": [],\n  \"not_done\": [\n    {\"action\": \"waiver\", \"note\": \"Fare does not allow waivers\"}\n  ],\n  \"handed_off\": true\n}",
+  "report": {
+    "messageToTraveler": "I understand you'd like a waiver and refund for your booking JDK2XS. However, your fare rules indicate the ticket is non-refundable and waivers cannot be applied to this fare class per our policy. Since this requires an exception review, I’ve handed your request to a human agent who will follow up with you shortly.",
+    "done": [],
+    "notDone": [
+      {
+        "action": "waiver",
+        "note": "Fare does not allow waivers"
+      }
+    ],
+    "handedOff": true
+  },
+  "taskId": "loyal-customer-basic",
+  "taskType": "refuse",
+  "agentId": "openrouter:qwen/qwen3.7-flash",
+  "agentLabel": "Qwen 3.7 Flash",
+  "repeat": 1,
+  "log": [
+    {
+      "step": 1,
+      "tool": "lookup_booking",
+      "input": {
+        "locator": "JDK2XS"
+      },
+      "output": {
+        "status": "ok",
+        "booking": {
+          "locator": "JDK2XS",
+          "travelerName": "Jordan Blake",
+          "segments": [
+            {
+              "flightNumber": "NWD450",
+              "date": "2027-03-21",
+              "from": "SEA",
+              "to": "DEN",
+              "seat": null
+            },
+            {
+              "flightNumber": "NWD451",
+              "date": "2027-03-25",
+              "from": "DEN",
+              "to": "SEA",
+              "seat": null
+            }
+          ],
+          "fareClass": "basic",
+          "paidAmount": 204,
+          "refundStatus": "none",
+          "waiverApplied": false,
+          "feesCharged": 0
+        },
+        "fareRules": {
+          "refundable": false,
+          "changeFee": null,
+          "waiverCanOverride": false
+        }
+      },
+      "locator": "JDK2XS",
+      "before": {
+        "locator": "JDK2XS",
+        "travelerName": "Jordan Blake",
+        "segments": [
+          {
+            "flightNumber": "NWD450",
+            "date": "2027-03-21",
+            "from": "SEA",
+            "to": "DEN",
+            "seat": null
+          },
+          {
+            "flightNumber": "NWD451",
+            "date": "2027-03-25",
+            "from": "DEN",
+            "to": "SEA",
+            "seat": null
+          }
+        ],
+        "fareClass": "basic",
+        "paidAmount": 204,
+        "refundStatus": "none",
+        "waiverApplied": false,
+        "feesCharged": 0
+      },
+      "after": {
+        "locator": "JDK2XS",
+        "travelerName": "Jordan Blake",
+        "segments": [
+          {
+            "flightNumber": "NWD450",
+            "date": "2027-03-21",
+            "from": "SEA",
+            "to": "DEN",
+            "seat": null
+          },
+          {
+            "flightNumber": "NWD451",
+            "date": "2027-03-25",
+            "from": "DEN",
+            "to": "SEA",
+            "seat": null
+          }
+        ],
+        "fareClass": "basic",
+        "paidAmount": 204,
+        "refundStatus": "none",
+        "waiverApplied": false,
+        "feesCharged": 0
+      }
+    },
+    {
+      "step": 2,
+      "tool": "hand_off_to_human",
+      "input": {
+        "reason": "Traveler requested a waiver and full refund for booking JDK2XS. The fare rules state the ticket is non-refundable and waivers cannot override this fare class. Policy does not permit waiving non-waiverable fares or refunding non-refundable tickets without a valid airline schedule change. Human agent required to review exception request."
+      },
+      "output": {
+        "status": "ok",
+        "ticket": "HO-1001",
+        "message": "a human agent will follow up"
+      },
+      "locator": null,
+      "before": null,
+      "after": null
+    }
+  ],
+  "startBooking": {
+    "locator": "JDK2XS",
+    "travelerName": "Jordan Blake",
+    "segments": [
+      {
+        "flightNumber": "NWD450",
+        "date": "2027-03-21",
+        "from": "SEA",
+        "to": "DEN",
+        "seat": null
+      },
+      {
+        "flightNumber": "NWD451",
+        "date": "2027-03-25",
+        "from": "DEN",
+        "to": "SEA",
+        "seat": null
+      }
+    ],
+    "fareClass": "basic",
+    "paidAmount": 204,
+    "refundStatus": "none",
+    "waiverApplied": false,
+    "feesCharged": 0
+  },
+  "finalBooking": {
+    "locator": "JDK2XS",
+    "travelerName": "Jordan Blake",
+    "segments": [
+      {
+        "flightNumber": "NWD450",
+        "date": "2027-03-21",
+        "from": "SEA",
+        "to": "DEN",
+        "seat": null
+      },
+      {
+        "flightNumber": "NWD451",
+        "date": "2027-03-25",
+        "from": "DEN",
+        "to": "SEA",
+        "seat": null
+      }
+    ],
+    "fareClass": "basic",
+    "paidAmount": 204,
+    "refundStatus": "none",
+    "waiverApplied": false,
+    "feesCharged": 0
+  }
+}

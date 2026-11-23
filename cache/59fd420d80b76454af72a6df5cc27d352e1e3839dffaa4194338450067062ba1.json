@@ -1,0 +1,20 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 2,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "fxrcv29m6",
+        "name": "change_flight",
+        "arguments": "{\"changes\":[{\"from_flight\":\"NWD210\",\"to_flight\":\"NWD212\"}],\"locator\":\"QZX7KD\"}"
+      },
+      {
+        "id": "wm26655v2",
+        "name": "change_flight",
+        "arguments": "{\"changes\":[{\"from_flight\":\"NWD212\",\"to_flight\":\"NWD210\"}],\"locator\":\"QZX7KD\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00006594
+}

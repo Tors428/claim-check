@@ -1,0 +1,9 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "repeat": 2,
+  "response": {
+    "content": "I'm sorry, seat 10A isn't available on your Boston to Chicago flight. Would you like to choose a different seat, or perhaps see what other seats are available?",
+    "toolCalls": []
+  },
+  "costUsd": 0.0001852125
+}

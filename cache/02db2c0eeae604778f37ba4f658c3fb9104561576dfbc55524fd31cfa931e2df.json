@@ -1,0 +1,15 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 3,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "y7819cxsm",
+        "name": "hand_off_to_human",
+        "arguments": "{\"locator\":\"LMR9VB\",\"reason\":\"booking details need verification before changing the flight\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00008346
+}

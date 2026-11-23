@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 1,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I'm sorry, but there was an issue locating your booking ZZK000. Could you please verify the six-character record locator on your confirmation?\",\n  \"done\": [],\n  \"not_done\": [\n    {\"action\": \"assign_seat\", \"seat\": \"10B\", \"note\": \"Booking not found for locator ZZK000\"}\n  ],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00016612
+}

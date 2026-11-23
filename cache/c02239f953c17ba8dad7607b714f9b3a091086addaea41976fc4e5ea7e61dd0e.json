@@ -1,0 +1,15 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 3,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "a3w1yvk4v",
+        "name": "hand_off_to_human",
+        "arguments": "{\"reason\":\"Unable to move legs of the booking as the new flights were not available on the booking.\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00005986
+}

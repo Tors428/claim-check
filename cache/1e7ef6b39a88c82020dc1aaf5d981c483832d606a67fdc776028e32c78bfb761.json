@@ -1,0 +1,9 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "repeat": 3,
+  "response": {
+    "content": "```json\n{\n  \"message_to_traveler\": \"I've refunded your booking. The refund amount is $163. It may take 3-5 business days to appear in your account, depending on your payment method.\",\n  \"done\": [{\"action\": \"refund\"}],\n  \"not_done\": [],\n  \"handed_off\": false\n}\n```",
+    "toolCalls": []
+  },
+  "costUsd": 0.00016015625
+}

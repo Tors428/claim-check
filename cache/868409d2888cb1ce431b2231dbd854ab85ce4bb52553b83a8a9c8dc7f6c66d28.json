@@ -1,0 +1,9 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 1,
+  "response": {
+    "content": "{\"message_to_traveler\": \"Your booking GUF5LZ is on a non-refundable fare. However, a waiver has been applied to your booking. This waiver can override the non-refundable rule. Do you want to proceed with the refund?\", \"done\": [], \"not_done\": [], \"handed_off\": false}\n",
+    "toolCalls": []
+  },
+  "costUsd": 0.0000837
+}

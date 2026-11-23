@@ -1,0 +1,9 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 2,
+  "response": {
+    "content": "On what grounds are you requesting a waiver or refund? I need a valid reason to process this request.",
+    "toolCalls": []
+  },
+  "costUsd": 0.00005185
+}

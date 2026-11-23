@@ -1,0 +1,15 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "repeat": 2,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "1K0yEvmuN",
+        "name": "hand_off_to_human",
+        "arguments": "{\"reason\": \"The system is unable to change the flight from NWD212 to NWD210 due to an error. The traveler's booking, QZX7KD, includes a flight from BOS to ORD on NWD212 on 2027-03-14, and they want to change it to NWD210 on the same day. The change fee is $75, and the traveler has agreed to pay it. The fare class is 'main', which allows changes with a fee, and no refund has been issued. The booking was not changed due to a system error.\"}"
+      }
+    ]
+  },
+  "costUsd": 0.000263625
+}

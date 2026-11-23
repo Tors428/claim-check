@@ -1,0 +1,9 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 1,
+  "response": {
+    "content": "I can only waive fare rules or process a refund if policy allows it. Can you please provide more details on why you expect a refund for JDK2XS? If a schedule change occurred, I can apply a waiver if applicable.",
+    "toolCalls": []
+  },
+  "costUsd": 0.00005372
+}

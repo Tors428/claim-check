@@ -1,0 +1,9 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 1,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"The waiver has been applied and your flight has been refunded. Your new status is: refundStatus-refunded.\",\n  \"done\": [\n    {\"action\": \"refund\"},\n    {\"action\": \"waiver\"}\n  ],\n  \"not_done\": [],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00006832
+}

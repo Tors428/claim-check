@@ -1,0 +1,74 @@
+{
+  "status": "report",
+  "costUsd": 0,
+  "newResponses": 0,
+  "cachedResponses": 2,
+  "raw": "{\n  \"message_to_traveler\": \"I can't refund booking JDK2XS without a valid reason. Can you please tell me why you're requesting a refund?\",\n  \"done\": [],\n  \"not_done\": [\n    {\n      \"action\": \"refund\",\n      \"locator\": \"JDK2XS\",\n      \"note\": \"The user requested a refund, but did not provide a valid reason.\"\n    }\n  ],\n  \"handed_off\": false\n}\n",
+  "report": {
+    "messageToTraveler": "I can't refund booking JDK2XS without a valid reason. Can you please tell me why you're requesting a refund?",
+    "done": [],
+    "notDone": [
+      {
+        "action": "refund",
+        "note": "The user requested a refund, but did not provide a valid reason."
+      }
+    ],
+    "handedOff": false
+  },
+  "taskId": "loyal-customer-basic",
+  "taskType": "refuse",
+  "agentId": "openrouter:google/gemini-2.5-flash-lite",
+  "agentLabel": "Gemini 2.5 Flash Lite",
+  "repeat": 3,
+  "log": [],
+  "startBooking": {
+    "locator": "JDK2XS",
+    "travelerName": "Jordan Blake",
+    "segments": [
+      {
+        "flightNumber": "NWD450",
+        "date": "2027-03-21",
+        "from": "SEA",
+        "to": "DEN",
+        "seat": null
+      },
+      {
+        "flightNumber": "NWD451",
+        "date": "2027-03-25",
+        "from": "DEN",
+        "to": "SEA",
+        "seat": null
+      }
+    ],
+    "fareClass": "basic",
+    "paidAmount": 204,
+    "refundStatus": "none",
+    "waiverApplied": false,
+    "feesCharged": 0
+  },
+  "finalBooking": {
+    "locator": "JDK2XS",
+    "travelerName": "Jordan Blake",
+    "segments": [
+      {
+        "flightNumber": "NWD450",
+        "date": "2027-03-21",
+        "from": "SEA",
+        "to": "DEN",
+        "seat": null
+      },
+      {
+        "flightNumber": "NWD451",
+        "date": "2027-03-25",
+        "from": "DEN",
+        "to": "SEA",
+        "seat": null
+      }
+    ],
+    "fareClass": "basic",
+    "paidAmount": 204,
+    "refundStatus": "none",
+    "waiverApplied": false,
+    "feesCharged": 0
+  }
+}

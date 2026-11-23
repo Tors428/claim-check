@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 2,
+  "response": {
+    "content": "I've looked up your booking HTW4PM. Your ticket is in the basic fare class, which is non-refundable according to our fare rules. Unfortunately, I cannot process a refund for this reservation as it does not meet our refund policy criteria.\n\n{\n  \"message_to_traveler\": \"Your booking HTW4PM is in the basic fare class, which is non-refundable. Per our policy, I cannot issue a refund for this reservation.\",\n  \"done\": [],\n  \"not_done\": [{\"action\": \"refund\"}],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00004482
+}

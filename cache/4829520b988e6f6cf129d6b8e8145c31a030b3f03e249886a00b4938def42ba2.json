@@ -1,0 +1,25 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 3,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "4cbgfm8a5",
+        "name": "request_refund",
+        "arguments": "{\"locator\":\"PNE6QT\"}"
+      },
+      {
+        "id": "fw6g2jq47",
+        "name": "lookup_booking",
+        "arguments": "{\"locator\":\"PNE6QT\"}"
+      },
+      {
+        "id": "xc9h9ev3b",
+        "name": "lookup_booking",
+        "arguments": "{\"locator\":\"PNE6QT\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00005171
+}

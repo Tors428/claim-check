@@ -1,0 +1,9 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 3,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I'm sorry, we can't cancel and refund LMR9VB because the fare doesn't allow it. A human agent will contact you to discuss next steps.\",\n  \"done\": [],\n  \"not_done\": [\n    {\"action\": \"cancel_and_refund\", \"booking\": \"LMR9VB\"}\n  ],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00004832
+}

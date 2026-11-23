@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 3,
+  "response": {
+    "content": "I've looked up your booking WBA8NJ for the Seattle to Denver flight NWD452. Unfortunately, seat 10B is not currently available on that flight. \n\nWould you like me to:\n- Check for other available seats on the same flight?\n- Help with something else regarding your booking?\n\nPlease let me know how you'd like to proceed.",
+    "toolCalls": []
+  },
+  "costUsd": 0.000046146
+}

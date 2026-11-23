@@ -1,0 +1,9 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 1,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"Seat 10A has been assigned on your flight to Denver.\",\n  \"done\": [{\"action\": \"assign_seat\", \"flight\": \"NWD330\", \"seat\": \"10A\"}],\n  \"not_done\": [],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.0000586
+}

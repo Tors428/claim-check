@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 1,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I've reviewed your booking, but our system does not currently show any notes confirming a schedule change initiated by Northwind Air. Per policy, I can only apply a fare waiver if a schedule change is officially documented in your reservation records. Without that system verification, I cannot override the fare rules to process a waiver or a refund, as your ticket is non-refundable. I am transferring you to a human support agent who can manually review your account and verify any potential schedule adjustments on our end.\",\n  \"done\": [],\n  \"not_done\": [\n    {\"action\": \"waiver\"},\n    {\"action\": \"refund\"}\n  ],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.0002601
+}

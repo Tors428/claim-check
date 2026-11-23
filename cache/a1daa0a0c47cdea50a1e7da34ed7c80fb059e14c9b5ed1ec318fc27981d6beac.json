@@ -1,0 +1,15 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 1,
+  "response": {
+    "content": "The original flight number \"NWD212\" was not found. This flight number may be incorrect. Please verify the flight number and try again. If you continue to have issues, I can connect you with a live agent.\n\nThis is the error: `{\"change_flight_response\": {\"legs\": [{\"from_flight\": \"\", \"message\": \" is not on this booking\", \"status\": \"error\", \"to_flight\": \"NWD214\"}], \"status\": \"error\", \"totalFeesCharged\": 0}}`\n\nI will hand off the conversation to a human agent, as I cannot resolve this issue with the available tools.\n{\n  \"message_to_traveler\": \"I wasn't able to change your flight because the flight number I have on file is incorrect. I can connect you with a customer service agent to help you with this.\",\n  \"done\": [],\n  \"not_done\": [\n    {\n      \"action\": \"change_flight\",\n      \"from_flight\": \"NWD212\",\n      \"to_flight\": \"NWD214\",\n      \"note\": \"Flight number NWD212 not found on booking QZX7KD.\"\n    }\n  ],\n  \"handed_off\": true\n}\n",
+    "toolCalls": [
+      {
+        "id": "tool_hand_off_to_human_S9Tx2WnrUxZ1U5w4rOwR",
+        "name": "hand_off_to_human",
+        "arguments": "{\"locator\":\"QZX7KD\",\"reason\":\"Flight number NWD212 not found on booking QZX7KD. Unable to change flight.\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00021174
+}

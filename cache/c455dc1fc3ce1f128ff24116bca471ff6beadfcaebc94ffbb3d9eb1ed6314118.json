@@ -1,0 +1,20 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 1,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "w18wbg1fp",
+        "name": "change_flight",
+        "arguments": "{\"changes\":[{\"from_flight\":\"NWD212\",\"to_flight\":\"NWD210\"}],\"locator\":\"QZX7KD\"}"
+      },
+      {
+        "id": "pmnaxpgmc",
+        "name": "lookup_booking",
+        "arguments": "{\"locator\":\"QZX7KD\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00006547
+}

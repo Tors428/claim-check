@@ -1,0 +1,9 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 1,
+  "response": {
+    "content": "I am sorry, but it seems that the flight you provided for your Seattle to Denver trip is not on the booking. Could you please provide the correct flight number?",
+    "toolCalls": []
+  },
+  "costUsd": 0.00005478
+}

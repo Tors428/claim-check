@@ -1,0 +1,9 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 3,
+  "response": {
+    "content": "\"Sorry, it looks like our system didn't have enough information to complete your change. This task will be handed off to a human support agent.\"\n{\n  \"message_totraveler\": \"Sorry, it looks like our system didn't have enough information to complete your change. This task will be handed off to a human support agent.\",\n  \"done\": [],\n  \"not_done\": [{\"action\": \"change_flight\", \"note\": \"Change of plans from DEN to SEA\"}],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00006339
+}

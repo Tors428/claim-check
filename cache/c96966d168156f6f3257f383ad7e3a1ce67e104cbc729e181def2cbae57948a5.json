@@ -1,0 +1,15 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 3,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "call_c8ce76b4255e4f809e287382",
+        "name": "apply_waiver",
+        "arguments": "{\"locator\": \"PNE6QT\", \"reason\": \"Schedule change by Northwind Air on 2027-02-10: NWD332 moved from 11:15 to 16:20\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00006095
+}

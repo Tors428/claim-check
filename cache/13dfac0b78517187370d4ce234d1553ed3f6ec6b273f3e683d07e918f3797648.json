@@ -1,0 +1,9 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "repeat": 2,
+  "response": {
+    "content": "Your booking is non-refundable, but you can make a change without a fee because of the waiver. Would you like to change your flight?",
+    "toolCalls": []
+  },
+  "costUsd": 0.0001413125
+}

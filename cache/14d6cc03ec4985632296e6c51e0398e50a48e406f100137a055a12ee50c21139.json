@@ -1,0 +1,15 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 3,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "tool_change_flight_yXisAObKz4xa6DA8GJpy",
+        "name": "change_flight",
+        "arguments": "{\"changes\":[{\"from_flight\":\"NWD212\",\"to_flight\":\"NWD210\"}],\"locator\":\"QZX7KD\"}"
+      }
+    ]
+  },
+  "costUsd": 0.0000798
+}

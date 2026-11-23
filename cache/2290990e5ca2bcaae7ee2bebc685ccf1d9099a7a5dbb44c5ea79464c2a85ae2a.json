@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 3,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I have successfully processed a full refund for your booking PNE6QT due to the airline-initiated schedule change. Your refund of $241 has been issued. Please let me know if you need any further assistance.\",\n  \"done\": [\n    {\"action\": \"waiver\"},\n    {\"action\": \"refund\"}\n  ],\n  \"not_done\": [],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.000114976
+}

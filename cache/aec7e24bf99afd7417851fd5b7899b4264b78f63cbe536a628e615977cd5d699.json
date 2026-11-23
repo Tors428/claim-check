@@ -1,0 +1,9 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 1,
+  "response": {
+    "content": "Your return flight is currently NWD331 on April 9th. What is the flight number of the evening flight you would like to change to?",
+    "toolCalls": []
+  },
+  "costUsd": 0.00006651
+}

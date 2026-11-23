@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 3,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I am unable to complete the cancellation and refund of your booking LMR9VB due to a timeout error on our booking system. A human agent will assist you with this manually (ticket HO-1001).\",\n  \"done\": [],\n  \"not_done\": [\n    {\"action\": \"refund\", \"note\": \"System timed out\"}\n  ],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.000050656
+}

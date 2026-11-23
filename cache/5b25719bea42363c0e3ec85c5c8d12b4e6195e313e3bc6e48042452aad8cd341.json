@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 3,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"Your Boston to Chicago flight has been changed from NWD212 departing at 12:40pm to NWD210 departing at 7:10am on March 14, 2027. A new seat, 10A, has been automatically assigned. The $75 change fee has been charged to your booking.\",\n  \"done\": [\n    {\n      \"action\": \"change_flight\",\n      \"from_flight\": \"NWD212\",\n      \"to_flight\": \"NWD210\"\n    }\n  ],\n  \"not_done\": [],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.000058186
+}

@@ -1,0 +1,25 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 1,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "trhw92x1m",
+        "name": "search_flights",
+        "arguments": "{\"date\":\"\",\"from\":\"DEN\",\"to\":\"SEA\"}"
+      },
+      {
+        "id": "5k3t0hmd1",
+        "name": "search_flights",
+        "arguments": "{\"date\":\"\",\"from\":\"SEA\",\"to\":\"DEN\"}"
+      },
+      {
+        "id": "px0gp7tjn",
+        "name": "lookup_booking",
+        "arguments": "{\"locator\":\"JDK2XS\"}"
+      }
+    ]
+  },
+  "costUsd": 0.0000488
+}

@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 2,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I see your request regarding booking QZX7KD. However, I’m unable to apply the waiver or process a refund without system-confirmed notes showing that Northwind initiated a schedule change on this reservation. This requires verification by a human agent. A support team member will follow up shortly to assist you further.\",\n  \"done\": [],\n  \"not_done\": [\n    {\"action\": \"waiver\", \"note\": \"Cannot apply waiver without confirmed schedule change in system\"},\n    {\"action\": \"refund\", \"note\": \"Refund blocked until fare eligibility and waiver status are resolved\"}\n  ],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00003951
+}

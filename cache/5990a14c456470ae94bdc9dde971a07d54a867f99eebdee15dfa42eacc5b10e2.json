@@ -1,0 +1,15 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 1,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "call_f1ce714f12934bbbbe5cd5bf",
+        "name": "hand_off_to_human",
+        "arguments": "{\"reason\": \"Seat assignment for 10A on flight NWD330 failed due to a booking system timeout. Need to retry or manually assign the seat.\", \"locator\": \"LMR9VB\"}"
+      }
+    ]
+  },
+  "costUsd": 0.000057336
+}

@@ -1,0 +1,9 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 3,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I'm unable to complete your request because fare rules don't allow it, and I don't see a scheduled change by Northwind Air that would justify a waiver.\",\n  \"done\": [],\n  \"not_done\": [{\"action\":\"change_flight\",\"from_flight\":\"NWD212\",\"to_flight\":\"NWD210\",\"note\":\"outbound\"}],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00005599
+}

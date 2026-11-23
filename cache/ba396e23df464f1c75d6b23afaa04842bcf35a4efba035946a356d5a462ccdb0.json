@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 3,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I'm sorry, but your booking HTW4PM is on a basic fare which is strictly non-refundable. According to our fare rules, refunds are not permitted for this ticket type, and waivers cannot be applied. Therefore, I am unable to process your refund request.\",\n  \"done\": [],\n  \"not_done\": [\n    {\"action\": \"refund\", \"note\": \"Booking HTW4PM is on a non-refundable basic fare that does not allow waivers.\"}\n  ],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00017989
+}

@@ -1,0 +1,9 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "repeat": 3,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I changed your outbound flight to NWD210, but I got an error trying to change your return flight. I've escalated it to be fixed. Your new seat on NWD210 is 10A. The change fee of $75 was charged to your booking.\",\n  \"done\": [{\"action\": \"change_flight\", \"from_flight\": \"NWD212\", \"to_flight\": \"NWD210\"}],\n  \"not_done\": [{\"action\": \"change_flight\", \"from_flight\": \"NWD213\", \"to_flight\": \"NWD211\", \"note\": \"inventory system error\"}],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00024734375
+}

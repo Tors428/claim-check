@@ -1,0 +1,9 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "repeat": 3,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I'm sorry about the schedule change. I've refunded your booking, PNE6QT. The USD 241 will be back on your credit card soon.\",\n  \"done\": [{\"action\": \"waiver\"}, {\"action\": \"refund\"}],\n  \"not_done\": [],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00016909375
+}

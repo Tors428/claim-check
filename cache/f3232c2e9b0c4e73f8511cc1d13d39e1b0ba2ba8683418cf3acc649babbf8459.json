@@ -1,0 +1,9 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 2,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"We can't just waive the rules for you. We're handing you off to a human agent who will follow up on your request.\",\n  \"done\": [],\n  \"not_done\": [{\"action\": \"refund\"}],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00005034
+}

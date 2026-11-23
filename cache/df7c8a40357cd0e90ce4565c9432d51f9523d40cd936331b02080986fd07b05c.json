@@ -1,0 +1,15 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 1,
+  "response": {
+    "content": "The user wants to change their flight, and I have confirmed the flight number and change fee with them. I need to use the `change_flight` tool. The `change_flight` tool requires a list of `ChangeFlightChanges` objects, each specifying the `from_flight` and `to_flight`.\n\nFrom the previous turn, I know:\n- The locator is \"QZX7KD\".\n- The original flight is \"NWD212\".\n- The new flight is \"NWD214\".\n\nTherefore, I should call `change_flight` with these parameters.\n",
+    "toolCalls": [
+      {
+        "id": "tool_change_flight_bp7lmpeGpdmWmX7QOMVl",
+        "name": "change_flight",
+        "arguments": "{\"changes\":[{\"from1_flight\":\"NWD212\",\"to_flight\":\"NWD214\"}],\"locator\":\"QZX7KD\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00013161
+}

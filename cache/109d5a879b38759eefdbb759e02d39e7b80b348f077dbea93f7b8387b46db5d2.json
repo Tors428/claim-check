@@ -1,0 +1,9 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "repeat": 1,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I'm sorry, but seat 10A isn't available on your current flight, NWD212. Would you like to choose a different seat from the available options on NWD212, or would you prefer to change your flight to either NWD210 or NWD214 where seat 10A is available?\",\n  \"done\": [],\n  \"not_done\": [{\"action\": \"assign_seat\", \"flight\": \"NWD212\", \"seat\": \"10A\"}],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.000253275
+}

@@ -1,0 +1,9 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 2,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I'm not able to cancel and refund your booking LMR9VB at this time.\",\n  \"done\": [],\n  \"not_done\": [{\"action\": \"cancel\", \"note\": \"Booking LMR9VB\"}],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00005337
+}

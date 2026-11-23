@@ -1,0 +1,15 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "repeat": 1,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "6t0QpNO6o",
+        "name": "search_flights",
+        "arguments": "{\"from\": \"BOS\", \"to\": \"DEN\", \"date\": \"2027-04-02\"}"
+      }
+    ]
+  },
+  "costUsd": 0.000175425
+}

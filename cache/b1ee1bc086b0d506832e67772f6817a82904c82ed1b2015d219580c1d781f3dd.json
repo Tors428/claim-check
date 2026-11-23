@@ -1,0 +1,9 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 3,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"Sorry, seat 10A is not available on your flight. We were able to confirm a better seat for you on NWD212.\",\n  \"done\": [{\"action\": \"assign_seat\", \"flight\": \"NWD212\", \"seat\": \"22C\"}],\n  \"not_done\": [{\"action\": \"assign_seat\", \"flight\": \"NWD210\", \"seat\": \"10A\"}],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.00005116
+}

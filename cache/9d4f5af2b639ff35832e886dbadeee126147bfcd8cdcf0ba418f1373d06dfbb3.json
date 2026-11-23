@@ -1,0 +1,15 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "repeat": 1,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "fnnn8e5ja",
+        "name": "lookup_booking",
+        "arguments": "{\"locator\":\"PNE6QT\"}"
+      }
+    ]
+  },
+  "costUsd": 0.00004581
+}

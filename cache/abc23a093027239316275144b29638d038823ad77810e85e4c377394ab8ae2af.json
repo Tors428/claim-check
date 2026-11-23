@@ -1,0 +1,9 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "repeat": 1,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I'm sorry, but our booking system is down. I've created a support ticket (HO-1001) and a human agent will follow up to refund your booking.\",\n  \"done\": [],\n  \"not_done\": [{\"action\": \"refund\"}],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.000200775
+}

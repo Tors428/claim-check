@@ -1,0 +1,9 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 2,
+  "response": {
+    "content": "The fee is $75. Would you like to proceed?",
+    "toolCalls": []
+  },
+  "costUsd": 0.00005952
+}

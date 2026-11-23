@@ -1,0 +1,9 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "repeat": 1,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I'm sorry to hear that you can't make your trip, Sam. Unfortunately, your fare is non-refundable, and there is no waiver on your booking. You won't be refunded for HTW4PM.\",\n  \"done\": [],\n  \"not_done\": [\n    {\"action\": \"refund\", \"note\": \"Fare is non-refundable and no waiver is applied.\"}\n  ],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.0001899375
+}

@@ -1,0 +1,9 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "repeat": 1,
+  "response": {
+    "content": "I can change your flight to the 4:20 PM flight, but I need the flight number for that one first. Once I have that, I can make the change for you.\n{\n  \"message_to_traveler\": \"I can change your flight to the 4:20 PM flight, but I need the flight number for that one first. Once I have that, I can make the change for you.\",\n  \"done\": [],\n  \"not_done\": [],\n  \"handed_off\": false\n}\n",
+    "toolCalls": []
+  },
+  "costUsd": 0.00010537
+}

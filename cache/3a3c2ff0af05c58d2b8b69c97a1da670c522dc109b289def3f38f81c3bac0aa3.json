@@ -1,0 +1,9 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "repeat": 3,
+  "response": {
+    "content": "I'm sorry, there are no flights from Boston to Seattle on April 2, 2027. Would you like to choose a different date or destination?",
+    "toolCalls": []
+  },
+  "costUsd": 0.000182175
+}

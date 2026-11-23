@@ -1,0 +1,9 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "repeat": 1,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I'm sorry, but the 4:20pm flight you asked about (NWD332) is full. The next available flight is NWD330 departing at 9:00 AM with seats available. Would you like to book this flight or any other assistance?\",\n  \"done\": [],\n  \"not_done\": [{\"action\": \"change_flight\", \"from_flight\": \"NWD330\", \"to_flight\": \"NWD332\", \"note\": \"flight full\"}],\n  \"handed_off\": false\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.0002256
+}

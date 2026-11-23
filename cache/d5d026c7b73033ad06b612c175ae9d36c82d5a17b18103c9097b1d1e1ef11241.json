@@ -1,0 +1,9 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "repeat": 1,
+  "response": {
+    "content": "Your outbound flight was changed to NWD210, seat 10A. I tried to change your return flight to NWD211, but there was an error. I'll hand you over to a human support agent to finish the booking change. There was a $75 change fee for the outbound flight change.\n\n{\n  \"message_to_traveler\": \"Your outbound flight was changed to NWD210, seat 10A. I tried to change your return flight to NWD211, but there was an error. I'll hand you over to a human support agent to finish the booking change. There was a $75 change fee for the outbound flight change.\",\n  \"done\": [{\"action\": \"change_flight\", \"from_flight\": \"NWD212\", \"to_flight\": \"NWD210\"}],\n  \"not_done\": [{\"action\": \"change_flight\", \"from_flight\": \"NWD213\", \"to_flight\": \"NWD211\", \"note\": \"inventory system error\"}],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.0003208875
+}

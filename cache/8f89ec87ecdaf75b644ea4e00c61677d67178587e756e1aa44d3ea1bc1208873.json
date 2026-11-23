@@ -1,0 +1,20 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "repeat": 3,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "4wnZ4bBNG",
+        "name": "lookup_booking",
+        "arguments": "{\"locator\": \"QZX7KD\"}"
+      },
+      {
+        "id": "AEW6ATCF2",
+        "name": "search_flights",
+        "arguments": "{\"from\": \"BOS\", \"to\": \"ORD\", \"date\": \"2024-07-15\"}"
+      }
+    ]
+  },
+  "costUsd": 0.0001547625
+}

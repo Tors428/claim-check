@@ -1,0 +1,9 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 2,
+  "response": {
+    "content": "{\n  \"message_to_traveler\": \"I attempted to assign seat 10A on your Denver flight (NWD330), but the booking system timed out and didn't respond. A human agent has been notified and will follow up to resolve this for you.\",\n  \"done\": [],\n  \"not_done\": [\n    {\n      \"action\": \"assign_seat\",\n      \"flight\": \"NWD330\",\n      \"seat\": \"10A\",\n      \"note\": \"Failed due to timeout from booking system.\"\n    }\n  ],\n  \"handed_off\": true\n}",
+    "toolCalls": []
+  },
+  "costUsd": 0.000058716
+}

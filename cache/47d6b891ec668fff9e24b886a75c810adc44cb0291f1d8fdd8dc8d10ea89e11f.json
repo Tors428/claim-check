@@ -1,0 +1,15 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "repeat": 2,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "QlfdweLqZ",
+        "name": "hand_off_to_human",
+        "arguments": "{\"reason\": \"no booking found for ZZK000\"}"
+      }
+    ]
+  },
+  "costUsd": 0.000152025
+}

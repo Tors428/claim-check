@@ -1,0 +1,15 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "repeat": 3,
+  "response": {
+    "content": "",
+    "toolCalls": [
+      {
+        "id": "call_894384aa45b146a1898eb24c",
+        "name": "hand_off_to_human",
+        "arguments": "{\"locator\": \"QZX7KD\", \"reason\": \"Return flight change from NWD213 to NWD211 failed due to an inventory system error. Needs assistance to complete the return flight change. Outbound flight was successfully changed from NWD212 to NWD210 with new seat 10A assigned. Change fee of $75 was charged for the outbound change.\"}"
+      }
+    ]
+  },
+  "costUsd": 0.000054946
+}
