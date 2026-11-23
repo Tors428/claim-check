@@ -1,6 +1,9 @@
 # Claim Check
-
 When an AI support agent tells a traveler "done", did it actually happen, and was it allowed?
+
+**Main finding:** when a tool said `ok` but nothing changed, the agent still told the traveler it was done in 31 of 43 runs (72%). On every other task type it was 27 of 298 (9%). All four models did this, at 67–75% each.
+
+![Mistral tells the traveler "I have changed your seat to 10A." The booking never changed.](docs/quiet-seat.png)
 
 I built this small demo to test that question for travel support agents that take real actions in a booking system: flight changes, seats, refunds. It builds on my earlier project, Honesty Gap, which measured the gap between what an agent says it did and what it really did. Everything here is new and travel-specific.
 
@@ -43,7 +46,7 @@ The sanity checks:
 npm run check:booking && npm run check:tools && npm run check:tasks && npm run check:agent && npm run check:controls
 ```
 
-**Viewer:** a static page in `viewer/`. It shows every run step by step and highlights the step where the agent's story and the booking stop matching. Set `VIEWER_PASSCODE` in `.env` and run `npm run results` to set the passcode, then serve the folder locally (`python3 -m http.server -d viewer`) or deploy `viewer/` to Vercel as a static site. The passcode only keeps casual visitors out; it isn't real security, and the data is all fake.
+**Viewer:** a static page in `viewer/` that shows every run step by step and highlights the step where the agent's story and the booking stop matching. To open it, run `python3 -m http.server -d viewer` and go to `localhost:8000`.
 
 ## Results
 
