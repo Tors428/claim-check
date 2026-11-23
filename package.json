@@ -1,0 +1,24 @@
+{
+  "name": "claim-check",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check:booking": "tsx scripts/check-booking.ts",
+    "check:tools": "tsx scripts/check-tools.ts",
+    "check:tasks": "tsx scripts/check-tasks.ts",
+    "agents": "tsx scripts/run-agents.ts",
+    "check:agent": "tsx scripts/check-agent.ts",
+    "check:controls": "tsx scripts/check-controls.ts",
+    "results": "tsx scripts/results.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.1",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "openai": "^6.45.0"
+  }
+}
